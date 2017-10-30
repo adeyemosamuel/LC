@@ -1,14 +1,71 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+
+  <ion-navbar color="primary">
+     
+    <ion-title text-center>LOAN CALCULATOR</ion-title>
   </ion-navbar>
+
 </ion-header>
 
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <ion-card class="card">
+    <ion-card-header class="btn btn-primary">
+      Name of Products
+    </ion-card-header>
+
+    <ion-list>
+      <button ion-item (click)="financeLease()"><ion-icon left color="primary" name="md-cash" class="finance"></ion-icon>
+        &nbsp;Finance Lease
+          </button>
+
+      <button ion-item (click)="invoiceDiscountingFacility()"><ion-icon left color="heritage" name="md-paper" class="invoice"></ion-icon>
+        &nbsp;Invoice Discounting Facility
+          </button>
+
+      <button ion-item (click)="localPurchaseOrder()"><ion-icon left color="heritage2" name="md-stats" class="local"></ion-icon>
+        &nbsp; Local Purchase Order
+          </button>
+
+      <button ion-item (click)="schoolShortTermLoan()"><ion-icon left color="heritage3" name="md-school" class="school"></ion-icon>
+        &nbsp;School Short Term Loan
+          </button>
+
+      <button ion-item (click)="overdraftMarketTraders()"><ion-icon left color="heritage4" name="md-map" class="overdraft"></ion-icon>
+        &nbsp;Overdraft for Market Traders
+            </button>
+
+      <button ion-item (click)="smeOverdraft()"><ion-icon left color="heritage5" name="md-pricetags" class="sme"></ion-icon>
+        &nbsp;SME Overdraft
+              </button>
+
+      <button ion-item (click)="napel()"><ion-icon left color="army" name="md-man" class="napel"></ion-icon>
+        &nbsp; NAF Personal Loan (NAPEL)
+                </button>
+
+      <button ion-item (click)="laper()"><ion-icon left color="staff" name="md-contacts" class="laper"></ion-icon>
+        &nbsp; Personal Loan (HBL Staff)
+                  </button>
+
+      <button ion-item (click)="locar()"><ion-icon left color="car" name="md-car" class="locar"></ion-icon>
+        &nbsp;Auto Loan (LOCAR)
+                    </button>
+
+      <button ion-item (click)="cusad()"><ion-icon left color="primary" name="md-card" class="cusad"></ion-icon>
+        &nbsp;Salary Advance (CUSAD)
+                      </button>
+
+      <button ion-item (click)="lajub()"><ion-icon left color="home" name="md-home" class="lajub"></ion-icon>
+        &nbsp;Home Appliances (LAJUB)
+                        </button>
+
+      <button ion-item (click)="louni()"><ion-icon left color="cluster" name="md-podium" class="louni"></ion-icon>
+        &nbsp;Tertiary Cluster (LOUNI)
+                          </button>
+
+
+    </ion-list>
+  </ion-card>
+
 </ion-content>

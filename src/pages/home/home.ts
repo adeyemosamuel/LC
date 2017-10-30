@@ -1,14 +1,80 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+
+@IonicPage()
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  financeLease() {
+    console.log("Clicked Finance Lease");
+    this.navCtrl.push('FinancePage');
+  }
+
+  invoiceDiscountingFacility() {
+    console.log("Clicked Invoice Discounting Facility");
+    this.navCtrl.push('InvoicePage');
+  }
+
+    localPurchaseOrder() {
+      console.log("Clicked Local Purchase Order");
+      this.navCtrl.push('LocalPage');
+    }
+
+    schoolShortTermLoan() {
+      console.log("Clicked School Short Term Loan");
+      this.navCtrl.push('SchoolPage');
+    }
+
+    overdraftMarketTraders() {
+      console.log("Clicked Overdraft for Market Traders");
+      this.navCtrl.push('OverdraftPage');
+    }
+
+    smeOverdraft() {
+      console.log("Clicked SME Overdraft");
+      this.navCtrl.push('SmePage');
+    }
+
+    napel() {
+      console.log("Clicked NAF Personal Loan (NAPEL)");
+      this.navCtrl.push('NapelPage');
+    }
+
+    laper() {
+      console.log("Clicked Personal Loan (HBL Staff)");
+      this.navCtrl.push('LaperPage');
+    }
+
+    locar() {
+      console.log("Clicked Auto Loan (LOCAR)");
+      this.navCtrl.push('LocarPage');
+    }
+    
+    cusad() {
+      console.log("Clicked  Salary Advance (CUSAD)");
+      this.navCtrl.push('CusadPage');
+    }
+
+    lajub() {
+      console.log("Clicked Home Appliances (LAJUB)");
+      this.navCtrl.push('LajubPage');
+    }
+
+    louni() {
+      console.log("Clicked  Tertiary Cluster (LOUNI)");
+      this.navCtrl.push('LouniPage');
+    }
 
   }
 
-}
+
+
+
+
