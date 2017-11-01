@@ -7,19 +7,27 @@ import { MyApp } from './app.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     MyApp,
+  
+    
+    
     
   
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+  
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+  
+    
     
   
   ],

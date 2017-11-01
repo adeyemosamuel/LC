@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title text-center>ATM Locator</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="locator">
+    <ion-segment [(ngModel)]="locator">
+      <ion-segment-button value="atm">
+        ATM
+      </ion-segment-button>
+      <ion-segment-button value="branch">
+        Branches
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div #map id="map"></div>
+
+  <div class="list" padding>
+    <a (click)="listAllATM()" text-left>List all ATMs</a>
+    <img class="imagesize" src="../assets/up-arrow.png">
+  </div>
+
+</ion-content>
