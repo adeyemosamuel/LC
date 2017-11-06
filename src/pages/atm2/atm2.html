@@ -1,0 +1,259 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title text-center>CURRENT LOCATION</ion-title>
+  </ion-navbar>
+
+
+
+</ion-header>
+
+
+
+<ion-content>
+
+  <!-- <button ion-button full color="primary" (click)="getlocation">Find</button> -->
+
+  <div>
+    <ion-segment [(ngModel)]="locator">
+      <ion-segment-button value="atm">
+        ATM
+      </ion-segment-button>
+      <ion-segment-button value="branches">
+        Branches
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <!-- <div #map id="map"></div> -->
+  <div [ngSwitch]="locator">
+    <ion-list *ngSwitchCase="'atm'">
+      <ion-item *ngFor="let atmlocation of data">
+        <ion-avatar item-start>
+          <img src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>{{atmlocation.Region}}</h2>
+        <p>{{atmlocation.ATM_Address}}</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+<!-- 
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>Obun Eko, Idumota</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>14/16 Daddy Alaja Oke-Arin</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>31/33 Martins Street</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>53 Idumagbo Str Idumota</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>4,Main Road, Igbesa</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p> 12, Dada Iyalode Street, Ojuwoye Munshin</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>Oshodi Market</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>116/118 Ago Palace Way Okota</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>Lagos</h2>
+        <p>1, Ganiyu William By Osolo Way</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+  
+
+  -->
+</ion-list> 
+    <ion-list *ngSwitchCase="'branches'">
+      <ion-item *ngFor="let branch of branches">
+        <ion-avatar item-start>
+          <img src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h4>{{branch.STATE}}</h4>
+        <h2>{{branch.EXPERIENCE_CENTER_NAME}}</h2>
+        <p>{{branch.ADDRESS}}</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                    <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                  </button>
+      </ion-item>
+<!--
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>NATIONAL ASSEMBLY COMPLEX,</h2>
+        <p>Room 239A, New Building Wing of the House of Representatives, Abuja.</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA MAITAMA EC</h2>
+        <p>No 35, Gana Street, Maitama Abuja</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>HB GARKI ABUJA</h2>
+        <p>No 1, Ringim Close, Off Yola Street, Area 7, Garki</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA,SOKODE CRESCENT</h2>
+        <p>6 Sokode Crescent Wuse Zone 5 Abuja</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA,H/MACAULAY WAY</h2>
+        <p>Macaulay Way, Plot 2008 H, Macaulay Way Zone 5 Wuse Abuja</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA,3RD AVENUE</h2>
+        <p>Plot 1003 3rd Avenue, Opp.Tofa House, CBD Abuja</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA,ROCHAS PLAZA</h2>
+        <p>Rochas Plaza Plot 545, Wuse 3, Off Conakry Abuja</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA,AIRPORT RETURN RD</h2>
+        <p>CBD Plot 472 Airport Road Abuja FCT</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+          <img class="imagesize" src="../assets/imgs/logo2.png">
+        </ion-avatar>
+        <h2>ABUJA,UTAKO DISTRICT</h2>
+        <p>Plot 1121 Obafemi Awolowo Way Utako, Abuja</p>
+        <button ion-button clear item-end icon-only (click)="popover($event)">
+                          <ion-icon ios="ios-redo" md="md-redo"></ion-icon>
+                        </button>
+      </ion-item> -->
+    </ion-list>
+  
+  </div>
+
+</ion-content>

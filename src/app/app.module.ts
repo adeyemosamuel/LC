@@ -4,6 +4,11 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
+import { Geolocation } from '@ionic-native/geolocation';
+import { NativeGeocoder } from '@ionic-native/native-geocoder';
+import { LocationAccuracy } from '@ionic-native/location-accuracy';
+import { AtmdataProvider } from '../providers/atmdata/atmdata';
+import { HttpModule } from '@angular/http';
 
 
 
@@ -12,15 +17,12 @@ import { MyApp } from './app.component';
 @NgModule({
   declarations: [
     MyApp,
-  
-    
-    
-    
-  
+
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    HttpModule
   
   ],
   bootstrap: [IonicApp],
@@ -32,9 +34,14 @@ import { MyApp } from './app.component';
   
   ],
   providers: [
+    Geolocation,
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    Geolocation,
+    NativeGeocoder,
+    LocationAccuracy,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AtmdataProvider
   ]
 })
 export class AppModule {}

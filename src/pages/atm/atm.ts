@@ -43,4 +43,9 @@ map
 });
   }
 
+
+  listAllATM() {
+    console.log("was here");
+  }
+
 }
