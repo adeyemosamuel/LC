@@ -22,6 +22,7 @@ export class Atm2Page {
    lati;
    longi ;
    place;
+   locator ="atm";
     //   options: GeolocationOptions;
     //   currentPos: Geoposition;
     //   @ViewChild('map') mapElement: ElementRef;
@@ -38,6 +39,9 @@ export class Atm2Page {
         this.branches = branches; 
         console.log(this.branches)  ;
 })
+
+
+
 this.getLocation();
     }
 
@@ -67,6 +71,9 @@ this.getLocation();
          this.place = result;
           }).catch((error: any) => { this.place = error.message;});
         }
+        openPost(data){
+            this.navCtrl.push('AtmPage',{data:data})
+            }
       
 }
 

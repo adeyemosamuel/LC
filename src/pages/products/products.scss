@@ -3,95 +3,116 @@ page-products {
     background-image: url('../assets/imgs/background2.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
+    
+
+    ion-content {
+        background-color: rgba(6,6,6,0.75) !important;
+
+    }
 
 .grid{
-    margin-top: 170px;
+    
+    margin-top: 100px;
 
 }
 
+.findus{
+    margin: 0 auto;
+}
+
+.img_findus{
+  display: block;
+  margin: 0 auto;  
+  margin-top: 5px;
+}
+
+
+
 .account{
-    background-color: white;
+    
+    background-color:transparent;
     border-radius: 5px;
     padding: 4px;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 130px;
+    width: 130px;
+    
 }
 
 .img_account{
-    background: #ffffff;
+    background: transparent;
     height: 50px;
     width: 50px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
     margin-bottom: auto;
+    margin-top: 25px;
     
 }
 
 .loan{
-    background-color: white;
+    background-color: transparent;
     border-radius: 5px;
     padding: 4px;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 130px;
+    width: 130px;
+    
 }
 
 .img_loan{
     
-    background: #ffffff;
+    background: transparent;
     height: 50px;
     width: 50px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
     margin-bottom: auto;
+    margin-top: 4px;
    
 }
 
-.savings{
-    background-color: white;
+.bank{
+    background-color: transparent;
     border-radius: 5px;
     padding: 4px;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.img_savings{
-    background: #ffffff;
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 130px;
+    width: 130px;
     
 }
 
-.atm{
-    background-color: white;
-    border-radius: 5px;
-    padding: 4px;
-    height: 100px;
-    width: 100px;
+.img_bank{
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 15px;
     
 }
 
-.img_atm{
-    background: #ffffff;
+.lead{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 4px;
+    height: 130px;
+    width: 130px;
+   
+    
+}
+
+.img_lead{
+    background: transparent;
     height: 50px;
     width: 50px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
     margin-bottom: auto;
+    margin-top: 25px;
+    
    
 }
 

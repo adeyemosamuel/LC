@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { AtmPage } from './atm';
+import { AtmPage } from './google';
 
 @NgModule({
   declarations: [
@@ -10,4 +10,4 @@ import { AtmPage } from './atm';
     IonicPageModule.forChild(AtmPage),
   ],
 })
-export class AtmPageModule {}
+export class GooglePageModule {}
