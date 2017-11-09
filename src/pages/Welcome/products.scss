@@ -12,7 +12,7 @@ page-products {
 
 .grid{
     
-    margin-top: 100px;
+    margin-top: 120px;
 
 }
 
@@ -21,16 +21,17 @@ page-products {
 }
 
 .img_findus{
+    
   display: block;
   margin: 0 auto;  
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 
 
 .account{
     
-    background-color:transparent;
+    background-color:rgba(0,72,97,0.4);
     border-radius: 5px;
     padding: 4px;
     height: 130px;
@@ -39,6 +40,7 @@ page-products {
 }
 
 .img_account{
+    
     background: transparent;
     height: 50px;
     width: 50px;
@@ -51,7 +53,7 @@ page-products {
 }
 
 .loan{
-    background-color: transparent;
+    background-color: rgba(234,0,27,0.4);
     border-radius: 5px;
     padding: 4px;
     height: 130px;
@@ -60,7 +62,7 @@ page-products {
 }
 
 .img_loan{
-    
+    padding: 5px;
     background: transparent;
     height: 50px;
     width: 50px;
@@ -68,12 +70,12 @@ page-products {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 4px;
+    margin-top: 25px;
    
 }
 
 .bank{
-    background-color: transparent;
+    background-color: rgba(79,193,67,0.4);
     border-radius: 5px;
     padding: 4px;
     height: 130px;
@@ -89,12 +91,12 @@ page-products {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     
 }
 
 .lead{
-    background-color: transparent;
+    background-color: rgba(247,148,29,0.4);
     border-radius: 5px;
     padding: 4px;
     height: 130px;
@@ -112,9 +114,14 @@ page-products {
     margin-right: auto;
     margin-bottom: auto;
     margin-top: 25px;
-    
-   
 }
 
+.text{
+    padding: 13px;
+}
+
+.find{
+    padding: 2px;
+}
 
 }

@@ -44,12 +44,12 @@ lat;
     const options = {
       center: location,
       zoom: 15,
-      mapTypeId: 'satellite'
+      mapTypeId: 'terrain'
     };
 const map = new google.maps.Map(this.mapRef.nativeElement, 
   options);
 
-setTimeout(() => map.setMapTypeId('satellite'), 3000);
+setTimeout(() => map.setMapTypeId('terrain'), 3000);
   this.addMarker(location, map);
   }
 
