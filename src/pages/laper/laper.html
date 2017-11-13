@@ -9,5 +9,72 @@
 
 
 <ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      STAFF PERSONAL LOAN
+    </ion-card-header>
 
+    <ion-card-content>
+
+      <ion-list>
+
+        <ion-item>
+          <ion-label floating>Loan Amount</ion-label>
+          <ion-input [(ngModel)]="principal" type="number" name="principal"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Interest Rate</ion-label>
+          <ion-input [(ngModel)]="rate" type="number" name="rate"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Duration</ion-label>
+            <ion-input [(ngModel)]="duration" type="number" name="duration"></ion-input>
+        </ion-item>
+        </ion-list>
+
+        <ion-list radio-group [(ngModel)]="durationRadio">
+          <ion-item>
+            <ion-label>Year</ion-label>
+            <ion-radio value="year" ></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Month</ion-label>
+            <ion-radio value="month"></ion-radio>
+          </ion-item>
+        </ion-list>
+
+            <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
+           
+            <div *ngIf="isSubmitted" >
+              <ion-card>
+                <ion-card-header>
+                    Analysis
+                </ion-card-header>
+                <ion-card-content>
+                 <!--  <div>
+{{postedP}}
+{{postedR}}
+{{postedD}}
+{{postedRadio}}
+
+                  </div> -->
+                  <ion-list>
+                   Simple Interest : {{SI}}
+                  </ion-list>
+                </ion-card-content>
+              </ion-card>
+            </div>
+
+
+
+
+
+
+
+
+    </ion-card-content>
+
+  </ion-card>
 </ion-content>

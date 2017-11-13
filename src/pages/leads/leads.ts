@@ -22,4 +22,8 @@ export class LeadsPage {
     console.log('ionViewDidLoad LeadsPage');
   }
 
+  addLead(){
+    this.navCtrl.push('RegisterLeadsPage')
+  }
+
 }

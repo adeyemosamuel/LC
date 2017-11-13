@@ -1,0 +1,78 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title text-center style="text-transform:uppercase">Leads Form</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content no-padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>*Name</ion-label>
+      <ion-input [(ngModel)]="name" text-uppercase></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>*Occupation</ion-label>
+      <ion-input [(ngModel)]="occupation" text-uppercase></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>*Date of Birth</ion-label>
+      <ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="MMM DD YYYY" [(ngModel)]="dob"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>*Gender</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="f">Female</ion-option>
+        <ion-option value="m">Male</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>*Marital Status</ion-label>
+      <ion-select [(ngModel)]="marital_status">
+        <ion-option value="single">Single</ion-option>
+        <ion-option value="married">Married</ion-option>
+        <ion-option value="divorced">Divorced</ion-option>
+        <ion-option value="widowed">Widowed</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>*Phone Number</ion-label>
+      <ion-input [(ngModel)]="phonenumber" type="number" maxlength="11"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>*E-mail Address</ion-label>
+      <ion-input [(ngModel)]="emailaddress" text-uppercase></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>*Address</ion-label>
+      <ion-input [(ngModel)]="address" text-uppercase></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label>*Product of Interest</ion-label>
+      <ion-select  [(ngModel)]="Product_of_Interest">
+        <ion-option value="starter">HB STARTER (TIER 1)</ion-option>
+        <ion-option value="pro">HB PRO (TIER 2)</ion-option>
+        <ion-option value="nysc">NYSC ACCOUNT (TIER 2)</ion-option>
+        <ion-option value="savesmart">HERITAGE SAVE SMART (TIER 3)</ion-option>
+      </ion-select>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
+<ion-footer >
+    <ion-toolbar color="primary">
+      <ion-title text-center>SUBMIT</ion-title>
+    </ion-toolbar>
+  </ion-footer>

@@ -14,12 +14,35 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'invoice.html',
 })
 export class InvoicePage {
-
+  principal: any;
+  rate: any;
+  duration: any;
+  durationRadio: string = 'year';
+  SI :number;
+  isSubmitted:boolean=false;
+   postedP ;
+  postedR ;
+  postedD ;
+  postedRadio;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad InvoicePage');
+  calculateInterest() {
+    console.log('button clicked');
+ 
+    if (this.durationRadio !== 'year') {
+      this.duration = this.duration / 12;
+    }
+    this.SI = (this.principal * this.rate * this.duration) / 100;
+    this.isSubmitted = true;
+   /*  this.postedP = this.principal;
+this.postedR = this.rate;
+this.postedD = this.duration;
+this.postedRadio= this.durationRadio; */
+
+/*     this.principal= '';
+    this.rate= '';
+    this.duration='';  */
   }
 
 }
