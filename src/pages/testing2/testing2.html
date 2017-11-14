@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>FINANCE LEASE</ion-title>
+    <ion-title text-center>FINANCE LEASE</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -9,8 +9,8 @@
 
 <ion-content padding>
   <ion-card>
-    <ion-card-header>
-      FINANCE LEASE
+    <ion-card-header text-center>
+      CALCULATOR
     </ion-card-header>
 
     <ion-card-content>
@@ -18,12 +18,12 @@
       <ion-list>
 
         <ion-item>
-          <ion-label floating>Loan Amount</ion-label>
+          <ion-label floating>Loan Amount(₦)</ion-label>
           <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
         </ion-item>
 
         <ion-item>
-          <ion-label floating>Interest Rate</ion-label>
+          <ion-label floating>Interest Rate(%)</ion-label>
           <ion-input [(ngModel)]="r" type="number" name="r"></ion-input>
         </ion-item>
 
@@ -45,47 +45,52 @@
       </ion-list>
 
       <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
+    </ion-card-content>
+  </ion-card>
 
       <div *ngIf="isSubmitted">
-        <ion-card>
-          <ion-card-header>
-            Results
+        
+        <ion-card class="card">
+          <ion-card-header text-center>
+            RESULTS
           </ion-card-header>
 
           <ion-card-content>
-            <!--  <div>
-    {{postedP}}
-    {{postedR}}
-    {{postedD}}
-    {{postedRadio}}
-    
-                      </div> -->
+
             <ion-grid>
-
-              <ion-row>
-                <ion-col>
-                  TI
+              <ion-row class="row1">
+                <ion-col width-22>
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">Loan Disbursed(₦)</p>
                 </ion-col>
                 <ion-col>
-                  {{TI}}
-                </ion-col>
-              </ion-row>
-
-              <ion-row>
-                <ion-col>
-                  MR
-                </ion-col>
-                <ion-col>
-                  {{MR}}
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">{{LD}}</p>
                 </ion-col>
               </ion-row>
 
-              <ion-row>
-                <ion-col>
-                  TP
+              <ion-row class="row2">
+                <ion-col width-22>
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Interest(₦)</p>
                 </ion-col>
                 <ion-col>
-                  {{TP}}
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TI}}</p>
+                </ion-col>
+              </ion-row>
+
+              <ion-row class="row3">
+                <ion-col width-22>
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">Monthly Repayment(₦)</p>
+                </ion-col>
+                <ion-col>
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">{{MR}}</p>
+                </ion-col>
+              </ion-row>
+
+              <ion-row class="row4">
+                <ion-col width-22>
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Payment(₦)</p>
+                </ion-col>
+                <ion-col>
+                  <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TP}}</p>
                 </ion-col>
               </ion-row>
 
@@ -93,16 +98,6 @@
           </ion-card-content>
         </ion-card>
       </div>
-
-
-
-
-
-
-
-
-    </ion-card-content>
-
-  </ion-card>
+    
 
 </ion-content>

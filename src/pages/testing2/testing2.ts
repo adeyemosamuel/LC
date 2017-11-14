@@ -17,6 +17,7 @@ export class Testing2Page {
   TI :any;
   MR :any;
   TP :any;
+  LD :any;
   isSubmitted:boolean=false;
   //  postedP ;
   // postedR ;
@@ -34,6 +35,7 @@ export class Testing2Page {
     this.TI = (this.p * this.r * this.n) / 100;
     this.MR = (parseInt(this.TI) + parseInt(this.p)) / 12;
     this.TP = (parseInt(this.TI) + parseInt(this.p));
+    this.LD = ((this.p)) - ((this.p) * 0.02) ;
     this.isSubmitted = true;
   }
 
