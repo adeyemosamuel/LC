@@ -1,513 +1,428 @@
-[{
-        "Region": "Lagos",
-        "ATM_Address": "93 Enu-Owa Street Idumota"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Obun Eko Idumota"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "14/16 Daddy Alaja Oke-Arin Lagos"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "31/33 Martins Street, Lagos"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "53 Idumagbo Str Idumota"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "4,Main Road, Igbesa"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "12, Dada Iyalode Street, Ojuwoye Munshin"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Oshodi Market"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "116/118 Ago Palace Way Okota"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "1, Ganiyu William By Osolo Way"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Industrial Avenue, Ilupeju"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "54, Ogunlana Drive Surulere"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Otigba Computer Village"
-    },
-    {
-        "Region": "Ogun",
-        "ATM_Address": "Olabisi Onabanjo University Ago-Iwoye"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Km 10 Ididroko Rd, Ota Canaanland"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "9, Wempco Road, Ogba Ikeja"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Mikano Head Office, Wampco Road Agidingbi"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "42, Allen Avenue Ikeja"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Plot 151, Ladipo Street, Mushin"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "30, Ilupeju Bypass Rd, Ilupeju"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Bba2 Opp. Lagos Plaza Tradefair Complex"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "D7a Divine Grace Plaza Trade Fair"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Raybros Plaza"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "6a, Agudasi Street Alaba"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Benue Plaza E.C"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "11, Industrial Road, By Sadiku Str Olodi Apapa"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "52 Warehouse Road"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "9,North Gate , Apapa"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "20, Wharf Road"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "1, Creek Road, Apap"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "32, Commercial Road, Apapa"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "24, Creek Road, Apapa"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Hall 2, Trade Fair Complex"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "31, Coates Str. Ebutte Metta"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "Mammy Market Navy Town Ojo"
-    },
-    {
-        "Region": "Lagos",
-        "ATM_Address": "143 Ahmadu Bello Way, Victoria Island, Lagos"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Trans Amusement Arcade Bodija"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Okebola Ibadan"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Iwo Road"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Ilorin Road Br Ogbomosho"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Fce Campus Oyo Ibadan"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        New Gbagi Market Branch"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Oba Adesoji Aderemi Secretariat- Ui Road House Ibadan"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        101 Agbeni Street"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Oba Adebimpe Road, Dugbe"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        28,Fajuyi Road"
-    },
-    {
-        "Region": "Oyo",
-        "ATM_Address": "        Acb Building Egunjenmi Str., Dugbe Alawo, Ibadan"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "98 Okitipupa, Road Ore"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "Adekunle Ajasin Hse, Akure-Owo Road."
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "Olukayodfe Plaza, Akure"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "No7,Omimode Street,Yaba, Ondo Town"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "State Secretariat Complex, Alagbaka"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "Adekunle Ajasin University, Ikare Akoko"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "Ishola Goodwill House, Eze Quarters Isua"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "34 Ikoya Road, Okitipupa"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "Broad Street, Idanre"
-    },
-    {
-        "Region": "Ondo",
-        "ATM_Address": "Federal University Of Technology"
-    },
-    {
-        "Region": "Rivers",
-        "ATM_Address": "9 Aba Road , Port Harcourt"
-    },
-    {
-        "Region": "Rivers",
-        "ATM_Address": "11 Azikiwe Road By Govt House, Port Harcourt"
-    },
-    {
-        "Region": "Rivers",
-        "ATM_Address": "65 Ikwerre Road Mile 1 Diobu, Port Harcourt"
-    },
-    {
-        "Region": "Rivers",
-        "ATM_Address": "146 Trans Amadi Layout, Port Harcourt"
-    },
-    {
-        "Region": "Plateau",
-        "ATM_Address": "3, Beach Road Jos"
-    },
-    {
-        "Region": "Plateau",
-        "ATM_Address": "25, Ahmadu Bello Way , Jos"
-    },
-    {
-        "Region": "Oshogbo",
-        "ATM_Address": "165 Station Road Oshogbo"
-    },
-    {
-        "Region": "Sokoto",
-        "ATM_Address": "Maiduguri Road Sokoto"
-    },
-    {
-        "Region": "Kwara",
-        "ATM_Address": "No 244 Ibrahim Taiwo Road, Ilorin"
-    },
-    {
-        "Region": "Kano",
-        "ATM_Address": "No 18b Post Office Road"
-    },
-    {
-        "Region": "Kano",
-        "ATM_Address": "12 Middle Road , By Court Road Sabon Gari"
-    },
-    {
-        "Region": "Kano",
-        "ATM_Address": "54, Ibrahim Taiwo, Road, Kano"
-    },
-    {
-        "Region": "Kano",
-        "ATM_Address": "28/29 BELLO ROAD"
-    },
-    {
-        "Region": "Kaduna",
-        "ATM_Address": "16 E Ahmadu Bello Way"
-    },
-    {
-        "Region": "Kaduna",
-        "ATM_Address": "88, Ahmadu Bello Way, P.M.B 2423 Kaduna"
-    },
-    {
-        "Region": "Imo",
-        "ATM_Address": "        20 Bank Road Owerri"
-    },
-    {
-        "Region": "Imo",
-        "ATM_Address": "        42, Douglas Road Owerri"
-    },
-    {
-        "Region": "Enugu",
-        "ATM_Address": "9 Ogui Rd. Enugu"
-    },
-    {
-        "Region": "Enugu",
-        "ATM_Address": "138 Ogui Road Enugu"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "        Ido Osi Lga , Ido-Ekiti"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "        Oraye Quarter, Ise Ekit"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "        80,Atiba Street,Ikoro Ekiti"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "        Ayetoro Rd Moba Local Govt Otun"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "Federal Polytechnic Ado- Ekiti"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "5 Ijigbo Street Ado Ekiti"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "78 Oke Aodu Str, Opp Centr Mosque,"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "Iworoko Rd Univ. Of Ado-Ekiti"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "College Of Education Ikere Ekiti"
-    },
-    {
-        "Region": "Ekiti",
-        "ATM_Address": "Fajuyi Roundabout Ado Ekiti"
-    },
-    {
-        "Region": "Edo",
-        "ATM_Address": "17, Sapele Road High Court Benin-City"
-    },
-    {
-        "Region": "Edo",
-        "ATM_Address": "Akpakpava Benin"
-    },
-    {
-        "Region": "Ebonyi",
-        "ATM_Address": "7 Ogoja Road, Abakaliki"
-    },
-    {
-        "Region": "Delta",
-        "ATM_Address": "30 Warri Sapele Road,"
-    },
-    {
-        "Region": "Cross River",
-        "ATM_Address": "13 Murtala Mohammed Way Branch"
-    },
-    {
-        "Region": "Cross River",
-        "ATM_Address": "Calabar Road Opp CBN"
-    },
-    {
-        "Region": "Borno",
-        "ATM_Address": "43, Kashim Ibrahim Road Maiduguri"
-    },
-    {
-        "Region": "Borno",
-        "ATM_Address": "6, Sir Kashim Ibrahim Road, Maiduguri"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "Nnamdi Azikiwe University Awka"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "Agulu Cash Centre"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "20 Ziks Avenue , Awka"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "50 Iweka Road Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "52, Enugu-Onitsha Exp Rd, Nkpor"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "3b New Mkt Road Ontsha Main Market"
-    },
-    {
-        "Region": "Akwa IbomAnambra",
-        "ATM_Address": "14 Edo Ezemewi Road, Nnewi"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "32 Port Harcourt Road Fegge Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "39 Old Market Road, Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "32 New Market Road, Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "3 Bournvita Street, Relief Mkt Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "49 Uga Street Beanch, Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "65 Ozomagala Street Onitsha"
-    },
-    {
-        "Region": "Anambra",
-        "ATM_Address": "No 2 Edo Ezemewi Road"
-    },
-    {
-        "Region": "Akwa Ibom",
-        "ATM_Address": "57 Eket-Oron Road Eket"
-    },
-    {
-        "Region": "Akwa Ibom",
-        "ATM_Address": "155 Ikot Ekpene Road Uyo"
-    },
-    {
-        "Region": "Akwa Ibom",
-        "ATM_Address": "38 Oron Road Eket"
-    },
-    {
-        "Region": "Akwa Ibom",
-        "ATM_Address": "41 Aka Road Uyo"
-    },
-    {
-        "Region": "Adamawa",
-        "ATM_Address": "Address 72, Atiku Abubakar Way, Jimeta,Yola"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Plot 472 Hafsat Plaza, Airport Return Road Abuja"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "2, David Mark Road Beside, Pdp Office Tunga"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Plot 1121,Awolowo Way, Abuja"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Uac Complex, Abuja"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "545 Conakry Street, Wuse Zone 3"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Plot 1057, Ademola Adetokunbo Crescent Wuse 2"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "10, Sokode Crescent, Abuja"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Plot 1003, 3rd Avenue, Opp. Tofa House, Central Area"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Plot 1070 Egbe Close Off Faskari Crescent Area 3 Garki"
-    },
-    {
-        "Region": "Abuja (Fct)",
-        "ATM_Address": "Suite 101/102 Royal Plaza Maraba"
-    },
-    {
-        "Region": "Abia",
-        "ATM_Address": "110 Azikiwe Road Aba"
-    },
-    {
-        "Region": "Abia",
-        "ATM_Address": "208 Faulks Road Aba"
-    },
-    {
-        "Region": "Abia",
-        "ATM_Address": "85 Cameroon Road Aba"
-    },
-    {
-        "Region": "Abia",
-        "ATM_Address": "2 Club Road, Umuahia"
-    },
-    {
-        "Region": "Abia",
-        "ATM_Address": "2a Asa Road/York, Aba"
-    }
+﻿[
+
+ {
+   "A": "Fortis Garki ABC",
+   "B": "Abuja",
+   "C": "No 84, Ladoke Akintola Boulevard Garki II, Abuja. "
+ },
+ {
+   "A": "Fortis Gudu ABC",
+   "B": "Abuja",
+   "C": "Suite 1, Shalom Plaza , Plot 1088, Gomwalk Street Opposite Gudu Market Gudu, Abuja"
+ },
+ {
+   "A": "Fortis Kabusa ABC",
+   "B": "Abuja",
+   "C": "Kabusa Market, After Efab Estate, Kabusa, Abuja"
+ },
+ {
+   "A": "Fortis Mararaba ABC",
+   "B": "Abuja",
+   "C": "CHRISGOLD Plaza, Abacha road junction, Mararaba, Nassarawa state."
+ },
+ {
+   "A": "Fortis Wuse ABC",
+   "B": "Abuja",
+   "C": " Plot 2135, Herbert ,Macualay Way Wuse Zone 5, Abuja."
+ },
+ {
+   "A": "Games Village ABC",
+   "B": "Abuja",
+   "C": "Games Village Estate, Kaura District, Abuja"
+ },
+ {
+   "A": "Kaura ABC",
+   "B": "Abuja",
+   "C": "Kaura Model Market, Opposite Prince And Princess Estate, Duboyi, Abuja"
+ },
+ {
+   "A": "Lobito ABC",
+   "B": "Abuja",
+   "C": "NO.2 Lobito Crescent, opp Visafone office, Wuse 2, Abuja, "
+ },
+ {
+   "A": "Naf Base ABC",
+   "B": "Abuja",
+   "C": "Bill Clinton Drive, Airport Road, Abuja"
+ },
+ {
+   "A": "NAF Conference Centre ABC",
+   "B": "Abuja",
+   "C": "PLOT 496 AHMADU BELLO WAY, KADO, ABUJA"
+ },
+ {
+   "A": "Regent MFB ABC",
+   "B": "Abuja",
+   "C": " Plot 1186, Cadastral Zone B06, Mabushi District Along Kado Expressway, Abuja"
+ },
+ {
+   "A": "Royal Life MFB ABC",
+   "B": "Abuja",
+   "C": "Plot 23 Ekukinam Street, Utako District, Abuja"
+ },
+ {
+   "A": "Tradmore ABC",
+   "B": "Abuja",
+   "C": "1A Trademoreavenue, Phase 2, Trademore Estate, Lugbe Abuja"
+ },
+ {
+   "A": "Ajah Mall ABC",
+   "B": "Lagos Island",
+   "C": "Km 22, Ajah Shopping Mall, Ajah, Lagos"
+ },
+ {
+   "A": "Beachgate ABC",
+   "B": "Lagos Island",
+   "C": "5/7 lekki beach road, by Jakande roundabout lekki-Epe Express way, Lekki, Lagos"
+ },
+ {
+   "A": "BlueSea ABC",
+   "B": "Lagos Island",
+   "C": "Blue Sea Plaza, No. 10 ,Saka Tinunbu, Victoria Island, Lagos."
+ },
+ {
+   "A": "BridgeWay ABC",
+   "B": "Lagos Island",
+   "C": "49 Lafiajiway, Dolphine Estate, Ikoyi, Lagos"
+ },
+ {
+   "A": "Cinamon Gardens ABC",
+   "B": "Lagos Island",
+   "C": "15/16 Victoria Arobieke Street, Lekki Phase 1, Lekki"
+ },
+ {
+   "A": "Circle Mall ABC",
+   "B": "Lagos Island",
+   "C": "Circle Mall, Lekki-Epe Expressway, 5th (Jakande) Roundabout, Lekki, Lagos"
+ },
+ {
+   "A": "David Wej ABC",
+   "B": "Lagos Island",
+   "C": "20, Admiralty Way, E-Bar Plaza, Lekki Phase I, Eti Osa, Lagos, Nigeria"
+ },
+ {
+   "A": "FMR Lekki ABC",
+   "B": "Lagos Island",
+   "C": "9 Otunba Adedoyin Ogungbe Crescent Lekki  Phase 1"
+ },
+ {
+   "A": "Georges Memorial ABC",
+   "B": "Lagos Island",
+   "C": "6, Rasheed Alaba Williams Street, Off Admiralty Way, Lekki Phase 1, Lagos"
+ },
+ {
+   "A": "Grandex ABC",
+   "B": "Lagos Island",
+   "C": "6, Fola Osibo Street, Lekki, Lagos."
+ },
+ {
+   "A": "Jonaith ABC",
+   "B": "Lagos Island",
+   "C": "KM 47, Lekki Epe Expressway,  Ajah, Lagos. "
+ },
+ {
+   "A": "Moshood ABC",
+   "B": "Lagos Island",
+   "C": "171, Moshood Olugbani  Str, Victoria Island Lagos State. "
+ },
+ {
+   "A": "Nicon ABC",
+   "B": "Lagos Island",
+   "C": "Nicon Estate, Lekki, Lagos"
+ },
+ {
+   "A": "Prolific ABC",
+   "B": "Lagos Island",
+   "C": "Rd 1 , Plot 4 Ikota Village Excision, Lekki County Estate, Lekki"
+ },
+ {
+   "A": "Shoppers Delite ABC",
+   "B": "Lagos Island",
+   "C": "52, Ademola Adetokunbo, Victoria Island, Lagos "
+ },
+ {
+   "A": "VGC ABC",
+   "B": "Lagos Island",
+   "C": "Beside VGC Shopping Mall, Lekki, Lagos."
+ },
+ {
+   "A": "World Oil ABC",
+   "B": "Lagos Island",
+   "C": "Block 44, Lekki-Epe Express Way, Elegushi, Lekki, Lagos"
+ },
+ {
+   "A": "Abesan ABC",
+   "B": "Lagos Mainland",
+   "C": "Licks And Chops Eatery, 177, Baruwa Bus Stop, Ipaja, Abesan, Lagos"
+ },
+ {
+   "A": "Akerele ABC",
+   "B": "Lagos Mainland",
+   "C": "2A, Akerele Street, Surulere, Lagos"
+ },
+ {
+   "A": "Akoka ABC",
+   "B": "Lagos Mainland",
+   "C": "51, Finbarr College Road, Akoka, Lagos."
+ },
+ {
+   "A": "Approach Suite ABC",
+   "B": "Lagos Mainland",
+   "C": "House 2, F1  Close, Off 21  Road, Festac Town, Lagos"
+ },
+ {
+   "A": "Arena Oshodi ABC",
+   "B": "Lagos Mainland",
+   "C": "Nigerian Army Shopping Arena, Bolade Bus-Stop, Oshodi"
+ },
+ {
+   "A": "Carwash ABC",
+   "B": "Lagos Mainland",
+   "C": "Road 31 Junction, Gowon Estate, Egbeda, Lagos"
+ },
+ {
+   "A": "Convenant University ABC",
+   "B": "Lagos Mainland",
+   "C": "143 Idiroko Road Canaan Land"
+ },
+ {
+   "A": "Cynergy ABC",
+   "B": "Lagos Mainland",
+   "C": "Plot 338, Amuwo Odofin Residential Scheme, Mile 2 Estate, Amuwo-Odofin, Lagos"
+ },
+ {
+   "A": "Degong ABC",
+   "B": "Lagos Mainland",
+   "C": "67, Shasha Road, Jesus Power B/Stop, Behind Mrs Filling Station, Akowonjo, Lagos"
+ },
+ {
+   "A": "Dopemu ABC",
+   "B": "Lagos Mainland",
+   "C": "No.2 Alfa Yusuf Street, Dopemu, Agege"
+ },
+ {
+   "A": "Essence ABC",
+   "B": "Lagos Mainland",
+   "C": " 4, Essencee House, Kodesoh Street, Ikeja"
+ },
+ {
+   "A": "Exquisite Rumours ABC",
+   "B": "Lagos Mainland",
+   "C": "15 Oduduwa Way, G.R.A. Ikeja, Lagos"
+ },
+ {
+   "A": "Festival Mall ABC",
+   "B": "Lagos Mainland",
+   "C": "Road 23, 2Nd Avenue Festac Town Lagos , Inside Golden Tulip"
+ },
+ {
+   "A": "FMR Aguda",
+   "B": "Lagos Mainland",
+   "C": "FMR Aguda, 110-124 Ogunlana Dr, Lagos"
+ },
+ {
+   "A": "FMR Akoka ABC",
+   "B": "Lagos Mainland",
+   "C": "12, University Road, Akoka, Yaba."
+ },
+ {
+   "A": "FMR Festac ABC",
+   "B": "Lagos Mainland",
+   "C": "Road 23, 2Nd Avenue Festac Town Lagos "
+ },
+ {
+   "A": "FMR Ikorodu ABC",
+   "B": "Lagos Mainland",
+   "C": "128, Ikorodu, Shagamu Road, Ikorodu "
+ },
+ {
+   "A": "Fortis Ikorodu ABC",
+   "B": "Lagos Mainland",
+   "C": "28, Ayangbure Rd, Ojubode, Ikorodu, Lagos."
+ },
+ {
+   "A": "Great Grace ABC",
+   "B": "Lagos Mainland",
+   "C": "No. 1 Tijani Asogbon Street Bariga-Lagos"
+ },
+ {
+   "A": "Headway ABC",
+   "B": "Lagos Mainland",
+   "C": "44 Allen Avenue Ikeja, Lagos."
+ },
+ {
+   "A": "Hunters Eatery ABC",
+   "B": "Lagos Mainland",
+   "C": "178, Egbeda - Idimu Road, Egbeda, Lagos"
+ },
+ {
+   "A": "Jabita ABC",
+   "B": "Lagos Mainland",
+   "C": "144, Obafemi Awolowo Way, Ikeja, Lagos"
+ },
+ {
+   "A": "Magodo ABC",
+   "B": "Lagos Mainland",
+   "C": "Plot 1, Block 52, Emmanuel Keshi Street, Magodo G.R.A. Lagos"
+ },
+ {
+   "A": "Meroz ABC",
+   "B": "Lagos Mainland",
+   "C": "Plot 781B, Somide Odujinrin Avenue, Omole Phase 11, Olowora, Lagos."
+ },
+ {
+   "A": "MMA2 ABC",
+   "B": "Lagos Mainland",
+   "C": "Bi-Courtney Aviation Services Ltd Mma Terminal 2 Ikeja"
+ },
+ {
+   "A": "Omole ABC",
+   "B": "Lagos Mainland",
+   "C": "81A, Ogunnusi Road Omole Phase 1, Ojodu - Iseri, Berger, Lagos"
+ },
+ {
+   "A": "RCCG ABC",
+   "B": "Lagos Mainland",
+   "C": "1-9 Redemption Road, RCCG Head Quarters, Ebute Metta, Lagos"
+ },
+ {
+   "A": "Opic ABC",
+   "B": "Lagos Mainland",
+   "C": "13/14 Channels TV Road, Opic Estate, Isheri, Lagos."
+ },
+ {
+   "A": "Jolec ABC",
+   "B": "Lagos Mainland",
+   "C": "2, Ayobo- Ipaja Road, Ayobo Ipaja, Lagos."
+ },
+ {
+   "A": "AUN ABC",
+   "B": "North Bank",
+   "C": "98 Lamido Zubairu Way, Wuro Hausa 640101, Yola, Adamawa "
+ },
+ {
+   "A": "Bongavilla PH ABC",
+   "B": "South Bank 1",
+   "C": "Plot F/1A GRA Phase 3, Abacha Road, Port Harcourt."
+ },
+ {
+   "A": "CRUTECH ABC",
+   "B": "South Bank 1",
+   "C": "Cross River University of Technology Calabar, Ekpo Abasi Streel Calabar"
+ },
+ {
+   "A": "Golf Club ABC",
+   "B": "South Bank 1",
+   "C": "84 Forces Avenue, Old Gra, Port Harcourt"
+ },
+ {
+   "A": "Ocabique ABC",
+   "B": "South Bank 1",
+   "C": "5 Okah st. off Stadium Road. Port Harcourt."
+ },
+ {
+   "A": "Peperonni Yenogoa ABC",
+   "B": "South Bank 1",
+   "C": "Akenfa 1, Sanni Abacha Rd yenagoa"
+ },
+ {
+   "A": "UCTH ABC",
+   "B": "South Bank 1",
+   "C": " 10 Calabar Road Opp Cbn Calabar "
+ },
+ {
+   "A": "Abakpa ABC",
+   "B": "South Bank 2",
+   "C": " 36 Garaden Avenue Enugu "
+ },
+ {
+   "A": "Agulu ABC",
+   "B": "South Bank 2",
+   "C": "1 nwagu junction, Agulu Anambara state"
+ },
+ {
+   "A": "Coal Camp ABC",
+   "B": "South Bank 2",
+   "C": " 1 Owa street, Coal Camp, Enugu State"
+ },
+ {
+   "A": "Mimi's Place ABC",
+   "B": "South Bank 2",
+   "C": " All seasons Hotel complex, adjacent to Concorde Hotel, Concorde Boulevard owerri"
+ },
+ {
+   "A": "Priceless Owerri ABC",
+   "B": "South Bank 2",
+   "C": " Plot 12b , Youth Centre Layout , Concord Hotel Boulevard, New Oweri, Imo State "
+ },
+ {
+   "A": "ShopRite Owerri ABC",
+   "B": "South Bank 2",
+   "C": "Shoprite,  Owerri Mall,  Egbu road Owerri "
+ },
+ {
+   "A": "Titanic Oweri ABC",
+   "B": "South Bank 2",
+   "C": " Titanic View Hostel,  Area A, by Yar’dua junction, world bank, Owerri."
+ },
+ {
+   "A": "Unizik ABC ABC",
+   "B": "South Bank 2",
+   "C": " Nnamdi Azikiwe University, Awka EC "
+ },
+ {
+   "A": "Ariaria ABC",
+   "B": "South East",
+   "C": "shop 1 A Line, Ariaria Market Aba Abia state."
+ },
+ {
+   "A": "Vibrant MFB ABC",
+   "B": "South East",
+   "C": "Charles Okowi House, Ogbe Akpu Quarters, Issele Azagba, Aniocha North LGA Delta State"
+ },
+ {
+   "A": "Burbles ABC",
+   "B": "South West",
+   "C": "Olusanya Bus Stop, Ring Road, Ibadan"
+ },
+ {
+   "A": "Eleyele ABC",
+   "B": "South West",
+   "C": "Obokun Bus Stop, Sango, Eleyele road, Ibadan"
+ },
+ {
+   "A": "Federal Colleg IB ABC",
+   "B": "South West",
+   "C": "IAR&T, Apata Road, Ibadan, Oyo State"
+ },
+ {
+   "A": "Lautech ABC",
+   "B": "South West",
+   "C": "Lautech, Ogbomosho, Oyo State"
+ },
+ {
+   "A": "LeadCity IB ABC",
+   "B": "South West",
+   "C": "Lead City University, Lagos-Ibadan Express Way, Toll Gate Area, Ibadan"
+ },
+ {
+   "A": "Monatan ABC",
+   "B": "South West",
+   "C": "Lemon plaza 2, iyana church bus stop, Monatan Road, Ibadan"
+ },
+ {
+   "A": "Moyefade ABC",
+   "B": "South West",
+   "C": "NO 121 Oba Moyepe Road, Ejigbo, Osun State."
+ },
+ {
+   "A": "Odua IB ABC",
+   "B": "South West",
+   "C": "Heritage Mall, Old Kingsway Building, Dugbe Ibadan"
+ },
+ {
+   "A": "UITH ABC",
+   "B": "South West",
+   "C": "University of Ilorin Teaching Hospital, Oke-oyi, Ilorin, Kwara State"
+ }
 ]

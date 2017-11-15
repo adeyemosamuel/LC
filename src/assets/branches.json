@@ -1,987 +1,633 @@
 ﻿[
-  {
-    "EXPERIENCE_CENTER_NAME": "WUSE ZONE 5 , ABUJA ",
-    "ADDRESS": "24, Algiers Street, Wuse Zone 5, Abuja",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "NATIONAL ASSEMBLY COMPLEX, FCT, ",
-    "ADDRESS": "NASS - Room 239A, New Building Wing of the House of Representatives, Abuja. ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA MAITAMA EC ",
-    "ADDRESS": "No 35, Gana Street, Maitama Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "HB GARKI ABUJA ",
-    "ADDRESS": "No 1, Ringim Close, Off Yola Street, Area 7, Garki  ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,SOKODE CRESCENT ",
-    "ADDRESS": "6 Sokode Crescent Wuse Zone 5  Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,H/MACAULAY WAY ",
-    "ADDRESS": "Macaulay Way, Plot 2008 H, Macaulay Way Zone 5 Wuse Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,3RD AVENUE ",
-    "ADDRESS": "Plot 1003 3rd Avenue,  Opp.Tofa House,  CBD Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,ROCHAS PLAZA ",
-    "ADDRESS": "Rochas Plaza  Plot 545, Wuse 3, Off Conakry Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,AIRPORT RETURN RD ",
-    "ADDRESS": "CBD Plot 472 Airport Road Abuja FCT ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,UTAKO DISTRICT ",
-    "ADDRESS": "Plot 1121 Obafemi Awolowo Way Utako, Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "MINNA,DAVID MARK RD ",
-    "ADDRESS": "2 David Mark Road Opp. PDP Office, Tunga, Minna ",
-    "STATE": "Niger "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,MARARABA NYANYA ",
-    "ADDRESS": "Suite 101/102 Royal PZ Mararaba-Nyanya, Abuja ",
-    "STATE": "Nasarawa "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LOKOJA, FED UNI RD, 26GLASS HSE ",
-    "ADDRESS": "26 Glass Hse  Fed Univ. Road  Adankolo,  Lokoja ",
-    "STATE": "Kogi "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "MAKURDI, 5 OGIRI-OKO RD ",
-    "ADDRESS": "5 Ogiri-Oko Road, Opp. Police Hq, Makurdi ",
-    "STATE": "Benue "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAFIYA, 34 JOS RD, OPP MECH VIL ",
-    "ADDRESS": "34 Jos Road  Opp. Mechanic Village  Lafiya, Nasarawa ",
-    "STATE": "Nasarawa "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,ADETOKUNBO ADEMOLA ",
-    "ADDRESS": "Plot 1057 Adetokunbo Ademola St. Wuse2 Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABUJA,COSCHARIS PLAZA ",
-    "ADDRESS": "Coscharis 1070 Egbe Cl/Faskari Street Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AJOSE ADEOGUN BRANCH ",
-    "ADDRESS": "292B Ajose Adeogun Street, Victoria Island, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "21/22 MARINA STREET ",
-    "ADDRESS": "Wesley House, 21-22 Marina, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "72B ADETOKUNBO ADEMOLA ",
-    "ADDRESS": "The Refinery - 72B Adetokunbo Ademola Street, Victoria Island, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "65, AWOLOWO ROAD ",
-    "ADDRESS": "65 Awolowo Road, Ikoyi, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "TINCAN, NORTH-GATE ",
-    "ADDRESS": "9 North Gate Tincan Island Port Apapa ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAGOS, BROAD STREET ",
-    "ADDRESS": "134,136 Broad Street Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IDUMOTA, NNAMDI AZIKIWE ",
-    "ADDRESS": "138 Nnamdi Azikiwe St. Idumota Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "APAPA,52 WAREHOUSE RD ",
-    "ADDRESS": "52 Warehouse Road  Apapa ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IKOYI, AWOLOWO RD ",
-    "ADDRESS": "93 Awolowo Road Ikoyi Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "APAPA,TRINITY IND.RD ",
-    "ADDRESS": "11 Industrial Road Trinity Apapa, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "APAPA, WHARF RD ",
-    "ADDRESS": "20 Wharf Road Apapa  Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAGOS, IDUMAGBO AVENUE ",
-    "ADDRESS": "53 Idumagbo Avenue Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "APAPA, CREEK RD ",
-    "ADDRESS": "24 Creek Road  Apapa ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAGOS, 33 BALOGUN STR. ",
-    "ADDRESS": "33 Balogun Street  Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "V/ISLAND-5 ",
-    "ADDRESS": "V Island-5, Road 2 Shop C96-C100 Ikota Shopping Complex ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAGOS, MARTINS STREET. ",
-    "ADDRESS": "31,33 Martins Street Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAGOS, OKE-ARIN 14/16 D/ALAJA ",
-    "ADDRESS": "16 D,Alaja,14,16 Daddy Alaja Street, Oke-Arin Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "V/I ADEOLA ODEKU ",
-    "ADDRESS": "V I Adeola Odeku, Plot 115a Adeola Odeku Victoria Island Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "V/ISLAND H/OFFICE II ",
-    "ADDRESS": "V Island H, Office II, 130 Ahmadu Bello Way  Victoria Island ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAGOS,ENU-OWA STREET ",
-    "ADDRESS": "93 Enu-Owa Street  Idumota  Lagos Island ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "EBUTE-META,COATES STR. ",
-    "ADDRESS": "31 Coates  Street  Oyingbo, Ebute-Meta ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ALABA,AGUDOSI STR. ",
-    "ADDRESS": "6A Agudosi Street, Alaba Int'l Market  Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "T/FAIR,ASPAMDA PLAZA ",
-    "ADDRESS": "Fair Aspamda Plaza-Banking Hall 2 Aspamda Trade Fair Complex. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "NAVY TOWN,MAMMY MKT ",
-    "ADDRESS": "Mammy Market, Navy Town, Ojo Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "T/FAIR,MELFORD OKILO ",
-    "ADDRESS": "Fair Chief Melford Okilo Plaza, Trade fair Complex, Opposite Lagos Plaza BBA ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ALABA,RAYBROS PLAZA ",
-    "ADDRESS": "Raybros Plaza 2a Ojo Igbede Road (Old Alaba Garage) Alaba ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "T/FAIR,DIVINE GRACE ",
-    "ADDRESS": "Fair Divine Grace-Zone D,7a Divine Grace Plaza,  Aspamda 1, Tradefair  ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ASABI COLE, ALAUSA, LAGOS ",
-    "ADDRESS": "7 Ashabi Cole Street, Alausa, Ikeja ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ADENIYI JONES ",
-    "ADDRESS": "34/366 Adeniyi Jones Avenue, Ikeja, Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ISOLO,AJAO ESTATE ",
-    "ADDRESS": "1 Ganiyu Williams Street, By Osolo Way, Ajao Estate. Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "TOYIN STREET EC ",
-    "ADDRESS": "43, Toyin street, Ikeja. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "MUSHIN,LADIPO MATORI ",
-    "ADDRESS": "Plot 151 Ladipo Street, Matori, Mushin Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "SURULERE,OGUNLANA DRIVE ",
-    "ADDRESS": "23 Ogunlana Drive, Surulere, Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IKEJA,OTIGBA STREET ",
-    "ADDRESS": "28/29 Otigba Street Ikeja. Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "SANGO OTA,ABEOKUTA MTR RD ",
-    "ADDRESS": "149 Abeokuta Express Way, Sango Ota. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OGBA,WEMPCO ROAD ",
-    "ADDRESS": "23 Wempco Road Ogba, Ikeja, Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OKOTA,AGO PALACEWAY ",
-    "ADDRESS": "116,118 Ago Palace Way Okota, Isolo. Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OSHODI,OLUPESI HOUSE ",
-    "ADDRESS": "6 McCarthy street, off brown street, oshodi market. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OTTA,CANAANLAND ",
-    "ADDRESS": "KM 10, Idiroko road, Winners Chapel, Otta. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IKEJA,42 ALLEN AVENUE ",
-    "ADDRESS": "44 Allen Avenue Ikeja, Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ILUPEJU,INDUSTRIAL AVE. ",
-    "ADDRESS": "6 Industrial Avenue, Ilupeju, Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "MUSHIN,OJUWOYE MKT. ",
-    "ADDRESS": "12 Dada Iyalode Street, Ojuwoye Market, Lagos. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "YOLA,ATIKU ABUBAKAR WAY ",
-    "ADDRESS": "72 Atiku Abubakar Way,  Jimeta, Yola ",
-    "STATE": "Adamawa "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "KANO,IBRAHIM TAIWO RD ",
-    "ADDRESS": "54 Ibrahim Taiwo Road  Kano ",
-    "STATE": "Kano "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "KADUNA,88 BELLO WAY ",
-    "ADDRESS": "88 Ahmadu Bello Near Leventis  ",
-    "STATE": "Kaduna "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "JOS,BEACH ROAD ",
-    "ADDRESS": "3 Beach Road By Ahmadu Bello Way Jos ",
-    "STATE": "Plateau "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "SABON-GARI ",
-    "ADDRESS": "12 Court Road ",
-    "STATE": "Kano "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "MAIDUGURI,6 KASHIM IBRAHIM ",
-    "ADDRESS": "6 Sir Kashim Ibrahim Way, Maiduguri ",
-    "STATE": "Borno "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "KANO,P/OFFICE RD ",
-    "ADDRESS": "Kano P-Office Road ",
-    "STATE": "Kano "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "SOKOTO,14 MAIDUGURI RD SOKOTO ",
-    "ADDRESS": "14  Maiduguri Road Sokoto ",
-    "STATE": "Sokoto "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "BIRNIN-KEBBI, SULTAN ABUBAKAR R ",
-    "ADDRESS": "Sultan Abubakar Road Birnin-Kebbi ",
-    "STATE": "Kebbi "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "JIGAWA ROAD, OLD SECRETARIAT ",
-    "ADDRESS": "Jigawa Road  Old Secretariat Area, Dutse ",
-    "STATE": "Jigawa "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "KASTINA, IBB WAY ",
-    "ADDRESS": "179  IBB Way Katsina ",
-    "STATE": "Katsina "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "BAUCHI, BANK RD ",
-    "ADDRESS": "Plot 14 Mohammed Bello Kirfi Street,  Bank Road ",
-    "STATE": "Bauchi "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "GUSAU, 35 CANTEEN RD, ZAMFR STA ",
-    "ADDRESS": "35 Canteen Road, Gusau, Zamfara State ",
-    "STATE": "Zamfara "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "GOMBE, PLOT47 NEW COMMERCIAL L ",
-    "ADDRESS": "Plot47 New Commercial L/Out Gombe ",
-    "STATE": "Gombe "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "KANO,BELLO ROAD ",
-    "ADDRESS": "100-104 Murtala Mohammed Way  Kano ",
-    "STATE": "Kano "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABAKALIKI,OGOJA RD ",
-    "ADDRESS": "7 Ogoja Road Abakaliki ",
-    "STATE": "Ebonyi "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ENUGU,138 OGUI RD ",
-    "ADDRESS": "138 Ogui Road Enugu ",
-    "STATE": "Enugu "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABA,ASA RD/YORK STR ",
-    "ADDRESS": "York Street, 2a Asa Road, Aba ",
-    "STATE": "Abia "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ENUGU,9 OGUI RD ",
-    "ADDRESS": "36 GaRoaden Avenue Enugu ",
-    "STATE": "Enugu "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OWERRI,DOUGLAS ROAD ",
-    "ADDRESS": "42 Douglas Road  Owerri ",
-    "STATE": "Imo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABA,CAMEROUN RD ",
-    "ADDRESS": "85 Cameroun Road Aba ",
-    "STATE": "Abia "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABA,FAULKS RD ",
-    "ADDRESS": "208 Faulks Road  Ariaria Aba ",
-    "STATE": "Abia "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "UMUAHIA,MAIN MKT ",
-    "ADDRESS": "Okpara Square Avenue Umuahia ",
-    "STATE": "Abia "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OWERRI,BANK ROAD ",
-    "ADDRESS": "20 Bank Road Owerri ",
-    "STATE": "Imo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABA,AZIKIWE RD ",
-    "ADDRESS": "110 Azikiwe Road P.M.B. 7527 Aba ",
-    "STATE": "Abia "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AWKA,94 N/AZIKIWE AVE ",
-    "ADDRESS": "80 Nnamdi  Azikiwe Avenue Awka Anambra State ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,OLD MARKET RD ",
-    "ADDRESS": "39 Old Market Road  Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,32 NEW MKT RD ",
-    "ADDRESS": "32 New Market Road Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "NNEWI,14 EZEMEWI RD ",
-    "ADDRESS": "14 Edo-Ezemewi Road Nnewi ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ASABA,NNEBISI RD ",
-    "ADDRESS": "343 Nnebisi Road Asaba ",
-    "STATE": "Delta "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,IWEKA RD ",
-    "ADDRESS": "50 Iweka Road Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,3A NEW MKT RD ",
-    "ADDRESS": "3 Bournvita Street, Ogbaru Market Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA, P/H RD ",
-    "ADDRESS": "Onitsha  PH Road, 32 Port-Harcourt Road  Feggae Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,OZOMAGALA STR. ",
-    "ADDRESS": "65 Ozomagala Street, Odoakpu, Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,3 MARKET STR ",
-    "ADDRESS": "3 Main Market Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AWKA 3 NNAMDI AZIKWE ",
-    "ADDRESS": "Nnamdi Azikwe University, Awka, Anambra State ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ONITSHA,UGA BRANCH ",
-    "ADDRESS": "46 Uga Street, Bridge Head Onitsha ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "NNEWI,2 EZEMEWI RD ",
-    "ADDRESS": "2 Edo-Ezemewi Road Nnewi Anambra State ",
-    "STATE": "Anambra "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OLU OBASANJO ROAD , PORT ",
-    "ADDRESS": "135 Olu Obasanjo Road, Port Harcourt, Rivers State. ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AZIKIWE ROAD ",
-    "ADDRESS": "PH Azikiwe Road, 11 Azikiwe Road Port Harcourt ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "P/H,OLU OBASANJO STR. ",
-    "ADDRESS": "PH Olu Obasanjo Str. 5a Olu Obasanjo Street Port Harcourt ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "WARRI 1 ",
-    "ADDRESS": "67 Effurun, Sapele Road  Warri ",
-    "STATE": "Delta "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "EKET,EKET ORON RD ",
-    "ADDRESS": "57 Eket, Oron Road,  Eket ",
-    "STATE": "Akwa Ibom "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "P/H,106 TRANS AMADI ",
-    "ADDRESS": "PH 106 Trans Amadi, Plot 106 Trans-Amadi P-Harcourt ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "BENIN,SAPELE RD ",
-    "ADDRESS": "17 Sapele Road High Court Benin City ",
-    "STATE": "Edo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AKWA IBOM,AKA RD ",
-    "ADDRESS": "41 Aka Road, Akwa-Ibom ",
-    "STATE": "Akwa Ibom "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "YENAGOA,NBIAMA YENAGOA RD ",
-    "ADDRESS": "Along Mbiama Yenogoa Road,  Yenagoa ",
-    "STATE": "Bayelsa "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "CALABAR,M/SLESSOR RD ",
-    "ADDRESS": "10 Mary Slessor Road, Opp. CBN, Calabar ",
-    "STATE": "Cross River "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "P/H,HASTRUP JETTY ",
-    "ADDRESS": "PH Haastrup Jetty, Port-Harcourt Annex  Haastrup Jetty, Rumuola ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "P/H, 22/23 OLD-ABA RD ",
-    "ADDRESS": "PH  22-23 Old-Aba Road,  Artillery  PH ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "WARRI 2 ",
-    "ADDRESS": "30 Warri Sapele Road ",
-    "STATE": "Delta "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "BENIN,AKPAKPAVA ROAD  ",
-    "ADDRESS": "130 Akpakpava Road, Benin Edo State ",
-    "STATE": "Edo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "P/H,146 TRANS-AMADI ",
-    "ADDRESS": "PH 146 Trans-Amadi Road  Port Harcourt ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "P/H,IKWERRE RD ",
-    "ADDRESS": "Ikwerre Road, 65 Ikwerre Road  Mile 1 Port-Harcourt ",
-    "STATE": "Rivers "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "7 DUGBE ROAD, IBADAN ",
-    "ADDRESS": "7 Adekunle Fajuyi Road, Dugbe, Ibadan, Oyo State. ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OSOGBO,STATION RD ",
-    "ADDRESS": "165 Station Road Oshogbo ",
-    "STATE": "Osun "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IBADAN,GBAGI MKT ",
-    "ADDRESS": "1st Gate, Gbagi Market Ibadan ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ILORIN, IBR TAIWO RD ",
-    "ADDRESS": "No.244 Ibrahim Taiwo Road, Ilorin ",
-    "STATE": "Kwara "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IBADAN, AGODI ",
-    "ADDRESS": "Oba Adesoji Aderemi House, Secretariat-UI Road,  Agodi Ibadan ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IBADAN, BODIJA ",
-    "ADDRESS": "Trans Wonderland Nig. Plc. Arcade, Bodija Ibadan ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IBADAN, DUGBE ",
-    "ADDRESS": "Oba Adebimpe Road, Old Kingsway Building, Dugbe, Ibadan ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IBADAN ,IWO RD ",
-    "ADDRESS": "N5, 661 Idi- Ape, Iwo Road, Ibadan ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OGBOMOSO,TAKI SQUARE ",
-    "ADDRESS": "Taki Square, Ilorin Road, Ogbomosho ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OYO, FCE CAMPUS ",
-    "ADDRESS": "Oyo - Fce Campus Oyo ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ABEOKUTA, OKE-ILEWO ",
-    "ADDRESS": "Q65/Q68  Olusegun Osoba Road, Oke-Ilewo, Abeokuta ",
-    "STATE": "Ogun "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ADO-EKITI, FAJUYI R/ABT ",
-    "ADDRESS": "Fajuyi Roundabout Ado- Ekiti ",
-    "STATE": "Ekiti "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "ADO-EKITI, IJIGBO STR. ",
-    "ADDRESS": "Odo Ijigbo Street, Ado- Ekiti ",
-    "STATE": "Ekiti "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IKERE-EKITI, IKERE COLLEGE ",
-    "ADDRESS": "College Of Education, Ikere Ekiti ",
-    "STATE": "Ekiti "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IKORO-EKITI, ATIBA STR  ",
-    "ADDRESS": "80 Atiba Street, Ikoro Ekiti ",
-    "STATE": "Ekiti "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AKURE, AJASIN HOUSE ",
-    "ADDRESS": "Adekunle Ajasin House; 17 Akure, Owo Road Akure ",
-    "STATE": "Ondo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "AKURE,OLUKAYODE PLAZA ",
-    "ADDRESS": "Opp. Central Mosque Erekesan Market, Akure ",
-    "STATE": "Ondo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "IKARE-AKOKO,JUBILEE RD ",
-    "ADDRESS": "Ikare-Akoko Br L, 156a Jubilee Road Ikare-Akoko ",
-    "STATE": "Ondo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "OWO,FAJUYI RD ",
-    "ADDRESS": "28 Fajuyi Road, Owo ",
-    "STATE": "Ondo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "NAF Abuja ABC ",
-    "ADDRESS": "Bill Clinton Drive, Along Airport Rd, NAF Base Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Gudu ABC ",
-    "ADDRESS": "Fortis Microfinance Bank Plc, Suite 1 Shalom Plaza Plot 1088 Gudu, Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Wuse ABC ",
-    "ADDRESS": "Fortis MFB Head office Branch located at Medife House,2135 , Herbert Macaulay Way, Wuse Zone 5 ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Garki 11 ABC ",
-    "ADDRESS": "Fortis Microfinance Bank Plc Ladoke Akintola Boulevard, Garki 11 Abuja. ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Kabusa ABC ",
-    "ADDRESS": "By Kabusa Market, After EFAB Estate Kabusa, Abuja  ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Silverbird ABJ ABC ",
-    "ADDRESS": "Silverbird Cinema Plot 1161memorial drive ,Central business district Abuja Nigeria  ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Mararaba ABC ",
-    "ADDRESS": "Fortis Microfinance Bank Plc, Mararaba Business Office, opposite Jibson Motors Sharp Corner, Mararaba ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Trademore ABC ",
-    "ADDRESS": "1A Trademore Avenue, Phase 2, Trademore Estate, Lugbe ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fortis Kubwa ABC ",
-    "ADDRESS": "Fortis Microfinance Bank Plc, Besnal plaza, along Aso Savings road, after Premium hotel, Hamza Abdullahi way, Kubwa ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Games Village  ",
-    "ADDRESS": "Games Village Estate, Kaura district, Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Kaura Market ",
-    "ADDRESS": "Kaura Model Market, Opposite Prince & Princess Estate, Duboyi, Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Theophilia Resort ",
-    "ADDRESS": "93 Power line bus stop, Zone 3, Dutse-Alhaji, Abuja ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Royal Life MFB ",
-    "ADDRESS": "Plot 23 Ekukinam Street, Opposite Utako Modern Market, Utako District ",
-    "STATE": "Abuja "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Monatan ABC ",
-    "ADDRESS": "Lemon Plaza 2 Iya Church Bus Stop Monatan Ibadan  ",
-    "STATE": "Ibadan "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Eleyele ABC ",
-    "ADDRESS": "Platinum Event Centre after Obokun Bus stop Eleyele Ibadan (Ibadan Poly Road before Assemblies of God Church) ",
-    "STATE": "Ibadan "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Lead City University ",
-    "ADDRESS": "Lead City University, Ibadan Oyo State ",
-    "STATE": "Ibadan "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Ikota ABC ",
-    "ADDRESS": "HFP Properties Ltd, Shop 80, Ikota Shopping Complex ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Surulere ABC ",
-    "ADDRESS": "2A Akerele Road, Surulere ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Moshood Olugbani ABC ",
-    "ADDRESS": "171A, Moshood Olugbani, VI, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Nicon ABC ",
-    "ADDRESS": "Nicon Estate, Lekki, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Georges ABC ",
-    "ADDRESS": "6, Rasheed Alaba Williams Street, Off Admiralty way, Lekki Phase 1 ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Ajah Shopping Mall ABC ",
-    "ADDRESS": "Ajah Shopping Mall, opposite wonder city church ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "BeachGate Hotels ABC ",
-    "ADDRESS": "Beach Gate Hotel, Jakande roundabout, Lekki ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Shoppers Delite ABC ",
-    "ADDRESS": "52 Ademola Adetokunbo Street V.I ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Abesan ABC ",
-    "ADDRESS": "Licks and Chops, Baruwa Bus Stop, Abesan  ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Magodo ABC ",
-    "ADDRESS": "Grandview Business and Leisure Centre, Magodo GRA ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Hunters Eatery ABC ",
-    "ADDRESS": "Hunters Eatery, 178 Egbeda Idimu, Egbeda, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Jabita ABC ",
-    "ADDRESS": "Jabita Intercontinental Hotel, Awolowo Way, Ikeja ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Meroz ABC ",
-    "ADDRESS": "Plot 781B, Somide Odujinrin Avenue, Besides Skye Bank, Omole Phase 2 ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Cynergy ABC ",
-    "ADDRESS": "Plot 338, Amuwo Odofin Residential Scheme Mile 2 Estate ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Car Wash ABC ",
-    "ADDRESS": "Car  Wash 31 Rd Junction, Gowon Estate, Egbeda ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "De Gong ABC ",
-    "ADDRESS": "67 Shasha Rd, Jesus Power Bus stop, Behind MRS Filling Station, Akowonjo ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Itire ABC ",
-    "ADDRESS": "114, Itire Road (Adjacent Wema Bank), Surulere, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Aluminium Village ABC ",
-    "ADDRESS": "2 Alfa Street, Dopemu, Aluminium Village, Agege ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Omole ABC ",
-    "ADDRESS": "81A, Ogunnusi Road, Omole Phase 1  ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Exquisite Rumours ABC ",
-    "ADDRESS": "15 Oduduwa Way, Ikeja G.R.A ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Cinnamon Gardens ABC ",
-    "ADDRESS": "Plot 15/16 Arobieke Street, Lekki Phase 1 ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Essence ABC ",
-    "ADDRESS": "16 Kodesoh Street, Ikeja, very close to underBridge ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Approach Suites ABC ",
-    "ADDRESS": "House 2, 81 Close, Off 21 Road, Festac Town Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Akoka ABC ",
-    "ADDRESS": "51, Finbarr’s College Road, Akoka, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Citydia ABC, Lekki ",
-    "ADDRESS": "Otunba Adedoyin Ogungbe Crescent, Lekki Phase 1 ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Headway Microfiance Bank Ltd ",
-    "ADDRESS": "1 Atunwa Stree, Off Unity Rd. Ikeja. ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Citydia ABC, Festac Town ",
-    "ADDRESS": "Road 203, 2nd Av. Festc Town ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "World Oli ",
-    "ADDRESS": "World Oil Filling Station, After Ikate Roundabout (4th Roundabout), Lekki – Epe Express Way, Lekki ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "JONATH HOTEL ",
-    "ADDRESS": "Ajah  ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "MMA2 ",
-    "ADDRESS": "Air Port, Ikja Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "GREAT GRACE ",
-    "ADDRESS": "Bariga, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Festival Mall ",
-    "ADDRESS": "Festival Maill, Amuwo Odofin Mile 2, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Citydia ABC, Bariga ",
-    "ADDRESS": "Festac Twon ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "David Wej ",
-    "ADDRESS": "David Wej, Lekki Phase 1 ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Circle Mall  ",
-    "ADDRESS": "CIRCLE MALL SHOPRITE JAKANDE ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "VGC ",
-    "ADDRESS": "VGC Estate ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "PROLIFIC ",
-    "ADDRESS": "Prolific Mall ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "BLUE SEA ",
-    "ADDRESS": "Buel sea Mall, Adeola Odeku ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "FORTIS ",
-    "ADDRESS": "Ikorodu, Lagos ",
-    "STATE": "Lagos "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Ocabique ABC ",
-    "ADDRESS": "5 Okah Street off Stadium rd, PHC ",
-    "STATE": "Port Harcourt "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Silverbird PHC ABC ",
-    "ADDRESS": "Silverbird Galleria, Port Harcourt ",
-    "STATE": "Port Harcourt "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Golf Club GRA PH ",
-    "ADDRESS": "Port Harcourt club, (1928) the Force Avenue, Old GRA, PHC ",
-    "STATE": "Port Harcourt "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Fed. Polytechnic Ado-Ekiti ",
-    "ADDRESS": "Fed. Polytechnic Ado-Ekiti ",
-    "STATE": "Ekiti "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "LAUTECH ",
-    "ADDRESS": "LAUTECH ",
-    "STATE": "Oyo "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Cola Camp ",
-    "ADDRESS": "Coal Camp ",
-    "STATE": "Enugu"
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "FUTA ",
-    "ADDRESS": "Federal University of Technology ",
-    "STATE": "ONDO "
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "American University of Nigeria ",
-    "ADDRESS": "AUN, Yola ",
-    "STATE": "Adamawa"
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "Sister Fellowship Int. ",
-    "ADDRESS": "Sisters Fellowship International, Nkpor, Anambra State ",
-    "STATE": "Anambra"
-  },
-  {
-    "EXPERIENCE_CENTER_NAME": "University Ilorin Teaching Hospital ",
-    "ADDRESS": "University Ilorin Teaching Hospital ",
-    "STATE": "Kwara"
-  }
- ]
+ 
+ {
+   "A": "Wuse Zone 5 , Abuja",
+   "B": "Abuja",
+   "C": "24, Algiers Street, Wuse Zone 5, Abuja"
+ },
+ {
+   "A": "National Assembly Complex, Fct, Abuja",
+   "B": "Abuja",
+   "C": "NASS - Room 239A, New Building Wing of the House of Representatives, Abuja."
+ },
+ {
+   "A": "Abuja Maitama Ec",
+   "B": "Abuja",
+   "C": "No 35, Gana Street, Maitama Abuja"
+ },
+ {
+   "A": "Hb Garki Abuja",
+   "B": "Abuja",
+   "C": "No 1, Ringim Close, Off Yola Street, Area 7, Garki "
+ },
+ {
+   "A": "Abuja,Sokode Crescent",
+   "B": "Abuja",
+   "C": "6 Sokode Cresent Wuse Zone 5  Abuja"
+ },
+ {
+   "A": "Abuja,H/Macaulay Way",
+   "B": "Abuja",
+   "C": "Macaulay Way, Plot 2008 H, Macaulay Way Zone 5 Wuse Abuja"
+ },
+ {
+   "A": "Abuja,3Rd Avenue",
+   "B": "Abuja",
+   "C": "Plot 1003 3rd Avenue,  Opp.Tofa House,  Cbd Abj"
+ },
+ {
+   "A": "Abuja,Rochas Plaza",
+   "B": "Abuja",
+   "C": "Rochas Plaza  Plot 545 Wuse 3 Off Conakry Abj"
+ },
+ {
+   "A": "Abuja,Utako District",
+   "B": "Abuja",
+   "C": "Plot 1121 Obafemi Awolowo Way Utako Abj"
+ },
+ {
+   "A": "Minna,David Mark Rd",
+   "B": "Niger",
+   "C": "2 David Mark Road Opp Pdp Office Tunga Minna"
+ },
+ {
+   "A": "Abuja,Mararaba Nyanya",
+   "B": "Nasarawa",
+   "C": "Suite 101/102 Royal PZ Mararaba Nyanya, Abj"
+ },
+ {
+   "A": "Lokoja, Fed Uni Rd, 26Glass Hse",
+   "B": "Kogi",
+   "C": "26 Glass Hse  Fed Univ Road  Adankolo  Lokoja"
+ },
+ {
+   "A": "Makurdi, 5 Ogiri-Oko Rd",
+   "B": "Benue",
+   "C": "5 Ogiri-Oko Road, Opp Police Hq, Makurdi"
+ },
+ {
+   "A": "Lafiya, 34 Jos Rd, Opp Mech Vil",
+   "B": "Nasarawa",
+   "C": "34 Jos Road  Opp Mech Vill  Lafiya Nasarawa"
+ },
+ {
+   "A": "Abuja,Coscharis Plaza",
+   "B": "Abuja",
+   "C": "Coscharis 1070 Egbe Cl/Faskari Str Abuja"
+ },
+ {
+   "A": "Ajose Adeogun Branch",
+   "B": "Lagos",
+   "C": "292B Ajose Adeogun Street, Victoria Island, lagos"
+ },
+ {
+   "A": "21/22 Marina Street",
+   "B": "Lagos",
+   "C": "Wesley House, 21-22 Marina, Lagos"
+ },
+ {
+   "A": "72B Adetokunbo Ademola",
+   "B": "Lagos",
+   "C": "The Refinery - 72B Adetokunbo Ademola Street, Victoria Island, Lagos"
+ },
+ {
+   "A": "65, Awolowo Road",
+   "B": "Lagos",
+   "C": "65 Awololwo Road, Ikoyi, Lagos"
+ },
+ {
+   "A": "Tincan,North-Gate",
+   "B": "Lagos",
+   "C": "9 North Gate Tincan Island Port Apapa"
+ },
+ {
+   "A": "Lagos,Broad Street",
+   "B": "Lagos",
+   "C": "134,136 Broad Street Lagos"
+ },
+ {
+   "A": "Idumota,Nnamdi Azikiwe",
+   "B": "Lagos",
+   "C": "138 Nnamdi Azikiwe St. Idumota Lagos"
+ },
+ {
+   "A": "Apapa,52 Warehouse Rd",
+   "B": "Lagos",
+   "C": "52 Warehouse Road  Apapa"
+ },
+ {
+   "A": "Ikoyi,Awolowo Rd",
+   "B": "Lagos",
+   "C": "93 Awolowo Road Ikoyi Lagos"
+ },
+ {
+   "A": "Apapa,Trinity Ind.Rd",
+   "B": "Lagos",
+   "C": "11 Industrial Road Trinity Apapa  Lagos."
+ },
+ {
+   "A": "Apapa, Wharf Rd",
+   "B": "Lagos",
+   "C": "20 Wharf Road Apapa  Lagos"
+ },
+ {
+   "A": "Lagos,Idumagbo Avenue",
+   "B": "Lagos",
+   "C": "53 Idumagbo Avenue Lagos"
+ },
+ {
+   "A": "Apapa,Creek Rd",
+   "B": "Lagos",
+   "C": "24 Creek Road  Apapa"
+ },
+ {
+   "A": "Lagos,33 Balogun Str.",
+   "B": "Lagos",
+   "C": "33 Balogun Streeet  Lagos"
+ },
+ {
+   "A": "V/Island-5",
+   "B": "Lagos",
+   "C": "V Island-5, Road 2 Shop C96-C100 Ikota Shopping Complex"
+ },
+ {
+   "A": "Lagos,Martins Street.",
+   "B": "Lagos",
+   "C": "31,33 Martins Street Lagos"
+ },
+ {
+   "A": "Lagos,Oke-Arin 14/16 D/Alaja",
+   "B": "Lagos",
+   "C": "16 D,Alaja,14,16 Daddy Alaja Str Oke-Arin Lagos"
+ },
+ {
+   "A": "V/I Adeola Odeku",
+   "B": "Lagos",
+   "C": "V I Adeola Odeku, Plot 115a Adeola Odeku Victoria Island Lagos"
+ },
+ {
+   "A": "V/Island H/Office Ii",
+   "B": "Lagos",
+   "C": "V Island H, Office II, 130 Ahmadu Bello Way  Victoria Island"
+ },
+ {
+   "A": "Lagos,Enu-Owa Street",
+   "B": "Lagos",
+   "C": "93 Enu-Owa Street  Idumota  Lagos Island"
+ },
+ {
+   "A": "Ebute-Meta,Coates Str.",
+   "B": "Lagos",
+   "C": "31 Coates  Street  Oyingbo Ebute-Meta"
+ },
+ {
+   "A": "Alaba,Agudosi Str.",
+   "B": "Lagos",
+   "C": "6A Agudosi Street Alaba Int'l Market  Lagos"
+ },
+ {
+   "A": "T/Fair,Aspamda Plaza",
+   "B": "Lagos",
+   "C": "Fair Aspamda Plaza-Banking Hall 2 Aspamda Trade Fair Complex."
+ },
+ {
+   "A": "Navy Town,Mammy Mkt",
+   "B": "Lagos",
+   "C": "Mammy Mkt Navy Town Ojo Lagos"
+ },
+ {
+   "A": "T/Fair,Melford Okilo",
+   "B": "Lagos",
+   "C": "Fair Melford Okilo-Chief Melford Okilo Plaza, Tradefair Complex, Opposite Lagos Plaza BBA"
+ },
+ {
+   "A": "T/Fair,Divine Grace",
+   "B": "Lagos",
+   "C": "Fair Divine Grace-Zone D,7a Divine Grace Plaza,  Aspamda 1, Tradefair "
+ },
+ {
+   "A": "Asabi Cole, Alausa, Lagos",
+   "B": "Lagos",
+   "C": "7 Ashabi Cole Street, Alausa, Ikeja"
+ },
+ {
+   "A": "Adeniyi Jones",
+   "B": "Lagos",
+   "C": "34,36 Adeniyi Jones Avenue, Ikeja, Lagos."
+ },
+ {
+   "A": "Isolo,Ajao Estate",
+   "B": "Lagos",
+   "C": "1 Ganiyu Williams Street, By Osolo Way Ajao Estate. Lagos."
+ },
+ {
+   "A": "Toyin Street Ec",
+   "B": "Lagos",
+   "C": "43, Toyin street, Ikeja."
+ },
+ {
+   "A": "Mushin,Ladipo Matori",
+   "B": "Lagos",
+   "C": "Plot 151 Ladipo Street Matori, Mushin Lagos"
+ },
+ {
+   "A": "Surulere,Ogunlana Drive",
+   "B": "Lagos",
+   "C": "23 Ogunlana Drive  Surulere, Lagos."
+ },
+ {
+   "A": "Sango Ota,Abeokuta Mtr Rd",
+   "B": "Lagos",
+   "C": "149 Abeokuta Express Way, Sango Ota."
+ },
+ {
+   "A": "Ogba,Wempco Road",
+   "B": "Lagos",
+   "C": "23  Wempco Road Ogba  Ikeja, Lagos."
+ },
+ {
+   "A": "Okota,Ago Palaceway",
+   "B": "Lagos",
+   "C": "116,118 Ago Palace Way Okota Isolo. Lagos."
+ },
+ {
+   "A": "Oshodi,Olupesi House",
+   "B": "Lagos",
+   "C": "6 Macarthy street, off brown street, oshodi market."
+ },
+ {
+   "A": "Otta,Canaanland",
+   "B": "Lagos",
+   "C": "KM 10, Idiroko road, Winners Chapel, Otta."
+ },
+ {
+   "A": "Ikeja,42 Allen Avenue",
+   "B": "Lagos",
+   "C": "44 Allen Avenue Ikeja, Lagos."
+ },
+ {
+   "A": "Ilupeju,Industrial Ave.",
+   "B": "Lagos",
+   "C": "6 Industrial Avenue Ilupeju, Lagos."
+ },
+ {
+   "A": "Mushin,Ojuwoye Mkt.",
+   "B": "Lagos",
+   "C": "12 Dada Iyalode Str. Ojuwoye Market, Lagos."
+ },
+ {
+   "A": "Yola,Atiku Abubakar Way",
+   "B": "Adamawa",
+   "C": "72 Atiku Abubakar Way  Jimeta Yola"
+ },
+ {
+   "A": "Kano,Ibrahim Taiwo Rd",
+   "B": "Kano",
+   "C": "54 Ibrahim Taiwo Road  Kano"
+ },
+ {
+   "A": "Kaduna,88 Bello Way",
+   "B": "Kaduna",
+   "C": "88 Ahmadu Bello Near Leventis R"
+ },
+ {
+   "A": "Jos,Beach Road",
+   "B": "Plateau",
+   "C": "3 Beach Road By Ahmadu Bello Way Jos"
+ },
+ {
+   "A": "Sabon-Gari",
+   "B": "kano",
+   "C": "12 Court Road"
+ },
+ {
+   "A": "Maiduguri,6 Kashim Ibrahim",
+   "B": "Borno",
+   "C": "6 Sir Kashim Ibrahim Way Maduguri"
+ },
+ {
+   "A": "Kano,P/Office Rd",
+   "B": "Kano",
+   "C": "Kano P-Office Road"
+ },
+ {
+   "A": "Sokoto,14 Maiduguri Rd Sokoto",
+   "B": "Sokoto",
+   "C": "14  Maiduguri Road Sokoto"
+ },
+ {
+   "A": "Birnin-Kebbi, Sultan Abubakar R",
+   "B": "Kebbi",
+   "C": "Sultan Abubakar Road Birnin-Kebbi"
+ },
+ {
+   "A": "Jigawa Road, Old Secretariat",
+   "B": "Jigawa",
+   "C": "Jigawa Road  Old Secretariat Area Dutse"
+ },
+ {
+   "A": "Kastina, Ibb Way",
+   "B": "Katsina",
+   "C": "179  Ibb Way Kastina"
+ },
+ {
+   "A": "Bauchi, Bank Rd",
+   "B": "Bauchi",
+   "C": "Plot 14 Mohammed Bello Kirfi St  Bank Road"
+ },
+ {
+   "A": "Gusau, 35 Canteen Rd, Zamfr Sta",
+   "B": "Zamfara",
+   "C": "35 Canteen Road  Gusau Zamfara State"
+ },
+ {
+   "A": "Gombe, Plot47 New Commercial L",
+   "B": "Gombe",
+   "C": "Plot47 New Commercial L/Out Gombe"
+ },
+ {
+   "A": "Kano,Bello Road",
+   "B": "Kano",
+   "C": "100-104 Muritala Mohammed Way  Kano"
+ },
+ {
+   "A": "Abakaliki,Ogoja Rd",
+   "B": "Ebonyi",
+   "C": "7 Ogoja Road Abakaliki"
+ },
+ {
+   "A": "Enugu,138 Ogui Rd",
+   "B": "Enugu",
+   "C": "138 Ogui Road Enugu"
+ },
+ {
+   "A": "Aba,Asa Rd/York Str",
+   "B": "Abia",
+   "C": "York Str, 2a Asa Road, York Str  Aba"
+ },
+ {
+   "A": "Enugu,9 Ogui Rd",
+   "B": "Enugu",
+   "C": "36 GaRoaden Avenue Enugu"
+ },
+ {
+   "A": "Owerri,Douglas Road",
+   "B": "Imo",
+   "C": "42 Douglas Road  Owerri"
+ },
+ {
+   "A": "Aba,Cameroun Rd",
+   "B": "Abia",
+   "C": "85 Cameroun Road Aba"
+ },
+ {
+   "A": "Aba,Faulks Rd",
+   "B": "Abia",
+   "C": "208 Faulks Road  Ariaria Aba"
+ },
+ {
+   "A": "Umuahia,Main Mkt",
+   "B": "Abia",
+   "C": "Okpara Square Avenue Umuahia"
+ },
+ {
+   "A": "Owerri,Bank Road",
+   "B": "Imo",
+   "C": "20 Bank Road Owerri"
+ },
+ {
+   "A": "Aba,Azikiwe Rd",
+   "B": "Abia",
+   "C": "110 Azikiwe Road P.M.B. 7527 Aba"
+ },
+ {
+   "A": "Awka,94 N/Azikiwe Ave",
+   "B": "Anambra",
+   "C": "Awka 80 N Azikiwe Ave, 80 Nnamdi Azike Avenue Awka Anambra State"
+ },
+ {
+   "A": "Onitsha,Old Market Rd",
+   "B": "Anambra",
+   "C": "39 Old Market Road  Onitsha"
+ },
+ {
+   "A": "Onitsha,32 New Mkt Rd",
+   "B": "Anambra",
+   "C": "32 New Market Road Onitsha"
+ },
+ {
+   "A": "Nnewi,14 Ezemewi Rd",
+   "B": "Anambra",
+   "C": "14 Edo-Ezemewi Road Nnewi"
+ },
+ {
+   "A": "Asaba,Nnebisi Rd",
+   "B": "Delta",
+   "C": "343 Nnebisi Road Asaba"
+ },
+ {
+   "A": "Onitsha,Iweka Rd",
+   "B": "Anambra",
+   "C": "50 Iweka Road Onitsha"
+ },
+ {
+   "A": "Onitsha,3A New Mkt Rd",
+   "B": "Anambra",
+   "C": "3 Bournvita Street Ogbaru Market Onitsha"
+ },
+ {
+   "A": "Onitsha, P/H Rd",
+   "B": "Anambra",
+   "C": "Onitsha  PH Road, 32 Port-Harcourt Road  Feggae Onitsha"
+ },
+ {
+   "A": "Onitsha,Ozomagala Str.",
+   "B": "Anambra",
+   "C": "65 Ozomagala Street  Odoakpu Onitsha"
+ },
+ {
+   "A": "Onitsha,3 Market Str",
+   "B": "Anambra",
+   "C": "3 Main Market Onitsha"
+ },
+ {
+   "A": "Awka 3 Nnamdi Azikwe University",
+   "B": "Anambra",
+   "C": "Nnamdi Azikwe Universi Awka Anambra State"
+ },
+ {
+   "A": "Onitsha,Uga Branch",
+   "B": "Anambra",
+   "C": "46 Uga Street Bridge Head Onitsha"
+ },
+ {
+   "A": "Nnewi,2 Ezemewi Rd",
+   "B": "Anambra",
+   "C": "2 Edo-Ezemewi Road Nnewi Anambra State"
+ },
+ {
+   "A": "Olu Obasanjo Road , Port Harcourt",
+   "B": "Rivers",
+   "C": "135 Olu Obasanjo Road, Port Harcourt, Rivers State."
+ },
+ {
+   "A": "Azikiwe Road",
+   "B": "Rivers",
+   "C": "PH Azikiwe Road, 11 Azikiwe Road Port Harcourt"
+ },
+ {
+   "A": "P/H,Olu Obasanjo Str.",
+   "B": "Rivers",
+   "C": "PH Olu Obasanjo Str. 5a Olu Obasanjo Street Port Harcourt"
+ },
+ {
+   "A": "Warri 1",
+   "B": "Delta",
+   "C": "67 Effurun, Sapele Road  Warri"
+ },
+ {
+   "A": "Eket,Eket Oron Rd",
+   "B": "Akwa Ibom",
+   "C": "57 Eket, Oron Road  Eket"
+ },
+ {
+   "A": "P/H,106 Trans Amadi",
+   "B": "Rivers",
+   "C": "PH 106 Trans Amadi, Plot 106 Trans-Amadi P-Harcourt"
+ },
+ {
+   "A": "Benin,Sapele Rd",
+   "B": "Edo",
+   "C": "17 Sapele Road High Court Benin City"
+ },
+ {
+   "A": "Akwa Ibom,Aka Rd",
+   "B": "Akwa Ibom",
+   "C": "41 Aka Road Akwa Ibom"
+ },
+ {
+   "A": "Yenagoa,Nbiama Yenagoa Rd",
+   "B": "Bayelsa",
+   "C": "Along Mbiama Yenagoa Yenogoa Road"
+ },
+ {
+   "A": "Calabar,M/Slessor Rd",
+   "B": "Cross River",
+   "C": "Slessor Road 10 Calabar Road Opp Cbn Calabar"
+ },
+ {
+   "A": "P/H,Hastrup Jetty",
+   "B": "Rivers",
+   "C": "PH Hastrup Jetty, Port-Harcourt Annex  Hastrup Jetty  Rumuola"
+ },
+ {
+   "A": "P/H, 22/23 Old-Aba Rd",
+   "B": "Rivers",
+   "C": "PH  22-23 Old-Aba Road,  Artillery  PH"
+ },
+ {
+   "A": "Warri 2",
+   "B": "Delta",
+   "C": "30 Warri Sapele Road"
+ },
+ {
+   "A": "Benin,Akpakpava Road Edo Sta",
+   "B": "Edo",
+   "C": "130 Akpakpava Road.Benin Edo State"
+ },
+ {
+   "A": "P/H,146 Trans-Amadi",
+   "B": "Rivers",
+   "C": "PH 146 Trans-Amadi Road  Port Harcourt"
+ },
+ {
+   "A": "P/H,Ikwerre Rd",
+   "B": "Rivers",
+   "C": "PH Ikwerre Road, 65 Ikwerre Road  Mile 1 Port-Harcourt"
+ },
+ {
+   "A": "7 Dugbe Road, Ibadan",
+   "B": "Oyo",
+   "C": "7 Adekunle Fajuyi Road, Dugbe, Ibadan, Oyo State."
+ },
+ {
+   "A": "Osogbo,Station Rd",
+   "B": "Osun",
+   "C": "165 Station Road Oshogbo"
+ },
+ {
+   "A": "Ibadan,Gbagi Mkt",
+   "B": "Oyo",
+   "C": "1st Gate Gbagi Market Ibadan"
+ },
+ {
+   "A": "Ilorin,Ibr Taiwo Rd",
+   "B": "Kwara",
+   "C": "No.244 Ibrahim Taiwo Road, Ilorin"
+ },
+ {
+   "A": "Ibadan,Agodi",
+   "B": "Oyo",
+   "C": "Oba Adesoji Aderemi House, Secretariat-UI Road,  Agodi Ibadan"
+ },
+ {
+   "A": "Ibadan,Dugbe",
+   "B": "Oyo",
+   "C": "Oba Adebimpe Road, Old Kingsway Building, Dugbe, Ibadan"
+ },
+ {
+   "A": "Ogbomoso,Taki Square",
+   "B": "Oyo",
+   "C": "Taki Square, Ilorin Road, Ogbomosho"
+ },
+ {
+   "A": "Oyo,Fce Campus",
+   "B": "Oyo",
+   "C": "Oyo - Fce Campus Oyo"
+ },
+ {
+   "A": "Abeokuta, Oke-Ilewo",
+   "B": "Ogun",
+   "C": "Q65/Q68  Olusegun Osoba Road, Oke-Ilewo, Abeokuta"
+ },
+ {
+   "A": "Ado-Ekiti,Fajuyi R/Abt",
+   "B": "Ekiti",
+   "C": "Fajuyi Roundabout Ado- Ekiti"
+ },
+ {
+   "A": "Ado-Ekiti,Ijigbo Str.",
+   "B": "Ekiti",
+   "C": "Odo Ijigbo Street Ado- Ekiti"
+ },
+ {
+   "A": "Ikere-Ekiti,Ikere College",
+   "B": "Ekiti",
+   "C": "College Of Education Ikere Ekiti"
+ },
+ {
+   "A": "Ikoro-Ekiti,Atiba Str ",
+   "B": "Ekiti",
+   "C": "80 Atiba Street Ikoro Ekiti"
+ },
+ {
+   "A": "Akure,Ajasin House",
+   "B": "Ondo",
+   "C": "Adekunle Ajasin House. 17 Akure, Owo Road Akr"
+ },
+ {
+   "A": "Akure,Olukayode Plaza",
+   "B": "Ondo",
+   "C": "Opp. Central Mosque Erekesan Market-Akure"
+ },
+ {
+   "A": "Ikare-Akoko,Jubilee Rd",
+   "B": "Ondo",
+   "C": "Ikare-Akoko Br L, 156a Jubilee Road Ikare-Akoko"
+ },
+ {
+   "A": "Owo,Fajuyi Rd",
+   "B": "Ondo",
+   "C": "28  Fajuyi Road, Owo"
+ }
+]

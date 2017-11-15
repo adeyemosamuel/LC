@@ -9,72 +9,96 @@
 
 
 <ion-content padding>
-  <ion-card>
-    <ion-card-header>
-      SME OVERDRAFT
-    </ion-card-header>
-
-    <ion-card-content>
-
-      <ion-list>
-
-        <ion-item>
-          <ion-label floating>Loan Amount</ion-label>
-          <ion-input [(ngModel)]="principal" type="number" name="principal"></ion-input>
-        </ion-item>
-
-        <ion-item>
-          <ion-label floating>Interest Rate</ion-label>
-          <ion-input [(ngModel)]="rate" type="number" name="rate"></ion-input>
-        </ion-item>
-
-        <ion-item>
-            <ion-label floating>Duration</ion-label>
-            <ion-input [(ngModel)]="duration" type="number" name="duration"></ion-input>
-        </ion-item>
-        </ion-list>
-
-        <ion-list radio-group [(ngModel)]="durationRadio">
-          <ion-item>
-            <ion-label>Year</ion-label>
-            <ion-radio value="year" ></ion-radio>
-          </ion-item>
-          <ion-item>
-            <ion-label>Month</ion-label>
-            <ion-radio value="month"></ion-radio>
-          </ion-item>
-        </ion-list>
-
-            <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
-           
-            <div *ngIf="isSubmitted" >
-              <ion-card>
-                <ion-card-header>
-                    Analysis
-                </ion-card-header>
-                <ion-card-content>
-                 <!--  <div>
-{{postedP}}
-{{postedR}}
-{{postedD}}
-{{postedRadio}}
-
-                  </div> -->
-                  <ion-list>
-                   Simple Interest : {{SI}}
-                  </ion-list>
-                </ion-card-content>
-              </ion-card>
-            </div>
-
-
-
-
-
-
-
-
-    </ion-card-content>
-
-  </ion-card>
+    <ion-card>
+        <ion-card-header text-center>
+          CALCULATOR
+        </ion-card-header>
+    
+        <ion-card-content>
+    
+          <ion-list>
+    
+            <ion-item>
+              <ion-label floating>Loan Amount(₦)</ion-label>
+              <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
+            </ion-item>
+    
+            <ion-item>
+              <ion-label>Interest Rate(%)</ion-label>
+              <ion-input disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
+            </ion-item>
+    
+            <ion-item>
+              <ion-label floating>Duration</ion-label>
+              <ion-input [(ngModel)]="n" type="number" name="n"></ion-input>
+            </ion-item>
+          </ion-list>
+    
+          <ion-list radio-group [(ngModel)]="nRadio">
+            <ion-item>
+              <ion-label>Year</ion-label>
+              <ion-radio value="year"></ion-radio>
+            </ion-item>
+            <!-- <ion-item>
+                    <ion-label>Month</ion-label>
+                    <ion-radio value="month"></ion-radio>
+                  </ion-item> -->
+          </ion-list>
+    
+          <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
+        </ion-card-content>
+      </ion-card>
+    
+          <div *ngIf="isSubmitted">
+            
+            <ion-card class="card">
+              <ion-card-header text-center>
+                RESULTS
+              </ion-card-header>
+    
+              <ion-card-content>
+    
+                <ion-grid>
+                  <ion-row class="row1">
+                    <ion-col width-22>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Loan Disbursed(₦)</p>
+                    </ion-col>
+                    <ion-col>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">{{LD}}</p>
+                    </ion-col>
+                  </ion-row>
+    
+                  <ion-row class="row2">
+                    <ion-col width-22>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Interest(₦)</p>
+                    </ion-col>
+                    <ion-col>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TI}}</p>
+                    </ion-col>
+                  </ion-row>
+    
+                  <ion-row class="row3">
+                    <ion-col width-22>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Monthly Repayment(₦)</p>
+                    </ion-col>
+                    <ion-col>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">{{MR}}</p>
+                    </ion-col>
+                  </ion-row>
+    
+                  <ion-row class="row4">
+                    <ion-col width-22>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Payment(₦)</p>
+                    </ion-col>
+                    <ion-col>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TP}}</p>
+                    </ion-col>
+                  </ion-row>
+    
+                </ion-grid>
+              </ion-card-content>
+            </ion-card>
+          </div>
+        
+    
 </ion-content>

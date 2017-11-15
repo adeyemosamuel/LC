@@ -18,9 +18,9 @@ long;
 lat;
   constructor(public navCtrl: NavController,  public Data:AtmdataProvider,public navParams: NavParams) {
     this.data=this.navParams.get('data');
-    console.log(this.data.Region);
-    console.log(this.data.ATM_Address);
-    this.address = this.data.ATM_Address+", "+this.data.Region;
+    console.log(this.data.B);
+    console.log(this.data.C);
+    this.address = this.data.C+", "+this.data.B;
     this.Data.getLongLat(this.address).subscribe(location=> {
       this.long=location.lng;
       this.lat=location.lat;

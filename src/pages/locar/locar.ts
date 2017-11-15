@@ -15,35 +15,33 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class LocarPage {
 
-  principal: any;
-  rate: any;
-  duration: any;
-  durationRadio: string = 'year';
-  SI :number;
+  p: any;
+  r: number = 27;
+  n: any;
+  nRadio: any = 'year';
+  TI :any;
+  MR :any;
+  TP :any;
+  LD :any;
   isSubmitted:boolean=false;
-   postedP ;
-  postedR ;
-  postedD ;
-  postedRadio;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   calculateInterest() {
     console.log('button clicked');
  
-    if (this.durationRadio !== 'year') {
-      this.duration = this.duration / 12;
+    if (this.nRadio !== 'year') {
+      this.n = this.n;
     }
-    this.SI = (this.principal * this.rate * this.duration) / 100;
+    this.TI = (this.p * this.r * this.n) / 100;
+    this.MR = (parseInt(this.TI) + parseInt(this.p)) / 12;
+    this.TP = (parseInt(this.TI) + parseInt(this.p));
+    this.LD = ((this.p)) - ((this.p) * 0.02) ;
     this.isSubmitted = true;
-   /*  this.postedP = this.principal;
-this.postedR = this.rate;
-this.postedD = this.duration;
-this.postedRadio= this.durationRadio; */
-
-/*     this.principal= '';
-    this.rate= '';
-    this.duration='';  */
   }
 
+
+   
 }
+
