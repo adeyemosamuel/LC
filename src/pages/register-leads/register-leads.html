@@ -10,22 +10,22 @@
 <ion-content no-padding>
   <ion-list>
     <ion-item>
-      <ion-label floating>*Name</ion-label>
+      <ion-label style="color:#4fc143" floating>*Name</ion-label>
       <ion-input [(ngModel)]="name" text-uppercase></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label floating>*Occupation</ion-label>
+      <ion-label style="color:#4fc143" floating>*Occupation</ion-label>
       <ion-input [(ngModel)]="occupation" text-uppercase></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label>*Date of Birth</ion-label>
+      <ion-label style="color:#4fc143">*Date of Birth</ion-label>
       <ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="MMM DD YYYY" [(ngModel)]="dob"></ion-datetime>
     </ion-item>
 
     <ion-item>
-      <ion-label>*Gender</ion-label>
+      <ion-label style="color:#4fc143">*Gender</ion-label>
       <ion-select [(ngModel)]="gender">
         <ion-option value="f">Female</ion-option>
         <ion-option value="m">Male</ion-option>
@@ -33,7 +33,7 @@
     </ion-item>
 
     <ion-item>
-      <ion-label>*Marital Status</ion-label>
+      <ion-label style="color:#4fc143">*Marital Status</ion-label>
       <ion-select [(ngModel)]="marital_status">
         <ion-option value="single">Single</ion-option>
         <ion-option value="married">Married</ion-option>
@@ -43,23 +43,23 @@
     </ion-item>
 
     <ion-item>
-      <ion-label floating>*Phone Number</ion-label>
+      <ion-label style="color:#4fc143" floating>*Phone Number</ion-label>
       <ion-input [(ngModel)]="phonenumber" type="number" maxlength="11"></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label floating>*E-mail Address</ion-label>
+      <ion-label style="color:#4fc143" floating>*E-mail Address</ion-label>
       <ion-input [(ngModel)]="emailaddress" text-uppercase></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label floating>*Address</ion-label>
+      <ion-label style="color:#4fc143" floating>*Address</ion-label>
       <ion-input [(ngModel)]="address" text-uppercase></ion-input>
     </ion-item>
 
 
     <ion-item>
-      <ion-label>*Product of Interest</ion-label>
+      <ion-label style="color:#4fc143">*Product of Interest</ion-label>
       <ion-select  [(ngModel)]="Product_of_Interest">
         <ion-option value="starter">HB STARTER (TIER 1)</ion-option>
         <ion-option value="pro">HB PRO (TIER 2)</ion-option>

@@ -9,7 +9,7 @@
 
 <ion-content padding>
     <ion-card>
-        <ion-card-header text-center>
+        <ion-card-header text-center color="primary">
           CALCULATOR
         </ion-card-header>
     
@@ -18,17 +18,17 @@
           <ion-list>
     
             <ion-item>
-              <ion-label floating>Loan Amount(₦)</ion-label>
+              <ion-label style="color:#4fc143" floating>Loan Amount(₦)</ion-label>
               <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
             </ion-item>
     
             <ion-item>
-              <ion-label>Interest Rate(%)</ion-label>
-              <ion-input disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
+              <ion-label style="color:#4fc143">Interest Rate(%)</ion-label>
+              <ion-input style="color:#4fc143" disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
             </ion-item>
     
             <ion-item>
-              <ion-label floating>Duration</ion-label>
+              <ion-label style="color:#4fc143" floating>Duration</ion-label>
               <ion-input [(ngModel)]="n" type="number" name="n"></ion-input>
             </ion-item>
           </ion-list>
@@ -50,14 +50,14 @@
     
           <div *ngIf="isSubmitted">
             
-            <ion-card class="card">
-              <ion-card-header text-center>
+            <ion-card class="result">
+              <ion-card-header text-center color="primary">
                 RESULTS
               </ion-card-header>
     
               <ion-card-content>
     
-                <ion-grid>
+                <ion-grid class="grid">
                   <ion-row class="row1">
                     <ion-col width-22>
                       <p text-center style="font-weight: light; font-size: 15px; color: white;">Loan Disbursed(₦)</p>

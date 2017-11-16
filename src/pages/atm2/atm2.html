@@ -28,7 +28,7 @@
   <!-- <div #map id="map"></div> -->
   <div [ngSwitch]="locator">
     <ion-list *ngSwitchCase="'atm'">
-      <ion-item *ngFor="let atmlocation of data">
+      <ion-item  *ngFor="let atmlocation of data">
         <ion-avatar item-start>
           <img src="../assets/imgs/logo2.png">
         </ion-avatar>
@@ -41,7 +41,7 @@
       </ion-item>
     </ion-list>
     <ion-list *ngSwitchCase="'branches'">
-      <ion-item *ngFor="let branch of branches">
+      <ion-item  *ngFor="let branch of branches">
         <ion-avatar item-start>
           <img src="../assets/imgs/logo2.png">
         </ion-avatar>
