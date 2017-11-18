@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map';
 
-/**
- * Generated class for the CompendiumPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -14,12 +10,30 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'compendium.html',
 })
 export class CompendiumPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CompendiumPage');
-  }
-
-}
+  TYPES: any[];
+  
+   
+  
+    constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http) {
+      let localData = this.http.get('assets/paul.json').map(res => res.json());
+      localData.subscribe(data => {
+        this.TYPES =data;
+        console.log(this.TYPES);
+      });
+     }
+     toggleSection(i){
+       this.TYPES[i].open = !this.TYPES[i].open;
+       }
+ 
+       toggleItem(i,j){
+         this.TYPES[i].children[j].open = !this.TYPES[i].children[j].open;
+       }
+        
+       toggleDescription(item) {
+         this.navCtrl.push('TestPage', {
+           data: item
+         });
+       }
+ 
+ }
+ 

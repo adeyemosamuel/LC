@@ -1,0 +1,18 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+<!--       *ngFor="let item of TYPES; let i = index" -->
+    <ion-item *ngFor="let item of data" (click)="toggleDescription(item,title)">
+      {{item.TYPES}}
+    </ion-item>
+  </ion-list>
+</ion-content>
