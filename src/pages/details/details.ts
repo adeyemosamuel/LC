@@ -25,4 +25,8 @@ data:any;
     console.log('ionViewDidLoad DetailsPage');
   }
 
+  addLead(){
+    this.navCtrl.push('RegisterLeadsPage')
+  }
+
 }

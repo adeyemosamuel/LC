@@ -29,4 +29,8 @@ export class ProductsPage {
       this.navCtrl.push('LeadsPage')
     }
 
+    bankProducts(){
+      this.navCtrl.push('CompendiumPage')
+    }
+
 }
