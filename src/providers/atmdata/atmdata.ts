@@ -3,6 +3,7 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { NavController, NavParams, ToastController, AlertController } from 'ionic-angular';
 import 'rxjs/add/operator/do';
+import 'rxjs/add/operator/debounceTime';
 
 @Injectable()
 export class AtmdataProvider {
@@ -10,6 +11,7 @@ data:any;
 branches:any;
 direction;
 key;
+// filter: any;
   constructor(public http: Http) 
   {
     this.direction = 'https://maps.googleapis.com/maps/api/geocode/json?';
@@ -50,6 +52,14 @@ return new Promise(resolve => {
                 console.log(location.lat + ' ' +location.long);
              });
             }
+
+            // filterItems(searchTerm){
+                
+            //            return this.data.filter((item) => {
+            //                return item.title.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
+            //            });    
+                
+            //        }
     
 
 

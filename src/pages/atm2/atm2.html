@@ -1,19 +1,17 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title text-center>CURRENT LOCATION</ion-title>
+    <ion-title text-center>LOCATE US</ion-title>
   </ion-navbar>
-
-
 
 </ion-header>
 
-
-
 <ion-content>
+    <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
 
-
-
+    <!-- <div *ngIf="searching" class="spinner-container">
+        <ion-spinner></ion-spinner>
+    </div> -->
   <div>
     <ion-segment [(ngModel)]="locator">
       <ion-segment-button value="atm">
@@ -28,7 +26,8 @@
   <!-- <div #map id="map"></div> -->
   <div [ngSwitch]="locator">
     <ion-list *ngSwitchCase="'atm'">
-      <ion-item no-lines  *ngFor="let atmlocation of data">
+
+      <ion-item no-lines *ngFor="let atmlocation of data">
         <ion-avatar item-start>
           <img src="../assets/imgs/logo2.png">
         </ion-avatar>

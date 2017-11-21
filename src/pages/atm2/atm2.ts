@@ -1,9 +1,10 @@
-import { Component,NgZone   } from '@angular/core';
+import { Component, NgZone } from '@angular/core';
 import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import { Geolocation, Geoposition } from '@ionic-native/geolocation';
 import { NativeGeocoder, NativeGeocoderReverseResult } from '@ionic-native/native-geocoder';
 import { LocationAccuracy } from '@ionic-native/location-accuracy';
 import { AtmdataProvider } from '../../providers/atmdata/atmdata';
+import { FormControl } from '@angular/forms';
 
 
 // declare var google: any;
@@ -16,13 +17,17 @@ import { AtmdataProvider } from '../../providers/atmdata/atmdata';
 })
 
 export class Atm2Page {
-
-    data:any;
-    branches:any;
-   lati;
-   longi ;
-   place;
-   locator ="atm";
+    // searchTerm: any;
+    data: any;
+    _data: any;
+    _branches: any;
+    branches: any;
+    lati;
+    longi;
+    place;
+    locator = "atm";
+    // searchControl: FormControl;
+    // searching: any = false;
     //   options: GeolocationOptions;
     //   currentPos: Geoposition;
     //   @ViewChild('map') mapElement: ElementRef;
@@ -30,55 +35,118 @@ export class Atm2Page {
     //   mapOptions: any;
     //   locator: string = 'atm';
 
-    constructor(public zone:NgZone,  public navCtrl: NavController, public Data:AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy) {
-    this.Data.getdata().then(data => {
-                 this.data = data; 
-                 console.log(this.data)  ;
-    })
-    this.Data.getbranches().then(branches => {
-        this.branches = branches; 
-        console.log(this.branches)  ;
-})
+    constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy) {
+        this.getdata();
+        this.getbranches();
+        this.getLocation();
+        // this.searchControl = new FormControl();
+    }
+    // ionViewDidLoad() {
+
+    //     this.setFilteredItems();
+
+    //     this.searchControl.valueChanges.debounceTime(700).subscribe(search => {
+    //         this.searching = false;
+    //         this.setFilteredItems();
+
+    //     });
 
 
+    // }
 
-this.getLocation();
+    getdata() {
+        this.Data.getdata().then(data => {
+            this.data = data;
+            this._data = data;
+            console.log(this.data);
+        });
     }
 
-    getLocation(){
+    getbranches() {
+        this.Data.getbranches().then(branches => {
+            this.branches = branches;
+            this._branches = branches;
+            console.log(this.branches);
+        });
+    }
+
+    getLocation() {
         this.geolocation.getCurrentPosition().then((resp) => {
-          // resp.coords.latitude
-          this.zone.run(() => {
-          console.log(resp);
-          console.log(resp.coords.latitude);
-          console.log(resp.coords.longitude);
-          this.lati =resp.coords.latitude;
-          this.longi = resp.coords.longitude;
-          })
-          this.getLocationname(resp.coords.latitude,resp.coords.longitude);
-          // resp.coords.longitude
-         }).catch((error) => {
-           console.log('Error getting location', error);
-         });
+            // resp.coords.latitude
+            this.zone.run(() => {
+                console.log(resp);
+                console.log(resp.coords.latitude);
+                console.log(resp.coords.longitude);
+                this.lati = resp.coords.latitude;
+                this.longi = resp.coords.longitude;
+            })
+            this.getLocationname(resp.coords.latitude, resp.coords.longitude);
+            // resp.coords.longitude
+        }).catch((error) => {
+            console.log('Error getting location', error);
+        });
+    }
+
+    getLocationname(lati, longi) {
+        this.nativeGeocoder.reverseGeocode(lati, longi)
+            .then((result: any) => {
+                console.log('The address is ' + result.street + ' in ' + result.countryCode)
+                var locationongps: string = result.thoroughfare + ', ' + result.locality + ',' + result.administrativeArea + '' + result.countryName;
+
+                this.place = result;
+            }).catch((error: any) => { this.place = error.message; });
+    }
+    openPost(data) {
+        this.navCtrl.push('AtmPage', { data: data })
+    }
+
+    
+    // onSearchInput(){
+    //     this.searching = true;
+    // }
+
+    // setFilteredItems() {
+
+    //     this.data = this.data.filterdata(this.searchTerm);
+
+    // }
+
+    getItems(ev) {
+        if (this.locator === 'atm') {
+            this.filterATM(ev);
+        } else {
+            this.filterBranches(ev);
         }
-      
-        getLocationname(lati, longi){
-          this.nativeGeocoder.reverseGeocode(lati,longi)
-          .then((result: any) => {
-          console.log('The address is ' + result.street + ' in ' + result.countryCode)
-         var locationongps :string = result.thoroughfare+', ' + result.locality + ','+ result.administrativeArea +'' +result.countryName;
-       
-         this.place = result;
-          }).catch((error: any) => { this.place = error.message;});
+    }
+
+    filterATM(ev){
+        this.data = this._data;
+        var val = ev.target.value;
+
+        if (val && val.trim() != '') {
+            this.data = this.data.filter((item) => {
+                return (item.C.toLowerCase().indexOf(val.toLowerCase()) > -1);
+            });
         }
-        openPost(data){
-            this.navCtrl.push('AtmPage',{data:data})
-            }
-      
+
+    }
+
+    filterBranches(ev){
+        this.branches = this._branches;
+        var val = ev.target.value;
+
+        if (val && val.trim() != '') {
+            this.branches = this.branches.filter((item) => {
+                return (item.C.toLowerCase().indexOf(val.toLowerCase()) > -1);
+            });
+        }
+
+    }
+
 }
 
 
-  
+
 
 
 //     getlocation() {
@@ -96,7 +164,7 @@ this.getLocation();
 //                     }).catch((err) => {
 //                         alert(err);
 //                     })
-                    
+
 //                 }, (error) => {
 //                     alert(error);
 //                 })
