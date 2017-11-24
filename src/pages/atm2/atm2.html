@@ -23,7 +23,7 @@
     </ion-segment>
   </div>
 
-  <!-- <div #map id="map"></div> -->
+  
   <div [ngSwitch]="locator">
     <ion-list *ngSwitchCase="'atm'">
 
@@ -31,9 +31,9 @@
         <ion-avatar item-start>
           <img src="../assets/imgs/logo2.png">
         </ion-avatar>
-        <h4>{{atmlocation.A}}</h4>
-        <h2>{{atmlocation.B}}</h2>
-        <p style="white-space:normal">{{atmlocation.C}}</p>
+        <h4>{{atmlocation.EXPERIENCE_CENTER_NAME}}</h4>
+        <h2>{{atmlocation.REGION}}</h2>
+        <p style="white-space:normal">{{atmlocation.ADDRESSES}}</p>
         <button ion-button clear item-end icon-only (click)=" openPost(atmlocation)">
           <img class="imagesize"  src="../assets/get.png">
                   </button>
@@ -44,14 +44,13 @@
         <ion-avatar item-start>
           <img src="../assets/imgs/logo2.png">
         </ion-avatar>
-        <h4>{{branch.A}}</h4>
-        <h2>{{branch.B}}</h2>
-        <p style="white-space:normal">{{branch.C}}</p>
+        <h4>{{branch.EXPERIENCE_CENTER_NAME}}</h4>
+        <h2>{{branch.REGION}}</h2>
+        <p style="white-space:normal">{{branch.ADDRESSES}}</p>
         <button ion-button clear item-end icon-only (click)="openPost(branch)">
           <img class="imagesize"  src="../assets/get.png">
                   </button>
       </ion-item>
-
     </ion-list>
 
   </div>

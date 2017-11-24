@@ -1,0 +1,886 @@
+[
+ {
+   "EXPERIENCE_CENTER_NAME": "Wuse Zone 5 , Abuja",
+   "REGION": "Abuja",
+   "ADDRESSES": "24, Algiers Street, Wuse Zone 5, Abuja",
+   "LATITUDE": "9.062812",
+   "LONGITUDE": "7.457921"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "National Assembly Complex, Fct, Abuja",
+   "REGION": "Abuja",
+   "ADDRESSES": "NASS - Room 239A, New Building Wing of the House of Representatives, Abuja.",
+   "LATITUDE": "9.067305",
+   "LONGITUDE": "7.509863"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja Maitama Ec",
+   "REGION": "Abuja",
+   "ADDRESSES": "No 35, Gana Street, Maitama Abuja",
+   "LATITUDE": "9.077533",
+   "LONGITUDE": "7.497868"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Hb Garki Abuja",
+   "REGION": "Abuja",
+   "ADDRESSES": "No 1, Ringim Close, Off Yola Street, Area 7, Garki ",
+   "LATITUDE": "9.035373",
+   "LONGITUDE": "7.487253"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,Sokode Crescent",
+   "REGION": "Abuja",
+   "ADDRESSES": "6 Sokode Cresent Wuse Zone 5  Abuja",
+   "LATITUDE": "9.065567",
+   "LONGITUDE": "7.455856"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,H/Macaulay Way",
+   "REGION": "Abuja",
+   "ADDRESSES": "Macaulay Way, Plot 2008 H, Macaulay Way Zone 5 Wuse Abuja",
+   "LATITUDE": "9.067138",
+   "LONGITUDE": "7.460565"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,3Rd Avenue",
+   "REGION": "Abuja",
+   "ADDRESSES": "Plot 1003 3rd Avenue,  Opp.Tofa House,  Cbd Abj",
+   "LATITUDE": "9.06578",
+   "LONGITUDE": "7.498954"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,Rochas Plaza",
+   "REGION": "Abuja",
+   "ADDRESSES": "Rochas Plaza  Plot 545 Wuse 3 Off Conakry Abj",
+   "LATITUDE": "9.06102",
+   "LONGITUDE": "7.467634"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,Utako District",
+   "REGION": "Abuja",
+   "ADDRESSES": "Plot 1121 Obafemi Awolowo Way Utako Abj",
+   "LATITUDE": "9.066897",
+   "LONGITUDE": "7.440311"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Minna,David Mark Rd",
+   "REGION": "Niger",
+   "ADDRESSES": "2 David Mark Road Opp Pdp Office Tunga Minna",
+   "LATITUDE": "9.603056",
+   "LONGITUDE": "6.55931"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,Mararaba Nyanya",
+   "REGION": "Nasarawa",
+   "ADDRESSES": "Suite 101/102 Royal PZ Mararaba Nyanya, Abj",
+   "LATITUDE": "9.033589",
+   "LONGITUDE": "7.616517"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lokoja, Fed Uni Rd, 26Glass Hse",
+   "REGION": "Kogi",
+   "ADDRESSES": "26 Glass Hse  Fed Univ Road  Adankolo  Lokoja",
+   "LATITUDE": "7.795495",
+   "LONGITUDE": "6.744339"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Makurdi, 5 Ogiri-Oko Rd",
+   "REGION": "Benue",
+   "ADDRESSES": "5 Ogiri-Oko Road, Opp Police Hq, Makurdi",
+   "LATITUDE": "7.73306",
+   "LONGITUDE": "8.527726"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lafiya, 34 Jos Rd, Opp Mech Vil",
+   "REGION": "Nasarawa",
+   "ADDRESSES": "34 Jos Road  Opp Mech Vill  Lafiya Nasarawa",
+   "LATITUDE": "8.507411",
+   "LONGITUDE": "8.520534"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abuja,Coscharis Plaza",
+   "REGION": "Abuja",
+   "ADDRESSES": "Coscharis 1070 Egbe Cl/Faskari Str Abuja",
+   "LATITUDE": "9.030322",
+   "LONGITUDE": "7.47673"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ajose Adeogun Branch",
+   "REGION": "Lagos",
+   "ADDRESSES": "292B Ajose Adeogun Street, Victoria Island, lagos",
+   "LATITUDE": "6.430848",
+   "LONGITUDE": "3.439079"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "21/22 Marina Street",
+   "REGION": "Lagos",
+   "ADDRESSES": "Wesley House, 21-22 Marina, Lagos",
+   "LATITUDE": "6.449132",
+   "LONGITUDE": "3.393093"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "72B Adetokunbo Ademola",
+   "REGION": "Lagos",
+   "ADDRESSES": "The Refinery - 72B Adetokunbo Ademola Street, Victoria Island, Lagos",
+   "LATITUDE": "6.423082",
+   "LONGITUDE": "3.427347"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "65, Awolowo Road",
+   "REGION": "Lagos",
+   "ADDRESSES": "65 Awololwo Road, Ikoyi, Lagos",
+   "LATITUDE": "6.444312",
+   "LONGITUDE": "3.424119"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Tincan,North-Gate",
+   "REGION": "Lagos",
+   "ADDRESSES": "9 North Gate Tincan Island Port Apapa",
+   "LATITUDE": "6.432899",
+   "LONGITUDE": "3.343342"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lagos,Broad Street",
+   "REGION": "Lagos",
+   "ADDRESSES": "134,136 Broad Street Lagos",
+   "LATITUDE": "6.453566",
+   "LONGITUDE": "3.389659"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Idumota,Nnamdi Azikiwe",
+   "REGION": "Lagos",
+   "ADDRESSES": "138 Nnamdi Azikiwe St. Idumota Lagos",
+   "LATITUDE": "6.461311",
+   "LONGITUDE": "3.387277"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Apapa,52 Warehouse Rd",
+   "REGION": "Lagos",
+   "ADDRESSES": "52 Warehouse Road  Apapa",
+   "LATITUDE": "6.450000",
+   "LONGITUDE": "3.366667"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ikoyi,Awolowo Rd",
+   "REGION": "Lagos",
+   "ADDRESSES": "93 Awolowo Road Ikoyi Lagos",
+   "LATITUDE": "6.44204",
+   "LONGITUDE": "3.419305"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Apapa,Trinity Ind.Rd",
+   "REGION": "Lagos",
+   "ADDRESSES": "11 Industrial Road Trinity Apapa  Lagos.",
+   "LATITUDE": "6.442427",
+   "LONGITUDE": "3.325696"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Apapa, Wharf Rd",
+   "REGION": "Lagos",
+   "ADDRESSES": "20 Wharf Road Apapa  Lagos",
+   "LATITUDE": "6.438578",
+   "LONGITUDE": "3.372926"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lagos,Idumagbo Avenue",
+   "REGION": "Lagos",
+   "ADDRESSES": "53 Idumagbo Avenue Lagos",
+   "LATITUDE": "6.458748",
+   "LONGITUDE": "3.389195"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Apapa,Creek Rd",
+   "REGION": "Lagos",
+   "ADDRESSES": "24 Creek Road  Apapa",
+   "LATITUDE": "6.436586",
+   "LONGITUDE": "3.369111"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lagos,33 Balogun Str.",
+   "REGION": "Lagos",
+   "ADDRESSES": "33 Balogun Streeet  Lagos",
+   "LATITUDE": "6.458223",
+   "LONGITUDE": "3.385382"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "V/Island-5",
+   "REGION": "Lagos",
+   "ADDRESSES": "V Island-5, Road 2 Shop C96-C100 Ikota Shopping Complex",
+   "LATITUDE": "6.464220",
+   "LONGITUDE": "3.555430"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lagos,Martins Street.",
+   "REGION": "Lagos",
+   "ADDRESSES": "31,33 Martins Street Lagos",
+   "LATITUDE": "6.496111",
+   "LONGITUDE": "3.331914"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lagos,Oke-Arin 14/16 D/Alaja",
+   "REGION": "Lagos",
+   "ADDRESSES": "16 D,Alaja,14,16 Daddy Alaja Str Oke-Arin Lagos",
+   "LATITUDE": "6.459166",
+   "LONGITUDE": "3.38486"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "V/I Adeola Odeku",
+   "REGION": "Lagos",
+   "ADDRESSES": "V I Adeola Odeku, Plot 115a Adeola Odeku Victoria Island Lagos",
+   "LATITUDE": "6.429566",
+   "LONGITUDE": "3.409896"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "V/Island H/Office Ii",
+   "REGION": "Lagos",
+   "ADDRESSES": "V Island H, Office II, 130 Ahmadu Bello Way  Victoria Island",
+   "LATITUDE": "6.428239",
+   "LONGITUDE": "3.408881"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Lagos,Enu-Owa Street",
+   "REGION": "Lagos",
+   "ADDRESSES": "93 Enu-Owa Street  Idumota  Lagos Island",
+   "LATITUDE": "6.462651",
+   "LONGITUDE": "3.389763"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ebute-Meta,Coates Str.",
+   "REGION": "Lagos",
+   "ADDRESSES": "31 Coates  Street  Oyingbo Ebute-Meta",
+   "LATITUDE": "6.482359",
+   "LONGITUDE": "3.38539"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Alaba,Agudosi Str.",
+   "REGION": "Lagos",
+   "ADDRESSES": "6A Agudosi Street Alaba Int'l Market  Lagos",
+   "LATITUDE": "6.45861",
+   "LONGITUDE": "3.18902"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "T/Fair,Aspamda Plaza",
+   "REGION": "Lagos",
+   "ADDRESSES": "Fair Aspamda Plaza-Banking Hall 2 Aspamda Trade Fair Complex.",
+   "LATITUDE": "6.467056",
+   "LONGITUDE": "3.244451"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Navy Town,Mammy Mkt",
+   "REGION": "Lagos",
+   "ADDRESSES": "Mammy Mkt Navy Town Ojo Lagos",
+   "LATITUDE": "6.488372",
+   "LONGITUDE": "3.182987"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "T/Fair,Melford Okilo",
+   "REGION": "Lagos",
+   "ADDRESSES": "Fair Melford Okilo-Chief Melford Okilo Plaza, Tradefair Complex, Opposite Lagos Plaza BBA",
+   "LATITUDE": "6.45803",
+   "LONGITUDE": "3.25007"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "T/Fair,Divine Grace",
+   "REGION": "Lagos",
+   "ADDRESSES": "Fair Divine Grace-Zone D,7a Divine Grace Plaza,  Aspamda 1, Tradefair ",
+   "LATITUDE": "6.43225",
+   "LONGITUDE": "3.440606"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Asabi Cole, Alausa, Lagos",
+   "REGION": "Lagos",
+   "ADDRESSES": "7 Ashabi Cole Street, Alausa, Ikeja",
+   "LATITUDE": "6.620675",
+   "LONGITUDE": "3.355359"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Adeniyi Jones",
+   "REGION": "Lagos",
+   "ADDRESSES": "34,36 Adeniyi Jones Avenue, Ikeja, Lagos.",
+   "LATITUDE": "6.608448",
+   "LONGITUDE": "3.343347"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Isolo,Ajao EREGION",
+   "REGION": "Lagos",
+   "ADDRESSES": "1 Ganiyu Williams Street, By Osolo Way Ajao EREGION. Lagos.",
+   "LATITUDE": "6.608448",
+   "LONGITUDE": "3.343347"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Toyin Street Ec",
+   "REGION": "Lagos",
+   "ADDRESSES": "43, Toyin street, Ikeja.",
+   "LATITUDE": "6.595800",
+   "LONGITUDE": "3.353877"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Mushin,Ladipo Matori",
+   "REGION": "Lagos",
+   "ADDRESSES": "Plot 151 Ladipo Street Matori, Mushin Lagos",
+   "LATITUDE": "6.532684",
+   "LONGITUDE": "3.349595"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Surulere,Ogunlana Drive",
+   "REGION": "Lagos",
+   "ADDRESSES": "23 Ogunlana Drive  Surulere, Lagos.",
+   "LATITUDE": "6.510477",
+   "LONGITUDE": "3.352647"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Sango Ota,Abeokuta Mtr Rd",
+   "REGION": "Lagos",
+   "ADDRESSES": "149 Abeokuta Express Way, Sango Ota.",
+   "LATITUDE": "6.700902",
+   "LONGITUDE": "3.251928"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ogba,Wempco Road",
+   "REGION": "Lagos",
+   "ADDRESSES": "23  Wempco Road Ogba  Ikeja, Lagos.",
+   "LATITUDE": "6.631806",
+   "LONGITUDE": "3.350369"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Okota,Ago Palaceway",
+   "REGION": "Lagos",
+   "ADDRESSES": "116,118 Ago Palace Way Okota Isolo. Lagos.",
+   "LATITUDE": "6.502337",
+   "LONGITUDE": "3.304851"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Oshodi,Olupesi House",
+   "REGION": "Lagos",
+   "ADDRESSES": "6 Macarthy street, off brown street, oshodi market.",
+   "LATITUDE": "6.551920",
+   "LONGITUDE": "3.349479"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Otta,Canaanland",
+   "REGION": "Lagos",
+   "ADDRESSES": "KM 10, Idiroko road, Winners Chapel, Otta.",
+   "LATITUDE": "6.676905",
+   "LONGITUDE": "3.167388"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ikeja,42 Allen Avenue",
+   "REGION": "Lagos",
+   "ADDRESSES": "44 Allen Avenue Ikeja, Lagos.",
+   "LATITUDE": "6.600396",
+   "LONGITUDE": "3.352955"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ilupeju,Industrial Ave.",
+   "REGION": "Lagos",
+   "ADDRESSES": "6 Industrial Avenue Ilupeju, Lagos.",
+   "LATITUDE": "6.554514",
+   "LONGITUDE": "3.354456"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Mushin,Ojuwoye Mkt.",
+   "REGION": "Lagos",
+   "ADDRESSES": "12 Dada Iyalode Str. Ojuwoye Market, Lagos.",
+   "LATITUDE": "6.531278",
+   "LONGITUDE": "3.355572"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Yola,Atiku Abubakar Way",
+   "REGION": "Adamawa",
+   "ADDRESSES": "72 Atiku Abubakar Way  Jimeta Yola",
+   "LATITUDE": "9.265424",
+   "LONGITUDE": "12.454645"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Kano,Ibrahim Taiwo Rd",
+   "REGION": "Kano",
+   "ADDRESSES": "54 Ibrahim Taiwo Road  Kano",
+   "LATITUDE": "12.002042",
+   "LONGITUDE": "8.533449"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Kaduna,88 Bello Way",
+   "REGION": "Kaduna",
+   "ADDRESSES": "88 Ahmadu Bello Near Leventis R",
+   "LATITUDE": "10.520341",
+   "LONGITUDE": "7.430334"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Jos,Beach Road",
+   "REGION": "Plateau",
+   "ADDRESSES": "3 Beach Road By Ahmadu Bello Way Jos",
+   "LATITUDE": "9.912220",
+   "LONGITUDE": "8.890540"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Sabon-Gari",
+   "REGION": "kano",
+   "ADDRESSES": "12 Court Road",
+   "LATITUDE": "12.021321",
+   "LONGITUDE": "8.534579"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Maiduguri,6 Kashim Ibrahim",
+   "REGION": "Borno",
+   "ADDRESSES": "6 Sir Kashim Ibrahim Way Maduguri",
+   "LATITUDE": "11.833494",
+   "LONGITUDE": "13.120886"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Kano,P/Office Rd",
+   "REGION": "Kano",
+   "ADDRESSES": "Kano P-Office Road",
+   "LATITUDE": "11.981444",
+   "LONGITUDE": "8.519905"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Sokoto,14 Maiduguri Rd Sokoto",
+   "REGION": "Sokoto",
+   "ADDRESSES": "14  Maiduguri Road Sokoto",
+   "LATITUDE": "13.026417",
+   "LONGITUDE": "5.221585"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Birnin-Kebbi, Sultan Abubakar R",
+   "REGION": "Kebbi",
+   "ADDRESSES": "Sultan Abubakar Road Birnin-Kebbi",
+   "LATITUDE": "12.464426",
+   "LONGITUDE": "4.20984"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Jigawa Road, Old Secretariat",
+   "REGION": "Jigawa",
+   "ADDRESSES": "Jigawa Road  Old Secretariat Area Dutse",
+   "LATITUDE": "11.686813",
+   "LONGITUDE": "9.332889"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Kastina, Ibb Way",
+   "REGION": "Katsina",
+   "ADDRESSES": "179  Ibb Way Kastina",
+   "LATITUDE": "12.969644",
+   "LONGITUDE": "7.620469"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Bauchi, Bank Rd",
+   "REGION": "Bauchi",
+   "ADDRESSES": "Plot 14 Mohammed Bello Kirfi St  Bank Road",
+   "LATITUDE": "10.303666",
+   "LONGITUDE": "9.795664"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Gusau, 35 Canteen Rd, Zamfr Sta",
+   "REGION": "Zamfara",
+   "ADDRESSES": "35 Canteen Road  Gusau Zamfara REGION",
+   "LATITUDE": "11.766775",
+   "LONGITUDE": "6.621061"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Gombe, Plot47 New Commercial L",
+   "REGION": "Gombe",
+   "ADDRESSES": "Plot47 New Commercial L/Out Gombe",
+   "LATITUDE": "10.283565",
+   "LONGITUDE": "11.184133"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Kano,Bello Road",
+   "REGION": "Kano",
+   "ADDRESSES": "100-104 Muritala Mohammed Way  Kano",
+   "LATITUDE": "12.01767",
+   "LONGITUDE": "8.521794"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abakaliki,Ogoja Rd",
+   "REGION": "Ebonyi",
+   "ADDRESSES": "7 Ogoja Road Abakaliki",
+   "LATITUDE": "6.315772",
+   "LONGITUDE": "8.126083"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Enugu,138 Ogui Rd",
+   "REGION": "Enugu",
+   "ADDRESSES": "138 Ogui Road Enugu",
+   "LATITUDE": "6.444963",
+   "LONGITUDE": "7.4979"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Aba,Asa Rd/York Str",
+   "REGION": "Abia",
+   "ADDRESSES": "York Str, 2a Asa Road, York Str  Aba",
+   "LATITUDE": "5.105028",
+   "LONGITUDE": "7.365536"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Enugu,9 Ogui Rd",
+   "REGION": "Enugu",
+   "ADDRESSES": "36 GaRoaden Avenue Enugu",
+   "LATITUDE": "6.444776",
+   "LONGITUDE": "7.490396"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Owerri,Douglas Road",
+   "REGION": "Imo",
+   "ADDRESSES": "42 Douglas Road  Owerri",
+   "LATITUDE": "5.485353",
+   "LONGITUDE": "7.031289"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Aba,Cameroun Rd",
+   "REGION": "Abia",
+   "ADDRESSES": "85 Cameroun Road Aba",
+   "LATITUDE": "5.106219",
+   "LONGITUDE": "7.381637"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Aba,Faulks Rd",
+   "REGION": "Abia",
+   "ADDRESSES": "208 Faulks Road  Ariaria Aba",
+   "LATITUDE": "5.113394",
+   "LONGITUDE": "7.339208"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Umuahia,Main Mkt",
+   "REGION": "Abia",
+   "ADDRESSES": "Okpara Square Avenue Umuahia",
+   "LATITUDE": "5.533333",
+   "LONGITUDE": "7.483333"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Owerri,Bank Road",
+   "REGION": "Imo",
+   "ADDRESSES": "20 Bank Road Owerri",
+   "LATITUDE": "5.491667",
+   "LONGITUDE": "7.030826"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Aba,Azikiwe Rd",
+   "REGION": "Abia",
+   "ADDRESSES": "110 Azikiwe Road P.M.B. 7527 Aba",
+   "LATITUDE": "5.108299",
+   "LONGITUDE": "7.371502"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Awka,94 N/Azikiwe Ave",
+   "REGION": "Anambra",
+   "ADDRESSES": "Awka 80 N Azikiwe Ave, 80 Nnamdi Azike Avenue Awka Anambra REGION",
+   "LATITUDE": "6.21892",
+   "LONGITUDE": "7.087019"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,Old Market Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "39 Old Market Road  Onitsha",
+   "LATITUDE": "6.152866",
+   "LONGITUDE": "6.781768"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,32 New Mkt Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "32 New Market Road Onitsha",
+   "LATITUDE": "6.151734",
+   "LONGITUDE": "6.783491"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Nnewi,14 Ezemewi Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "14 Edo-Ezemewi Road Nnewi",
+   "LATITUDE": "6.010519",
+   "LONGITUDE": "6.910345"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Asaba,Nnebisi Rd",
+   "REGION": "Delta",
+   "ADDRESSES": "343 Nnebisi Road Asaba",
+   "LATITUDE": "6.205101",
+   "LONGITUDE": "6.721793"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,Iweka Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "50 Iweka Road Onitsha",
+   "LATITUDE": "6.142368",
+   "LONGITUDE": "6.782281"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,3A New Mkt Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "3 Bournvita Street Ogbaru Market Onitsha",
+   "LATITUDE": "6.125249",
+   "LONGITUDE": "6.782013"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha, P/H Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "Onitsha  PH Road, 32 Port-Harcourt Road  Feggae Onitsha",
+   "LATITUDE": "6.133046",
+   "LONGITUDE": "6.772623"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,Ozomagala Str.",
+   "REGION": "Anambra",
+   "ADDRESSES": "65 Ozomagala Street  Odoakpu Onitsha",
+   "LATITUDE": "6.146837",
+   "LONGITUDE": "6.785246"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,3 Market Str",
+   "REGION": "Anambra",
+   "ADDRESSES": "3 Main Market Onitsha",
+   "LATITUDE": "6.150889",
+   "LONGITUDE": "6.774829"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Awka 3 Nnamdi Azikwe University",
+   "REGION": "Anambra",
+   "ADDRESSES": "Nnamdi Azikwe Universi Awka Anambra REGION",
+   "LATITUDE": "6.242929",
+   "LONGITUDE": "7.118304"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Onitsha,Uga Branch",
+   "REGION": "Anambra",
+   "ADDRESSES": "46 Uga Street Bridge Head Onitsha",
+   "LATITUDE": "6.131177",
+   "LONGITUDE": "6.773909"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Nnewi,2 Ezemewi Rd",
+   "REGION": "Anambra",
+   "ADDRESSES": "2 Edo-Ezemewi Road Nnewi Anambra REGION",
+   "LATITUDE": "6.010519",
+   "LONGITUDE": "6.910345"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Olu Obasanjo Road , Port Harcourt",
+   "REGION": "Rivers",
+   "ADDRESSES": "135 Olu Obasanjo Road, Port Harcourt, Rivers REGION.",
+   "LATITUDE": "4.814365",
+   "LONGITUDE": "7.004249"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Azikiwe Road",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH Azikiwe Road, 11 Azikiwe Road Port Harcourt",
+   "LATITUDE": "4.774788",
+   "LONGITUDE": "7.012647"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "P/H,Olu Obasanjo Str.",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH Olu Obasanjo Str. 5a Olu Obasanjo Street Port Harcourt",
+   "LATITUDE": "4.801096",
+   "LONGITUDE": "6.995407"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Warri 1",
+   "REGION": "Delta",
+   "ADDRESSES": "67 Effurun, Sapele Road  Warri",
+   "LATITUDE": "5.556033",
+   "LONGITUDE": "5.784514"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Eket,Eket Oron Rd",
+   "REGION": "Akwa Ibom",
+   "ADDRESSES": "57 Eket, Oron Road  Eket",
+   "LATITUDE": "4.644797",
+   "LONGITUDE": "7.932199"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "P/H,106 Trans Amadi",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH 106 Trans Amadi, Plot 106 Trans-Amadi P-Harcourt",
+   "LATITUDE": "4.80639",
+   "LONGITUDE": "7.036762"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Benin,Sapele Rd",
+   "REGION": "Edo",
+   "ADDRESSES": "17 Sapele Road High Court Benin City",
+   "LATITUDE": "6.326378",
+   "LONGITUDE": "5.623784"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Akwa Ibom,Aka Rd",
+   "REGION": "Akwa Ibom",
+   "ADDRESSES": "41 Aka Road Akwa Ibom",
+   "LATITUDE": "5.021841",
+   "LONGITUDE": "7.922954"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Yenagoa,Nbiama Yenagoa Rd",
+   "REGION": "Bayelsa",
+   "ADDRESSES": "Along Mbiama Yenagoa Yenogoa Road",
+   "LATITUDE": "4.936152",
+   "LONGITUDE": "6.311207"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Calabar,M/Slessor Rd",
+   "REGION": "Cross River",
+   "ADDRESSES": "Slessor Road 10 Calabar Road Opp Cbn Calabar",
+   "LATITUDE": "4.954463",
+   "LONGITUDE": "8.335414"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "P/H,Hastrup Jetty",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH Hastrup Jetty, Port-Harcourt Annex  Hastrup Jetty  Rumuola",
+   "LATITUDE": "4.842315",
+   "LONGITUDE": "7.041445"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "P/H, 22/23 Old-Aba Rd",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH  22-23 Old-Aba Road,  Artillery  PH",
+   "LATITUDE": "4.84398",
+   "LONGITUDE": "7.04106"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Warri 2",
+   "REGION": "Delta",
+   "ADDRESSES": "30 Warri Sapele Road",
+   "LATITUDE": "5.514004",
+   "LONGITUDE": "5.744623"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Benin,Akpakpava Road Edo Sta",
+   "REGION": "Edo",
+   "ADDRESSES": "130 Akpakpava Road.Benin Edo REGION",
+   "LATITUDE": "6.345652",
+   "LONGITUDE": "5.638164"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "P/H,146 Trans-Amadi",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH 146 Trans-Amadi Road  Port Harcourt",
+   "LATITUDE": "4.809164",
+   "LONGITUDE": "7.040511"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "P/H,Ikwerre Rd",
+   "REGION": "Rivers",
+   "ADDRESSES": "PH Ikwerre Road, 65 Ikwerre Road  Mile 1 Port-Harcourt",
+   "LATITUDE": "4.807396",
+   "LONGITUDE": "6.986543"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "7 Dugbe Road, Ibadan",
+   "REGION": "Oyo",
+   "ADDRESSES": "7 Adekunle Fajuyi Road, Dugbe, Ibadan, Oyo REGION.",
+   "LATITUDE": "7.391762",
+   "LONGITUDE": "3.881126"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Osogbo,Station Rd",
+   "REGION": "Osun",
+   "ADDRESSES": "165 Station Road Oshogbo",
+   "LATITUDE": "7.750482",
+   "LONGITUDE": "4.570205"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ibadan,Gbagi Mkt",
+   "REGION": "Oyo",
+   "ADDRESSES": "1st Gate Gbagi Market Ibadan",
+   "LATITUDE": "7.394881",
+   "LONGITUDE": "3.954541"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ilorin,Ibr Taiwo Rd",
+   "REGION": "Kwara",
+   "ADDRESSES": "No.244 Ibrahim Taiwo Road, Ilorin",
+   "LATITUDE": "8.482079",
+   "LONGITUDE": "4.546162"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ibadan,Agodi",
+   "REGION": "Oyo",
+   "ADDRESSES": "Oba Adesoji Aderemi House, Secretariat-UI Road,  Agodi Ibadan",
+   "LATITUDE": "7.424094",
+   "LONGITUDE": "3.909774"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ibadan,Dugbe",
+   "REGION": "Oyo",
+   "ADDRESSES": "Oba Adebimpe Road, Old Kingsway Building, Dugbe, Ibadan",
+   "LATITUDE": "7.383204",
+   "LONGITUDE": "3.883672"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ogbomoso,Taki Square",
+   "REGION": "Oyo",
+   "ADDRESSES": "Taki Square, Ilorin Road, Ogbomosho",
+   "LATITUDE": "8.439997",
+   "LONGITUDE": "4.501259"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Oyo,Fce Campus",
+   "REGION": "Oyo",
+   "ADDRESSES": "Oyo - Fce Campus Oyo",
+   "LATITUDE": "7.777964",
+   "LONGITUDE": "3.928513"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Abeokuta, Oke-Ilewo",
+   "REGION": "Ogun",
+   "ADDRESSES": "Q65/Q68  Olusegun Osoba Road, Oke-Ilewo, Abeokuta",
+   "LATITUDE": "7.137939",
+   "LONGITUDE": "3.339021"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ado-Ekiti,Fajuyi R/Abt",
+   "REGION": "Ekiti",
+   "ADDRESSES": "Fajuyi Roundabout Ado- Ekiti",
+   "LATITUDE": "7.627231",
+   "LONGITUDE": "5.220115"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ado-Ekiti,Ijigbo Str.",
+   "REGION": "Ekiti",
+   "ADDRESSES": "Odo Ijigbo Street Ado- Ekiti",
+   "LATITUDE": "7.617989",
+   "LONGITUDE": "5.232024"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ikere-Ekiti,Ikere College",
+   "REGION": "Ekiti",
+   "ADDRESSES": "College Of Education Ikere Ekiti",
+   "LATITUDE": "7.493101",
+   "LONGITUDE": "5.172962"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ikoro-Ekiti,Atiba Str ",
+   "REGION": "Ekiti",
+   "ADDRESSES": "80 Atiba Street Ikoro Ekiti",
+   "LATITUDE": "7.836754",
+   "LONGITUDE": "5.033851"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Akure,Ajasin House",
+   "REGION": "Ondo",
+   "ADDRESSES": "Adekunle Ajasin House. 17 Akure, Owo Road Akr",
+   "LATITUDE": "7.245016",
+   "LONGITUDE": "5.202883"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Akure,Olukayode Plaza",
+   "REGION": "Ondo",
+   "ADDRESSES": "Opp. Central Mosque Erekesan Market-Akure",
+   "LATITUDE": "7.253373",
+   "LONGITUDE": "5.196005"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Ikare-Akoko,Jubilee Rd",
+   "REGION": "Ondo",
+   "ADDRESSES": "Ikare-Akoko Br L, 156a Jubilee Road Ikare-Akoko",
+   "LATITUDE": "7.534379",
+   "LONGITUDE": "5.766117"
+ },
+ {
+   "EXPERIENCE_CENTER_NAME": "Owo,Fajuyi Rd",
+   "REGION": "Ondo",
+   "ADDRESSES": "28  Fajuyi Road, Owo",
+   "LATITUDE": "7.198851",
+   "LONGITUDE": "5.593239"
+ }
+
+]
+

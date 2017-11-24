@@ -1,0 +1,598 @@
+ [
+    
+    {
+        "EXPERIENCE_CENTER_NAME": "Fortis Garki ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "No 84, Ladoke Akintola Boulevard Garki II, Abuja. ",
+        "LATITUDE": "9.018806",
+        "LONGITUDE": "7.49133"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Fortis Gudu ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "Suite 1, Shalom Plaza , Plot 1088, Gomwalk Street Opposite Gudu Market Gudu, Abuja",
+        "LATITUDE": "8.999035",
+        "LONGITUDE": "7.475911"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Fortis Kabusa ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "Kabusa Market, After Efab Estate, Kabusa, Abuja",
+        "LATITUDE": "8.94372",
+        "LONGITUDE": "7.45468"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Fortis Mararaba ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "CHRISGOLD Plaza, Abacha road junction, Mararaba, Nassarawa state.",
+        "LATITUDE": "9.028918",
+        "LONGITUDE": "7.586317"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Fortis Wuse ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": " Plot 2135, Herbert ,Macualay Way Wuse Zone 5, Abuja.",
+        "LATITUDE": "9.066482",
+        "LONGITUDE": "7.456483"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Games Village ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "Games Village Estate, Kaura District, Abuja",
+        "LATITUDE": "9.015017",
+        "LONGITUDE": "7.443709"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Kaura ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "Kaura Model Market, Opposite Prince And Princess Estate, Duboyi, Abuja",
+        "LATITUDE": "9.010482",
+        "LONGITUDE": "7.443882"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Lobito ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "NO.2 Lobito Crescent, opp Visafone office, Wuse 2, Abuja, ",
+        "LATITUDE": "9.070445",
+        "LONGITUDE": "7.491571"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Naf Base ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "Bill Clinton Drive, Airport Road, Abuja",
+        "LATITUDE": "8.968413",
+        "LONGITUDE": "7.354508"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "NAF Conference Centre ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "PLOT 496 AHMADU BELLO WAY, KADO, ABUJA",
+        "LATITUDE": "9.088168",
+        "LONGITUDE": "7.424753"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Regent MFB ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": " Plot 1186, Cadastral Zone B06, Mabushi District Along Kado Expressway, Abuja",
+        "LATITUDE": "9.083393",
+        "LONGITUDE": "7.4516578"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Royal Life MFB ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "Plot 23 Ekukinam Street, Utako District, Abuja",
+        "LATITUDE": "9.06663",
+        "LONGITUDE": "7.441038"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Tradmore ABC",
+        "REGION": "Abuja",
+        "ADDRESSES": "1A Trademoreavenue, Phase 2, Trademore Estate, Lugbe Abuja",
+        "LATITUDE": "8.956831",
+        "LONGITUDE": "7.367138"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Ajah Mall ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Km 22, Ajah Shopping Mall, Ajah, Lagos",
+        "LATITUDE": "6.468497",
+        "LONGITUDE": "3.561395"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Beachgate ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "5/7 lekki beach road, by Jakande roundabout lekki-Epe Express way, Lekki, Lagos",
+        "LATITUDE": "6.435468",
+        "LONGITUDE": "3.508168"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "BlueSea ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Blue Sea Plaza, No. 10 ,Saka Tinunbu, Victoria Island, Lagos.",
+        "LATITUDE": "6.426933",
+        "LONGITUDE": "3.41773"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "BridgeWay ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "49 Lafiajiway, Dolphine Estate, Ikoyi, Lagos",
+        "LATITUDE": "6.457743",
+        "LONGITUDE": "3.413863"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Cinamon Gardens ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "15/16 Victoria Arobieke Street, Lekki Phase 1, Lekki",
+        "LATITUDE": "6.446755",
+        "LONGITUDE": "3.472355"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Circle Mall ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Circle Mall, Lekki-Epe Expressway, 5th (Jakande) Roundabout, Lekki, Lagos",
+        "LATITUDE": "6.438228",
+        "LONGITUDE": "3.508735"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "David Wej ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "20, Admiralty Way, E-Bar Plaza, Lekki Phase I, Eti Osa, Lagos, Nigeria",
+        "LATITUDE": "6.444586",
+        "LONGITUDE": "3.455635"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "FMR Lekki ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "9 Otunba Adedoyin Ogungbe Crescent Lekki  Phase 1",
+        "LATITUDE": "6.434359",
+        "LONGITUDE": "3.458011"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Georges Memorial ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "6, Rasheed Alaba Williams Street, Off Admiralty Way, Lekki Phase 1, Lagos",
+        "LATITUDE": "6.445779",
+        "LONGITUDE": "3.462124"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Grandex ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "6, Fola Osibo Street, Lekki, Lagos.",
+        "LATITUDE": "6.442547",
+        "LONGITUDE": "3.468171"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Jonaith ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "KM 47, Lekki Epe Expressway,  Ajah, Lagos. ",
+        "LATITUDE": "6.453081",
+        "LONGITUDE": "3.554908"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Moshood ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "171, Moshood Olugbani  Str, Victoria Island Lagos State. ",
+        "LATITUDE": "6.427676",
+        "LONGITUDE": "3.438899"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Nicon ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Nicon Estate, Lekki, Lagos",
+        "LATITUDE": "6.445068",
+        "LONGITUDE": "3.499082"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Prolific ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Rd 1 , Plot 4 Ikota Village Excision, Lekki County Estate, Lekki",
+        "LATITUDE": "6.437977",
+        "LONGITUDE": "3.558866"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Shoppers Delite ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "52, Ademola Adetokunbo, Victoria Island, Lagos ",
+        "LATITUDE": "6.433515",
+        "LONGITUDE": "3.430659"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "VGC ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Beside VGC Shopping Mall, Lekki, Lagos.",
+        "LATITUDE": "6.465177",
+        "LONGITUDE": "3.55706"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "World Oil ABC",
+        "REGION": "Lagos Island",
+        "ADDRESSES": "Block 44, Lekki-Epe Express Way, Elegushi, Lekki, Lagos",
+        "LATITUDE": "6.436063",
+        "LONGITUDE": "3.490985"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Abesan ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Licks And Chops Eatery, 177, Baruwa Bus Stop, Ipaja, Abesan, Lagos",
+        "LATITUDE": "6.603721",
+        "LONGITUDE": "3.271796"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Akerele ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "2A, Akerele Street, Surulere, Lagos",
+        "LATITUDE": "6.50555",
+        "LONGITUDE": "3.354017"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Akoka ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "51, Finbarr College Road, Akoka, Lagos.",
+        "LATITUDE": "6.52749",
+        "LONGITUDE": "3.386629"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Approach Suite ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "House 2, F1  Close, Off 21  Road, Festac Town, Lagos",
+        "LATITUDE": "6.473868",
+        "LONGITUDE": "3.285863"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Arena Oshodi ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Nigerian Army Shopping Arena, Bolade Bus-Stop, Oshodi",
+        "LATITUDE": "6.562872",
+        "LONGITUDE": "3.350229"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Carwash ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Road 31 Junction, Gowon Estate, Egbeda, Lagos",
+        "LATITUDE": "6.603612",
+        "LONGITUDE": "3.284772"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Convenant University ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "143 Idiroko Road Canaan Land",
+        "LATITUDE": "6.677779",
+        "LONGITUDE": "3.165414"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Cynergy ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Plot 338, Amuwo Odofin Residential Scheme, Mile 2 Estate, Amuwo-Odofin, Lagos",
+        "LATITUDE": "6.476894",
+        "LONGITUDE": "3.313712"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Degong ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "67, Shasha Road, Jesus Power B/Stop, Behind Mrs Filling Station, Akowonjo, Lagos",
+        "LATITUDE": "6.600541",
+        "LONGITUDE": "3.305608"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Dopemu ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "No.2 Alfa Yusuf Street, Dopemu, Agege",
+        "LATITUDE": "6.607107",
+        "LONGITUDE": "3.315601"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Essence ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": " 4, Essencee House, Kodesoh Street, Ikeja",
+        "LATITUDE": "6.596304",
+        "LONGITUDE": "3.3415335"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Exquisite Rumours ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "15 Oduduwa Way, G.R.A. Ikeja, Lagos",
+        "LATITUDE": "6.573333",
+        "LONGITUDE": "3.358645"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Festival Mall ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Road 23, 2Nd Avenue Festac Town Lagos , Inside Golden Tulip",
+        "LATITUDE": "6.462298",
+        "LONGITUDE": "3.280913"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "FMR Aguda",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "FMR Aguda, 110-124 Ogunlana Dr, Lagos",
+        "LATITUDE": "6.503849",
+        "LONGITUDE": "3.3516025"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "FMR Akoka ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "12, University Road, Akoka, Yaba.",
+        "LATITUDE": "6.517423",
+        "LONGITUDE": "3.386715"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "FMR Festac ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Road 23, 2Nd Avenue Festac Town Lagos ",
+        "LATITUDE": "6.462299",
+        "LONGITUDE": "3.280914"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "FMR Ikorodu ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "128, Ikorodu, Shagamu Road, Ikorodu ",
+        "LATITUDE": "6.666393",
+        "LONGITUDE": "3.51602"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Fortis Ikorodu ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "28, Ayangbure Rd, Ojubode, Ikorodu, Lagos.",
+        "LATITUDE": "6.617983",
+        "LONGITUDE": "3.502999"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Great Grace ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "No. 1 Tijani Asogbon Street Bariga-Lagos",
+        "LATITUDE": "6.535191",
+        "LONGITUDE": "3.391799"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Headway ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "44 Allen Avenue Ikeja, Lagos.",
+        "LATITUDE": "6.600396",
+        "LONGITUDE": "3.352955"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Hunters Eatery ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "178, Egbeda - Idimu Road, Egbeda, Lagos",
+        "LATITUDE": "6.603246",
+        "LONGITUDE": "3.292943"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Jabita ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "144, Obafemi Awolowo Way, Ikeja, Lagos",
+        "LATITUDE": "6.604857",
+        "LONGITUDE": "3.347198"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Magodo ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Plot 1, Block 52, Emmanuel Keshi Street, Magodo G.R.A. Lagos",
+        "LATITUDE": "6.618987",
+        "LONGITUDE": "3.374877"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Meroz ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Plot 781B, Somide Odujinrin Avenue, Omole Phase 11, Olowora, Lagos.",
+        "LATITUDE": "6.633661",
+        "LONGITUDE": "3.372953"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "MMA2 ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "Bi-Courtney Aviation Services Ltd Mma Terminal 2 Ikeja",
+        "LATITUDE": "6.584743",
+        "LONGITUDE": "3.332762"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Omole ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "81A, Ogunnusi Road Omole Phase 1, Ojodu - Iseri, Berger, Lagos",
+        "LATITUDE": "6.639703",
+        "LONGITUDE": "3.35758"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "RCCG ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "1-9 Redemption Road, RCCG Head Quarters, Ebute Metta, Lagos",
+        "LATITUDE": "6.47984",
+        "LONGITUDE": "3.388505"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Opic ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "13/14 Channels TV Road, Opic Estate, Isheri, Lagos.",
+        "LATITUDE": "6.640808",
+        "LONGITUDE": "3.431458"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Jolec ABC",
+        "REGION": "Lagos Mainland",
+        "ADDRESSES": "2, Ayobo- Ipaja Road, Ayobo Ipaja, Lagos.",
+        "LATITUDE": "6.600263",
+        "LONGITUDE": "3.241353"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "AUN ABC",
+        "REGION": "North Bank",
+        "ADDRESSES": "98 Lamido Zubairu Way, Wuro Hausa 640101, Yola, Adamawa ",
+        "LATITUDE": "9.197804",
+        "LONGITUDE": "12.497385"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Bongavilla PH ABC",
+        "REGION": "South Bank 1",
+        "ADDRESSES": "Plot F/1A GRA Phase 3, Abacha Road, Port Harcourt.",
+        "LATITUDE": "4.817355",
+        "LONGITUDE": "6.994901"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "CRUTECH ABC",
+        "REGION": "South Bank 1",
+        "ADDRESSES": "Cross River University of Technology Calabar, Ekpo Abasi Streel Calabar",
+        "LATITUDE": "4.931033",
+        "LONGITUDE": "8.321877"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Golf Club ABC",
+        "REGION": "South Bank 1",
+        "ADDRESSES": "84 Forces Avenue, Old Gra, Port Harcourt",
+        "LATITUDE": "4.780684",
+        "LONGITUDE": "7.014737"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Ocabique ABC",
+        "REGION": "South Bank 1",
+        "ADDRESSES": "5 Okah st. off Stadium Road. Port Harcourt.",
+        "LATITUDE": "4.821109",
+        "LONGITUDE": "7.016108"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Peperonni Yenogoa ABC",
+        "REGION": "South Bank 1",
+        "ADDRESSES": "Akenfa 1, Sanni Abacha Rd yenagoa",
+        "LATITUDE": "4.914248",
+        "LONGITUDE": "6.291198"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "UCTH ABC",
+        "REGION": "South Bank 1",
+        "ADDRESSES": " 10 Calabar Road Opp Cbn Calabar ",
+        "LATITUDE": "4.94838",
+        "LONGITUDE": "8.3154047"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Abakpa ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": " 36 Garaden Avenue Enugu ",
+        "LATITUDE": "6.444776",
+        "LONGITUDE": "7.490396"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Agulu ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": "1 nwagu junction, Agulu Anambara state",
+        "LATITUDE": "6.117204",
+        "LONGITUDE": "7.03909"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Coal Camp ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": " 1 Owa street, Coal Camp, Enugu State",
+        "LATITUDE": "6.45151",
+        "LONGITUDE": "7.473299"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Mimi's Place ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": " All seasons Hotel complex, adjacent to Concorde Hotel, Concorde Boulevard owerri",
+        "LATITUDE": "5.476886",
+        "LONGITUDE": "7.019255"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Priceless Owerri ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": " Plot 12b , Youth Centre Layout , Concord Hotel Boulevard, New Oweri, Imo State ",
+        "LATITUDE": "5.468383",
+        "LONGITUDE": "7.005073"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "ShopRite Owerri ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": "Shoprite,  Owerri Mall,  Egbu road Owerri ",
+        "LATITUDE": "5.476852",
+        "LONGITUDE": "7.056097"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Titanic Oweri ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": " Titanic View Hostel,  Area A, by Yar’dua junction, world bank, Owerri.",
+        "LATITUDE": "5.484213",
+        "LONGITUDE": "7.010142"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Unizik ABC ABC",
+        "REGION": "South Bank 2",
+        "ADDRESSES": " Nnamdi Azikiwe University, Awka EC ",
+        "LATITUDE": "6.242916",
+        "LONGITUDE": "7.118311"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Ariaria ABC",
+        "REGION": "South East",
+        "ADDRESSES": "shop 1 A Line, Ariaria Market Aba Abia state.",
+        "LATITUDE": "5.115193",
+        "LONGITUDE": "7.334995"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Vibrant MFB ABC",
+        "REGION": "South East",
+        "ADDRESSES": "Charles Okowi House, Ogbe Akpu Quarters, Issele Azagba, Aniocha North LGA Delta State",
+        "LATITUDE": "6.267874",
+        "LONGITUDE": "6.597026"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Burbles ABC",
+        "REGION": "South West",
+        "ADDRESSES": "Olusanya Bus Stop, Ring Road, Ibadan",
+        "LATITUDE": "7.352108",
+        "LONGITUDE": "3.875431"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Eleyele ABC",
+        "REGION": "South West",
+        "ADDRESSES": "Obokun Bus Stop, Sango, Eleyele road, Ibadan",
+        "LATITUDE": "7.422327",
+        "LONGITUDE": "3.880241"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Federal Colleg IB ABC",
+        "REGION": "South West",
+        "ADDRESSES": "IAR&T, Apata Road, Ibadan, Oyo State",
+        "LATITUDE": "7.380864",
+        "LONGITUDE": "3.840612"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Lautech ABC",
+        "REGION": "South West",
+        "ADDRESSES": "Lautech, Ogbomosho, Oyo State",
+        "LATITUDE": "8.167688",
+        "LONGITUDE": "4.266911"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "LeadCity IB ABC",
+        "REGION": "South West",
+        "ADDRESSES": "Lead City University, Lagos-Ibadan Express Way, Toll Gate Area, Ibadan",
+        "LATITUDE": "7.377544",
+        "LONGITUDE": "3.947031"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Monatan ABC",
+        "REGION": "South West",
+        "ADDRESSES": "Lemon plaza 2, iyana church bus stop, Monatan Road, Ibadan",
+        "LATITUDE": "7.421719",
+        "LONGITUDE": "3.975624"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Moyefade ABC",
+        "REGION": "South West",
+        "ADDRESSES": "NO 121 Oba Moyepe Road, Ejigbo, Osun State.",
+        "LATITUDE": "7.898893",
+        "LONGITUDE": "4.320969"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "Odua IB ABC",
+        "REGION": "South West",
+        "ADDRESSES": "Heritage Mall, Old Kingsway Building, Dugbe Ibadan",
+        "LATITUDE": "7.386718",
+        "LONGITUDE": "3.879884"
+      },
+      {
+        "EXPERIENCE_CENTER_NAME": "UITH ABC",
+        "REGION": "South West",
+        "ADDRESSES": "University of Ilorin Teaching Hospital, Oke-oyi, Ilorin, Kwara State",
+        "LATITUDE": "8.537241",
+        "LONGITUDE": "4.647356"
+      }
+]
