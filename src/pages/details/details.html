@@ -1,18 +1,39 @@
-
 <ion-header>
 
   <ion-navbar color="primary">
     <ion-title>{{title}}</ion-title>
   </ion-navbar>
-  <ion-item no-lines text-left class="div" style="white-space:normal;">{{data.TYPES}}</ion-item>
- 
+  <ion-item-divider no-lines text-left class="div" style="white-space:normal; font-weight: light; font-size: 18px; color: black;">{{data.TYPES}}</ion-item-divider>
+
+
 
 </ion-header>
 
 
-<ion-content padding style="background-color:#fff">
-  <p>{{data.DESCRIPTION}}</p>
+
+<ion-content padding style="background-color:#fff"> 
+
+  <h5 style="font-weight: light; font-size: 18px;">DESCRIPTION</h5>
+  <p style="font-weight: light; font-size: 16px; white-space:normal;">{{data.DESCRIPTION}}</p>
+
+  <h5 style="font-weight: light; font-size: 18px;">FEATURES</h5>
+
+  <ion-item no-lines>
+
+    <ul>
+      <li *ngFor="let d of data.FEATURES" style="font-weight: light; font-size: 16px; white-space:normal;">{{d}}</li>
+    </ul>
+  </ion-item>
+
+  <h5 style="font-weight: light; font-size: 18px;">BENEFITS</h5>
+
+  <ion-item no-lines>
+    <ul>
+    <li *ngFor="let b of data.BENEFITS" style="font-weight: light; font-size: 16px; white-space:normal;">{{b}}</li>
+  </ul>
+  </ion-item>
+
   <ion-fab right bottom>
-    <button ion-fab color="primary"  (click)="addLead()"><ion-icon name="add-circle"></ion-icon></button>
-   </ion-fab>
+    <button ion-fab color="primary" (click)="addLead()"><ion-icon name="add-circle"></ion-icon></button>
+  </ion-fab>
 </ion-content>
