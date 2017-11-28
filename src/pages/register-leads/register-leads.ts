@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, ModalController, NavController, NavParams } from 'ionic-angular';
+// import { ModalPage } from '../modal/modal';
+
 
 
 
@@ -9,14 +11,29 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'register-leads.html',
 })
 export class RegisterLeadsPage {
-
-
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  selectedProduct: string = '';
+  
+  
+   
+  
+    constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
+     
+     }
+     
+     selectProductModal(){
+      let modal = this.modalCtrl.create('ModalPage');
+      modal.present();
+      modal.onDidDismiss(data => {
+        console.log(data);
+        this.selectedProduct = data;
+      });
+     }
+  
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterLeadsPage');
   }
+
+ 
 
 }

@@ -43,4 +43,16 @@ export class TestPage {
     });
   }
 
+  // toggleTypes(item) {
+  //   this.navCtrl.push('RegisterLeadsPage', {
+  //     data: this.TYPES, 
+  //   });
+  // }
+
+  // selectProduct(TYPES){
+  //   this.navCtrl.push('RegisterLeadsPage',{
+  //     data: this.TYPES,
+  //   })
+  // }
+
 }
