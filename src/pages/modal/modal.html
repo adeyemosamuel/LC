@@ -23,7 +23,7 @@
 <ion-content padding>
   <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
   <ion-list radio-group [(ngModel)]="selectedE">
-    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; font-size:12px;" no-lines *ngFor="let e of data">
+    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines *ngFor="let e of data">
       <ion-label>{{e}}</ion-label>
       <ion-radio [value]="e"></ion-radio>
     </ion-item>

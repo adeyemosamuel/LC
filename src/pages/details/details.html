@@ -13,23 +13,23 @@
 
 <ion-content padding style="background-color:#fff"> 
 
-  <h5 style="font-weight: light; font-size: 18px;">DESCRIPTION</h5>
-  <p style="font-weight: light; font-size: 16px; white-space:normal;">{{data.DESCRIPTION}}</p>
+  <strong >DESCRIPTION</strong>
+  <p style="font-weight: light; white-space:normal;">{{data.DESCRIPTION}}</p>
 
-  <h5 style="font-weight: light; font-size: 18px;">FEATURES</h5>
+  <strong >FEATURES</strong>
 
   <ion-item no-lines>
 
     <ul>
-      <li *ngFor="let d of data.FEATURES" style="font-weight: light; font-size: 16px; white-space:normal;">{{d}}</li>
+      <li *ngFor="let d of data.FEATURES" style="font-weight: light; white-space:normal;">{{d}}</li>
     </ul>
   </ion-item>
 
-  <h5 style="font-weight: light; font-size: 18px;">BENEFITS</h5>
+  <strong>BENEFITS</strong>
 
   <ion-item no-lines>
     <ul>
-    <li *ngFor="let b of data.BENEFITS" style="font-weight: light; font-size: 16px; white-space:normal;">{{b}}</li>
+    <li *ngFor="let b of data.BENEFITS" style="font-weight: light; white-space:normal;">{{b}}</li>
   </ul>
   </ion-item>
 
