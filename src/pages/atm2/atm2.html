@@ -7,9 +7,9 @@
 </ion-header>
 
 <ion-content>
-    <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
 
-    <!-- <div *ngIf="searching" class="spinner-container">
+  <!-- <div *ngIf="searching" class="spinner-container">
         <ion-spinner></ion-spinner>
     </div> -->
   <div>
@@ -23,33 +23,55 @@
     </ion-segment>
   </div>
 
-  
+
   <div [ngSwitch]="locator">
     <ion-list *ngSwitchCase="'atm'">
 
       <ion-item no-lines *ngFor="let atmlocation of data">
-        <ion-avatar item-start>
-          <img src="../assets/imgs/logo2.png">
-        </ion-avatar>
-        <h4>{{atmlocation.EXPERIENCE_CENTER_NAME}}</h4>
-        <h2>{{atmlocation.REGION}}</h2>
-        <p style="white-space:normal">{{atmlocation.ADDRESSES}}</p>
-        <button ion-button clear item-end icon-only (click)=" openPost(atmlocation)">
-          <img class="imagesize"  src="../assets/get.png">
+        <ion-grid>
+          <ion-row>
+            <ion-col col-2>
+              <ion-avatar item-start>
+                <img src="../assets/imgs/logo2.png">
+              </ion-avatar>
+            </ion-col>
+            <ion-col col-8>
+              <strong style="white-space:normal">{{atmlocation.EXPERIENCE_CENTER_NAME}}</strong>
+              <h2>{{atmlocation.REGION}}</h2>
+              <p style="white-space:normal">{{atmlocation.ADDRESSES}}</p>
+            </ion-col>
+            <ion-col col-2>
+              <button ion-button clear item-end icon-only (click)=" openPost(atmlocation)">
+          <img  style="width:30px; height:30px;"  src="../assets/get.png">
                   </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </ion-item>
     </ion-list>
+
+
     <ion-list *ngSwitchCase="'branches'">
       <ion-item no-lines *ngFor="let branch of branches">
-        <ion-avatar item-start>
-          <img src="../assets/imgs/logo2.png">
-        </ion-avatar>
-        <h4>{{branch.EXPERIENCE_CENTER_NAME}}</h4>
-        <h2>{{branch.REGION}}</h2>
-        <p style="white-space:normal">{{branch.ADDRESSES}}</p>
-        <button ion-button clear item-end icon-only (click)="openPost(branch)">
-          <img class="imagesize"  src="../assets/get.png">
+        <ion-grid>
+          <ion-row>
+            <ion-col col-2>
+              <ion-avatar item-start>
+                <img src="../assets/imgs/logo2.png">
+              </ion-avatar>
+            </ion-col>
+            <ion-col col-8>
+              <strong style="white-space:normal">{{branch.EXPERIENCE_CENTER_NAME}}</strong>
+              <h2>{{branch.REGION}}</h2>
+              <p style="white-space:normal">{{branch.ADDRESSES}}</p>
+            </ion-col>
+            <ion-col col-2>
+              <button ion-button clear item-end icon-only (click)="openPost(branch)">
+          <img style="width:30px; height:30px;"  src="../assets/get.png">
                   </button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </ion-item>
     </ion-list>
 
