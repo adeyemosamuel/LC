@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 
 
 
@@ -19,7 +20,7 @@ export class FinancePage {
   LD :any;
   isSubmitted:boolean=false;
   
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
   }
 
   calculateInterest() {
@@ -33,6 +34,15 @@ export class FinancePage {
     this.TP = (parseInt(this.TI) + parseInt(this.p));
     this.LD = ((this.p)) - ((this.p) * 0.02) ;
     this.isSubmitted = true;
+  }
+
+  popover(ev) {
+    let pop = this.controller.miscPopOver('PopoverPage', ev);
+    pop.present({ev: ev});
+    pop.onDidDismiss((data) => {
+        if (data)
+            this.navCtrl.setRoot(data);
+    });
   }
 
 

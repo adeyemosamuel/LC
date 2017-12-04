@@ -3,12 +3,16 @@ page-products {
     background-image: url('../assets/imgs/background2.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
+    // background-color: rgba(6,6,6,0.75) !important;
     
 
     ion-content {
         background-color: rgba(6,6,6,0.75) !important;
-
     }
+
+    // .product{
+    //     background-color: rgba(6,6,6,0.75) !important;
+    // }
 
 .grid{
     margin-left: auto;

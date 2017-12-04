@@ -9,6 +9,8 @@ import { NativeGeocoder } from '@ionic-native/native-geocoder';
 import { LocationAccuracy } from '@ionic-native/location-accuracy';
 import { AtmdataProvider } from '../providers/atmdata/atmdata';
 import { HttpModule } from '@angular/http';
+import { ControllerServiceProvider } from '../providers/controller-service/controller-service';
+
 
 
 
@@ -41,7 +43,8 @@ import { HttpModule } from '@angular/http';
     NativeGeocoder,
     LocationAccuracy,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AtmdataProvider
+    AtmdataProvider,
+    ControllerServiceProvider
   ]
 })
 export class AppModule {}

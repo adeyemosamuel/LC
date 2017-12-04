@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the SmePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 
 @IonicPage()
 @Component({
@@ -24,7 +19,7 @@ export class SmePage {
   LD :any;
   isSubmitted:boolean=false;
   
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private controller: ControllerServiceProvider) {
   }
 
   calculateInterest() {
@@ -39,7 +34,14 @@ export class SmePage {
     this.LD = ((this.p)) - ((this.p) * 0.02) ;
     this.isSubmitted = true;
   }
-
+  popover(ev) {
+    let pop = this.controller.miscPopOver('PopoverPage', ev);
+    pop.present({ev: ev});
+    pop.onDidDismiss((data) => {
+        if (data)
+            this.navCtrl.setRoot(data);
+    });
+  }
 
    
 }

@@ -2,6 +2,11 @@
 
   <ion-navbar color="primary">
     <ion-title>{{title}}</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="popover($event)">
+          <ion-icon name="md-more"></ion-icon>
+        </button>
+      </ion-buttons>
   </ion-navbar>
   <ion-item-divider no-lines text-left class="div" style="white-space:normal; font-weight: light; font-size: 18px; color: black;">{{data.TYPES}}</ion-item-divider>
 

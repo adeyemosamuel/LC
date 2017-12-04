@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the DetailsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 
 @IonicPage()
 @Component({
@@ -16,13 +10,22 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class DetailsPage {
 title:any;
 data:any;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
     this.title = this.navParams.get('title');
     this.data = this.navParams.get('data');
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DetailsPage');
+  }
+
+  popover(ev) {
+    let pop = this.controller.miscPopOver('PopoverPage', ev);
+    pop.present({ev: ev});
+    pop.onDidDismiss((data) => {
+        if (data)
+            this.navCtrl.setRoot(data);
+    });
   }
 
   addLead(){

@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 
-/**
- * Generated class for the CusadPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -24,7 +19,7 @@ export class CusadPage {
   LD :any;
   isSubmitted:boolean=false;
   
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private controller: ControllerServiceProvider) {
   }
 
   calculateInterest() {
@@ -39,7 +34,14 @@ export class CusadPage {
     this.LD = ((this.p)) - ((this.p) * 0.02) ;
     this.isSubmitted = true;
   }
-
+  popover(ev) {
+    let pop = this.controller.miscPopOver('PopoverPage', ev);
+    pop.present({ev: ev});
+    pop.onDidDismiss((data) => {
+        if (data)
+            this.navCtrl.setRoot(data);
+    });
+  }
 
    
 }

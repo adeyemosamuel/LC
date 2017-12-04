@@ -1,9 +1,11 @@
 import { Component, NgZone } from '@angular/core';
-import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController} from 'ionic-angular';
+import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 import { Geolocation } from '@ionic-native/geolocation';
 import { NativeGeocoder } from '@ionic-native/native-geocoder';
 import { LocationAccuracy } from '@ionic-native/location-accuracy';
 import { AtmdataProvider } from '../../providers/atmdata/atmdata';
+
 
 @IonicPage()
 @Component({
@@ -23,11 +25,20 @@ export class Atm2Page {
     locator = "atm";
 
 
-    constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy) {
+    constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
         this.getdata();
         this.getbranches();
 
     }
+
+    popover(ev) {
+        let pop = this.controller.miscPopOver('PopoverPage', ev);
+        pop.present({ev: ev});
+        pop.onDidDismiss((data) => {
+            if (data)
+                this.navCtrl.setRoot(data);
+        });
+      }
 
     getdata() {
         this.Data.getdata().then(data => {
