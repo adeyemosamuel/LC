@@ -25,15 +25,18 @@ export class FinancePage {
 
   calculateInterest() {
     console.log('button clicked');
- 
-    if (this.nRadio !== 'year') {
-      this.n = this.n;
+    if (this.p <= 20000000) {
+      if (this.nRadio !== 'year') {
+        this.n = this.n;
+      }
+      this.TI = (this.p * this.r * this.n) / 100;
+      this.MR = (parseInt(this.TI) + parseInt(this.p)) / 12;
+      this.TP = (parseInt(this.TI) + parseInt(this.p));
+      this.LD = ((this.p)) - ((this.p) * 0.02) ;
+      this.isSubmitted = true;
     }
-    this.TI = (this.p * this.r * this.n) / 100;
-    this.MR = (parseInt(this.TI) + parseInt(this.p)) / 12;
-    this.TP = (parseInt(this.TI) + parseInt(this.p));
-    this.LD = ((this.p)) - ((this.p) * 0.02) ;
-    this.isSubmitted = true;
+    
+    
   }
 
   popover(ev) {

@@ -24,7 +24,7 @@ export class SmePage {
 
   calculateInterest() {
     console.log('button clicked');
- 
+    if (this.p <= 20000000) {
     if (this.nRadio !== 'year') {
       this.n = this.n;
     }
@@ -34,6 +34,7 @@ export class SmePage {
     this.LD = ((this.p)) - ((this.p) * 0.02) ;
     this.isSubmitted = true;
   }
+}
   popover(ev) {
     let pop = this.controller.miscPopOver('PopoverPage', ev);
     pop.present({ev: ev});

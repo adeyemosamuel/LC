@@ -15,7 +15,7 @@
 <ion-content padding>
     <ion-card>
         <ion-card-header text-center color="primary">
-          CALCULATOR
+          <strong>CALCULATOR</strong>
         </ion-card-header>
     
         <ion-card-content>
@@ -26,7 +26,7 @@
               <ion-label style="color:#4fc143" floating>Loan Amount(₦)</ion-label>
               <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
             </ion-item>
-    
+            <p ion-text text-center [hidden]="p <= 20000000" style="color: red">Obligor Limit is N20m</p>
             <ion-item>
               <ion-label style="color:#4fc143">Interest Rate(%)</ion-label>
               <ion-input style="color:#4fc143" disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
