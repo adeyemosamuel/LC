@@ -10,6 +10,7 @@ import { LocationAccuracy } from '@ionic-native/location-accuracy';
 import { AtmdataProvider } from '../providers/atmdata/atmdata';
 import { HttpModule } from '@angular/http';
 import { ControllerServiceProvider } from '../providers/controller-service/controller-service';
+import { ProductdataProvider } from '../providers/productdata/productdata';
 
 
 
@@ -44,7 +45,8 @@ import { ControllerServiceProvider } from '../providers/controller-service/contr
     LocationAccuracy,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AtmdataProvider,
-    ControllerServiceProvider
+    ControllerServiceProvider,
+    ProductdataProvider
   ]
 })
 export class AppModule {}

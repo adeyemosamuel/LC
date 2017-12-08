@@ -1,0 +1,368 @@
+[
+    {
+        "sector_category": "ENTERTAINMENT",
+        "sector_category_data": [
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    },
+    {
+        "sector_category": "AGRICULTURE",
+        "sector_category_data": [
+            {
+                "sector_category_type": "Point Of Sale Terminal",
+                "sector_type_description": "This is a portable device that enables cardholders debit and credit to make payments for goods and services at merchant outlets. It reads information on the magnetic stripe/chip of debit cards & facilitates exchange of value between a merchant and a card holder for purchases or other pertinent financial transactions.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Point Of Sale Terminal",
+                "sector_type_description": "This is a portable device that enables cardholders debit and credit to make payments for goods and services at merchant outlets. It reads information on the magnetic stripe/chip of debit cards & facilitates exchange of value between a merchant and a card holder for purchases or other pertinent financial transactions.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Point Of Sale Terminal",
+                "sector_type_description": "This is a portable device that enables cardholders debit and credit to make payments for goods and services at merchant outlets. It reads information on the magnetic stripe/chip of debit cards & facilitates exchange of value between a merchant and a card holder for purchases or other pertinent financial transactions.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Point Of Sale Terminal",
+                "sector_type_description": "This is a portable device that enables cardholders debit and credit to make payments for goods and services at merchant outlets. It reads information on the magnetic stripe/chip of debit cards & facilitates exchange of value between a merchant and a card holder for purchases or other pertinent financial transactions.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    },
+    {
+        "sector_category": "EDUCATION",
+        "sector_category_data": [
+            {
+                "sector_category_type": "Commercial Agriculture Credit Scheme (CACS)",
+                "sector_type_description": "Commercial Agricultural Credit Scheme (CACS) is a complement to other special initiatives of the Central Bank of Nigeria in providing concessionary funding for agriculture.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Commercial Agriculture Credit Scheme (CACS)",
+                "sector_type_description": "Commercial Agricultural Credit Scheme (CACS) is a complement to other special initiatives of the Central Bank of Nigeria in providing concessionary funding for agriculture.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Commercial Agriculture Credit Scheme (CACS)",
+                "sector_type_description": "Commercial Agricultural Credit Scheme (CACS) is a complement to other special initiatives of the Central Bank of Nigeria in providing concessionary funding for agriculture.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Commercial Agriculture Credit Scheme (CACS)",
+                "sector_type_description": "Commercial Agricultural Credit Scheme (CACS) is a complement to other special initiatives of the Central Bank of Nigeria in providing concessionary funding for agriculture.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    },
+    {
+        "sector_category": "GENERAL TRADE",
+        "sector_category_data": [
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Personal Loan (External Customers)",
+                "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    },
+    {
+        "sector_category": "REAL ESTATE",
+        "sector_category_data": [
+            {
+                "sector_category_type": "Current Account Corporate",
+                "sector_type_description": "This is a generic type of current account operated by corporate entities.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Current Account Corporate",
+                "sector_type_description": "This is a generic type of current account operated by corporate entities.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Current Account Corporate",
+                "sector_type_description": "This is a generic type of current account operated by corporate entities.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Current Account Corporate",
+                "sector_type_description": "This is a generic type of current account operated by corporate entities.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    },
+    {
+        "sector_category": "TRANSPORTATION",
+        "sector_category_data": [
+            {
+                "sector_category_type": "Public Sector Account",
+                "sector_type_description": "Public Sector Account is a current account, but cheques are not issued. Transaction instructions are sent for normal operational activities from the appointed account signatories.It is an Account opened with a mandate from the Government (Federal/State/Local Government) either Ministries, Agencies, Parasternal etc.Complete opening document may not necessary in some case. However, account opening mandate and SLA is required from the government.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Public Sector Account",
+                "sector_type_description": "Public Sector Account is a current account, but cheques are not issued. Transaction instructions are sent for normal operational activities from the appointed account signatories.It is an Account opened with a mandate from the Government (Federal/State/Local Government) either Ministries, Agencies, Parasternal etc.Complete opening document may not necessary in some case. However, account opening mandate and SLA is required from the government.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Public Sector Account",
+                "sector_type_description": "Public Sector Account is a current account, but cheques are not issued. Transaction instructions are sent for normal operational activities from the appointed account signatories.It is an Account opened with a mandate from the Government (Federal/State/Local Government) either Ministries, Agencies, Parasternal etc.Complete opening document may not necessary in some case. However, account opening mandate and SLA is required from the government.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "sector_category_type": "Public Sector Account",
+                "sector_type_description": "Public Sector Account is a current account, but cheques are not issued. Transaction instructions are sent for normal operational activities from the appointed account signatories.It is an Account opened with a mandate from the Government (Federal/State/Local Government) either Ministries, Agencies, Parasternal etc.Complete opening document may not necessary in some case. However, account opening mandate and SLA is required from the government.",
+                "sector_type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "sector_type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    }
+]
