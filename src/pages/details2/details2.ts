@@ -4,10 +4,10 @@ import { ControllerServiceProvider } from '../../providers/controller-service/co
 
 @IonicPage()
 @Component({
-  selector: 'page-details',
-  templateUrl: 'details.html',
+  selector: 'page-details2',
+  templateUrl: 'details2.html',
 })
-export class DetailsPage {
+export class Details2Page {
 title:any;
 data:any;
   constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
@@ -16,7 +16,7 @@ data:any;
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DetailsPage');
+    console.log('ionViewDidLoad Details2Page');
   }
 
   popover(ev) {

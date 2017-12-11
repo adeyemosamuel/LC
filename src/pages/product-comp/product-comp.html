@@ -42,7 +42,7 @@
 
     <ion-card class="card">
         <ion-list *ngSwitchCase="'sectors'">
-          <ion-item *ngFor="let item of sector_category_type; let i = index" (click)="toggleDescription(item)">
+          <ion-item *ngFor="let item of sector_category_type; let i = index" (click)="toggle_Description(item)">
             <ion-avatar item-start>
               <img class="img" src="../assets/imgs/logo4.png">
             </ion-avatar>

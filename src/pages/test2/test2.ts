@@ -10,27 +10,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-test',
-  templateUrl: 'test.html',
+  selector: 'page-test2',
+  templateUrl: 'test2.html',
 })
-export class TestPage {
+export class Test2Page {
   data: any;
-  TYPES: string = '';
-  DESCRIPTION: string = '';
+  category_type: string = '';
+  type_description: string = '';
   title:any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     console.log('ionViewDidLoad TestPage');
-    this.title = this.navParams.get('data').Product;
-    this.data = this.navParams.get('data').Product_data;
+    this.title = this.navParams.get('data').product_category;
+    this.data = this.navParams.get('data').category_data;
     console.log(this.data);
 
   }
 
   ionViewDidLoad() {
     
-    this.TYPES = this.data.TYPES;
-    this.DESCRIPTION = this.data.DESCRIPTION;
+    this.category_type = this.data.category_type;
+    this.type_description = this.data.type_description;
   }
 
   ionViewDidEnter() {
@@ -38,7 +38,7 @@ export class TestPage {
   }
 
   toggleDescription(item, title) {
-    this.navCtrl.push('DetailsPage', {
+    this.navCtrl.push('Details2Page', {
       data: item, title:title
     });
   }

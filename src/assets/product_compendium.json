@@ -1,0 +1,86 @@
+// GetCategories GET Request
+// api/getCategories
+
+// GetCategories Response
+{
+    "responseCode": "string",
+    "message": "string",
+    "data": {
+        "category": [
+            {"id": "number", "categoryName": "string", "email": ["mail1@yahoo.com", "mail2@yahoo.com"]}
+        ]
+    }
+}
+
+// GetSectors GET Request
+// api/getSectors
+
+// GetSectors Response
+{
+    "responseCode": "string",
+    "message": "string",
+    "data": {
+        "sectors": [
+            {"id": "number", "sectorName": "string"}
+        ]
+    }
+}
+
+// GetProducts POST Request
+{
+    "categoryId": "number",
+    "sectorId": "number",
+    "type": "string" // C-Category, S-Sector
+}
+
+// GetProducts Response
+{
+    "responseCode": "string",
+    "message": "string",
+    "data": {
+        "product": [
+            {
+                "categoryId": "number",
+                "id": "number",
+                "productName": "string",
+                "productDescription": "string",
+                "benefits": [
+                    "benefit1", "benefit2", "benefit3"
+                ],
+                "features": [
+                    "feature1", "feature2", "feature3"
+                ]
+            }
+        ]
+    }
+}
+
+// GetBranches POST Request
+{
+    "state": "string"
+}
+
+// GetBranches Response
+{
+    "responseCode": "string",
+    "message": "string",
+    "data": {
+        "branches": [
+            {"id": "number", "branchName": "string", "branchAddress": "string"}
+        ]
+    }
+}
+
+// GetATMs POST Request
+
+
+// GetATMs Response
+{
+    "responseCode": "string",
+    "message": "string",
+    "data": {
+        "atm": [
+            {"id": "number", "atmAddress": "string", "region": "string", "ecName": "string"}
+        ]
+    }
+}

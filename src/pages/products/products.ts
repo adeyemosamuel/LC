@@ -30,7 +30,7 @@ export class ProductsPage {
     }
 
     bankProducts(){
-      this.navCtrl.push('CompendiumPage')
+      this.navCtrl.push('ProductCompPage')
     }
 
 }
