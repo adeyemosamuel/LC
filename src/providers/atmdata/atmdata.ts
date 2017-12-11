@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
-import { NavController, NavParams } from 'ionic-angular'
+import 'rxjs/add/operator/toPromise';
+
+// import { NavController, NavParams } from 'ionic-angular'
 
 @Injectable()
 export class AtmdataProvider {
@@ -9,6 +11,9 @@ export class AtmdataProvider {
     branches: any;
     direction;
     key;
+    apiUrl:string = '/api';
+    // apiUrl:string = 'http://192.168.8.104:9000/api';
+    header: Headers = new Headers();
 
     constructor(public http: Http) {
         this.direction = 'https://maps.googleapis.com/maps/api/geocode/json?';
@@ -27,6 +32,29 @@ export class AtmdataProvider {
         });
     }
 
+    async getService(func): Promise<any> {
+        this.header.append('Content-Type', "application/json");
+        try {
+            const response = await this.http.get(`${this.apiUrl}/${func}`, {headers: this.header}).toPromise();
+            return response.json();
+        }
+        catch (err) {
+            console.log(err);
+            return "Failed";
+        }
+    }
+
+    async postService(body, func): Promise<any> {
+        this.header.append('Content-Type', "application/json");
+        try {
+            const response = await this.http.post(`${this.apiUrl}/${func}`, JSON.stringify(body), {headers: this.header}).toPromise();
+            return response.json();
+        }
+        catch (err) {
+            console.log(err);
+            return "Failed";
+        }
+    }
 
     getbranches() {
 

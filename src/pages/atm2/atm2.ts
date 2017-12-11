@@ -26,9 +26,14 @@ export class Atm2Page {
 
 
     constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
-        this.getdata();
-        this.getbranches();
+    }
 
+    async ionViewDidLoad() {
+        const response = await this.Data.getService('atm');
+        // console.log(response[0]);
+        this.data = response[0];
+        this._data = response[0];
+        console.log(this.data);
     }
 
     popover(ev) {
@@ -41,11 +46,11 @@ export class Atm2Page {
       }
 
     getdata() {
-        this.Data.getdata().then(data => {
-            this.data = data;
-            this._data = data;
-            console.log(this.data);
-        });
+        // this.Data.getdata().then(data => {
+        //     this.data = data;
+        //     this._data = data;
+        //     console.log(this.data);
+        // });
     }
 
     getbranches() {
