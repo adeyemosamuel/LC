@@ -13,23 +13,21 @@
 </ion-header>
 
 <ion-content>
+
+    <div>
+        <ion-segment [(ngModel)]="locator">
+          <ion-segment-button value="atm">
+            ATM
+          </ion-segment-button>
+          <ion-segment-button value="branches">
+            Branches
+          </ion-segment-button>
+        </ion-segment>
+      </div>
   <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
 
-  <!-- <div *ngIf="searching" class="spinner-container">
-        <ion-spinner></ion-spinner>
-    </div> -->
-  <div>
-    <ion-segment [(ngModel)]="locator">
-      <ion-segment-button value="atm">
-        ATM
-      </ion-segment-button>
-      <ion-segment-button value="branches">
-        Branches
-      </ion-segment-button>
-    </ion-segment>
-  </div>
-
-
+ 
+ 
   <div [ngSwitch]="locator">
     <ion-list *ngSwitchCase="'atm'">
 
