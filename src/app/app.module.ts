@@ -11,6 +11,7 @@ import { AtmdataProvider } from '../providers/atmdata/atmdata';
 import { HttpModule } from '@angular/http';
 import { ControllerServiceProvider } from '../providers/controller-service/controller-service';
 import { ProductdataProvider } from '../providers/productdata/productdata';
+import { LeadsServiceProvider } from '../providers/leads-service/leads-service';
 
 
 
@@ -46,7 +47,8 @@ import { ProductdataProvider } from '../providers/productdata/productdata';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AtmdataProvider,
     ControllerServiceProvider,
-    ProductdataProvider
+    ProductdataProvider,
+    LeadsServiceProvider
   ]
 })
 export class AppModule {}

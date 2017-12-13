@@ -1,0 +1,61 @@
+
+    {
+        "Leads_Record": "Leads Details",
+        "data": [
+            {
+                "Name": "Mike Olawale",
+                "Occupation": "Software Developer",
+                "Date_of_Birth": "1985-06-19",
+                "Gender": "Male",
+                "Marital_Status": "Married",
+                "Phone_Number": 2348023333333,
+                "Email_Address": "mike_olawale@gmail.com",
+                "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
+                "Product_Type": "HB Savings Account"
+            },
+            {
+                "Name": "Bimpe Ayoola",
+                "Occupation": "Software Developer",
+                "Date_of_Birth": "1983-04-30",
+                "Gender": "Female",
+                "Marital_Status": "Single",
+                "Phone_Number": 2348023333333,
+                "Email_Address": "mike_olawale@gmail.com",
+                "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
+                "Product_Type": "HB Savings Account"
+            },
+            {
+                "Name": "Wunmi Sowunmi",
+                "Occupation": "Software Developer",
+                "Date_of_Birth": "1991-12-30",
+                "Gender": "Male",
+                "Marital_Status": "Single",
+                "Phone_Number": 2348023333333,
+                "Email_Address": "mike_olawale@gmail.com",
+                "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
+                "Product_Type": "HB Savings Account"
+            },
+            {
+                "Name": "Adeyemo Samuel",
+                "Occupation": "Mobile Developer",
+                "Date_of_Birth": "1989-02-08",
+                "Gender": "Male",
+                "Marital_Status": "Single",
+                "Phone_Number": 2348023333333,
+                "Email_Address": "mike_olawale@gmail.com",
+                "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
+                "Product_Type": "HB Savings Account"
+            },
+            {
+                "Name": "Mercy Eneli",
+                "Occupation": "Software Developer",
+                "Date_of_Birth": "1996-05-01",
+                "Gender": "Female",
+                "Marital_Status": "Married",
+                "Phone_Number": 2348023333333,
+                "Email_Address": "mike_olawale@gmail.com",
+                "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
+                "Product_Type": "HB Savings Account"
+            }
+        ]
+    }
