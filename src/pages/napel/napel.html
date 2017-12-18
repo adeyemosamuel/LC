@@ -21,34 +21,34 @@
     
         <ion-card-content>
     
-          <ion-list>
-    
-            <ion-item>
-              <ion-label style="color:#4fc143" floating>Loan Amount(₦)</ion-label>
-              <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
-            </ion-item>
-    
-            <ion-item>
-              <ion-label style="color:#4fc143">Interest Rate(%)</ion-label>
-              <ion-input style="color:#4fc143" disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
-            </ion-item>
-    
-            <ion-item>
-              <ion-label style="color:#4fc143" floating>Duration</ion-label>
-              <ion-input [(ngModel)]="n" type="number" name="n"></ion-input>
-            </ion-item>
-          </ion-list>
-    
-          <ion-list radio-group [(ngModel)]="nRadio">
-            <ion-item>
-              <ion-label>Year</ion-label>
-              <ion-radio value="year"></ion-radio>
-            </ion-item>
-            <!-- <ion-item>
-                    <ion-label>Month</ion-label>
-                    <ion-radio value="month"></ion-radio>
-                  </ion-item> -->
-          </ion-list>
+          <ion-list no-lines>
+            
+                    <ion-item>
+                      <ion-label style="color:#4fc143; " stacked>Loan Amount(₦)</ion-label>
+                      <ion-input [(ngModel)]="p" type="number" placeholder="Input Loan Amount"  name="p"></ion-input>
+                    </ion-item>
+                    
+                    <ion-item>
+                      <ion-label style="color:#4fc143;" stacked>Interest Rate(%)</ion-label>
+                      <ion-input  disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
+                    </ion-item>
+            
+                    <ion-item>
+                      <ion-label style="color:#4fc143;" stacked>Duration</ion-label>
+                      <ion-input [(ngModel)]="n" placeholder="Enter Duration" type="number"  name="n"></ion-input>
+                    </ion-item>
+                  </ion-list>
+          
+                  <ion-list radio-group [(ngModel)]="nRadio" no-lines>
+                    <ion-item  >
+                      <ion-label >Year</ion-label>
+                      <ion-radio value="year"></ion-radio>
+                    </ion-item>
+                    <!-- <ion-item>
+                            <ion-label>Month</ion-label>
+                            <ion-radio value="month"></ion-radio>
+                          </ion-item> -->
+                  </ion-list>
     
           <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
         </ion-card-content>
