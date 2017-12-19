@@ -19,11 +19,11 @@ export class AtmPage {
 
   constructor(public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams) {
     this.data = this.navParams.get('data');
-    console.log(this.data.REGION);
-    console.log(this.data.ADDRESSES);
-    this.address = this.data.ADDRESSES + ", " + this.data.REGION;
-    this.long = this.data.LONGITUDE;
-    this.lat = this.data.LATITUDE;
+    console.log(this.data.region);
+    console.log(this.data.atmAdress);
+    this.address = this.data.atmAdress + ", " + this.data.region;
+    this.long = this.data.longitude;
+    this.lat = this.data.latitude;
     console.log(this.lat);
     console.log(this.long);
 

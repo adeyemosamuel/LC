@@ -11,8 +11,8 @@ export class AtmdataProvider {
     branches: any;
     direction;
     key;
-    apiUrl:string = '/api';
-    // apiUrl:string = 'http://192.168.8.104:9000/api';
+    apiUrl:string = '/atm';
+    // apiUrl:string = 'http://192.168.8.102:9000/api';
     header: Headers = new Headers();
 
     constructor(public http: Http) {
@@ -26,7 +26,7 @@ export class AtmdataProvider {
         return new Promise(resolve => {
             this.http.get('assets/atm2.json').map(res => res.json()).subscribe(data => {
                 this.data = data;
-                resolve(this.data);
+                resolve(this.data)
             });
 
         });
