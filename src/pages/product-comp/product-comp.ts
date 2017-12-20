@@ -29,12 +29,25 @@ export class ProductCompPage {
       console.log(this.category_type);
     });
 
+
     local_Data.subscribe(data => {
       this.sector_category_type = data;
       this._sectors = data;
       console.log(this.sector_category_type);
     });
   }
+//   async ionViewDidLoad() {
+//     const response = await this.data.getService('categories');
+//     // console.log(response[0]);
+//     this.data = response;
+//     console.log(this.data);
+    
+//     const sectorres= await this.data.getService('sectors');
+//     this.sectors = sectorres;
+//     console.log(this.sectors);
+    
+// }
+
   toggleSection(i) {
     this.category_type[i].open = !this.category_type[i].open;
   }

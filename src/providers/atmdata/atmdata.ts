@@ -11,7 +11,7 @@ export class AtmdataProvider {
     branches: any;
     direction;
     key;
-    apiUrl:string = '/atm';
+    apiUrl:string = '/branch';
     // apiUrl:string = 'http://192.168.8.102:9000/api';
     header: Headers = new Headers();
 

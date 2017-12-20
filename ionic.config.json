@@ -4,8 +4,8 @@
   "type": "ionic-angular",
   "proxies": [
     {
-      "path": "/atm",
-      "proxyUrl": "http://192.168.8.102:9000/api"
+      "path": "/branch",
+      "proxyUrl": "http://192.168.8.104:9000/api"
     }
   ],
   "integrations": {

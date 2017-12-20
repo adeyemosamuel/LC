@@ -23,7 +23,7 @@ export class Atm2Page {
     longi;
     place;
     locator = "atm";
-    // atmAdress;
+    
 
 
     constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
@@ -33,11 +33,16 @@ export class Atm2Page {
         const response = await this.Data.getService('atm');
         // console.log(response[0]);
         this.data = response;
-        // this._data = response;
-      //  this._data = response[0];
         console.log(this.data);
-        // console.log(this._data);
+        
+        const branchres= await this.Data.getService('branch');
+        this.branches = branchres;
+        console.log(this.branches);
+        
     }
+
+
+  
 
     popover(ev) {
         let pop = this.controller.miscPopOver('PopoverPage', ev);
