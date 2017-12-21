@@ -12,7 +12,7 @@ export class Popover2Page {
   constructor(
     private viewCtrl: ViewController,
     private navCtrl: NavController,
-    private store: StorageService
+    private store: StorageServiceProvider
   ) {}
 
   ionViewDidLoad() {

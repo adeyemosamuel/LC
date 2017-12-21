@@ -57,8 +57,8 @@ export class ConfirmPage {
 
   constructor(
     public navCtrl: NavController,
-    private validate: ValidateService,
-    private serverservice: ServerService,
+    private validate: ValidateServiceProvider,
+    private serverservice: ServerServiceProvider,
     private controller: ControllerService,
     private native: Nativeprocess,
     private appdata: AppData,
