@@ -1,0 +1,48 @@
+<ion-content no-padding class="page-home">
+  
+    <div class="ion-header">
+      <div class="header-overlay">
+        <ion-toolbar>
+          <ion-title text-center id="ionTitle">{{username}}</ion-title>
+  
+          <ion-buttons right id="morebtn">
+            <button ion-button icon-only (click)="popover($event)">
+              <ion-icon name="md-information-circle"></ion-icon>
+            </button>
+          </ion-buttons>
+        </ion-toolbar>
+        <div>
+          <span id="numAcct">{{numOfAccts}}</span>
+          <span id="acctLbl" text-center>accounts opened</span>
+        </div>
+      </div>
+    </div>
+  
+    <ion-list no-lines>
+  
+      <div class="last-group" *ngIf="showBoard">
+        <ion-item class="ion-list-header">Leaderboard</ion-item>
+        <ion-item *ngFor="let d of boardData" > <!--[color]="d.color"-->
+          <img [src]="d.position" item-left width="40px" height="40px">
+          <h2>{{d.username}}</h2>
+          <ion-note item-right>{{d.accounts}}</ion-note>
+        </ion-item>
+  
+        <ion-item>
+        </ion-item>
+      </div>
+  
+      <div *ngIf="showBoardMsg">
+        <ion-item class="ion-list-header">
+          Leaderboard not available
+        </ion-item>
+      </div>
+    </ion-list>  
+  
+    <button ion-button full class="button" (click)="gotoBio()">
+      Account Opening &nbsp; &nbsp;
+      <ion-icon icon-right name="md-arrow-round-forward"></ion-icon>
+    </button>
+  
+  </ion-content>
+  
