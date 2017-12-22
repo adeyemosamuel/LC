@@ -2,6 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Device } from '@ionic-native/device';
+import { Camera } from '@ionic-native/camera';
+import { DatePicker } from '@ionic-native/date-picker';
+import { Network } from '@ionic-native/network';
+import { SQLite } from '@ionic-native/sqlite';
 import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -72,7 +77,12 @@ import { OrderByPipe } from '../pipes/oderby/oderby';
     NativeprocessProvider,
     StorageServiceProvider,
     ValidateServiceProvider,
-    ServerServiceProvider
+    ServerServiceProvider,
+    Device,
+    Camera,
+    DatePicker,
+    Network,
+    SQLite
   ]
 })
 export class AppModule {}
