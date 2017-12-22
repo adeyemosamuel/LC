@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { ToastController, ToastOptions, LoadingController, PopoverController } from 'ionic-angular';
 
 @Injectable()
-export class ControllerServiceProvider {
+export class ControllerServiceProvider2 {
 
   constructor(
     private toast: ToastController,

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, ViewController } from 'ionic-angular';
-import { StorageServiceProvider } from '../../providers/storage-service';
-import { ServerServiceProvider } from '../../providers/server-service';
-import { NativeprocessProvider } from '../../providers/nativeprocess';
-import { ControllerService2Provider } from '../../providers/controller-service2';
+import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
+import { NativeprocessProvider } from '../../providers/nativeprocess/nativeprocess';
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
 // import { HomePage } from '../home/home';
 import { Storage } from '@ionic/storage';
-
+@IonicPage()
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html'
@@ -39,11 +39,11 @@ export class LoginPage {
 
   constructor(
     public navCtrl: NavController,
-    private _storage: StorageService,
+    private _storage: StorageServiceProvider,
     private storage: Storage,
-    private serverservice: ServerService,
-    private native: Nativeprocess,
-    private controller: ControllerService,
+    private serverservice: ServerServiceProvider,
+    private native: NativeprocessProvider,
+    private controller: ControllerServiceProvider2,
     private viewCtrl: ViewController
   ) {}
 

@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { ControllerService2 } from './controller-service';
+import { ControllerServiceProvider2 } from '../controller-service2/controller-service2';
 
 @Injectable()
 export class ValidateServiceProvider {
   errorMessage: string;
 
-  constructor(private controller: ControllerService2) {
+  constructor(private controller: ControllerServiceProvider2) {
     console.log('Hello ValidateService Provider');
   }
 

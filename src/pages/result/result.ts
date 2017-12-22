@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, AlertController, AlertOptions } from 'ionic-angular';
-import { ControllerServiceProvider } from '../../providers/controller-service';
-import { ServerServiceProvider } from '../../providers/server-service';
-import { StorageServiceProvider } from '../../providers/storage-service';
+import { IonicPage,NavController, NavParams, AlertController, AlertOptions } from 'ionic-angular';
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
 // import { BioPage } from '../bio/bio';
 // import { HomePage } from '../home/home';
 // import { LoginPage } from '../login/login';
-
+@IonicPage()
 @Component({
   selector: 'page-result',
   templateUrl: 'result.html'
@@ -22,7 +22,7 @@ export class ResultPage {
   resp: any = {};
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, 
-  private controller: ControllerService, private serverservice: ServerService, private store: StorageService) {}
+  private controller: ControllerServiceProvider2, private serverservice: ServerServiceProvider, private store: StorageServiceProvider) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ResultPage');

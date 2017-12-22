@@ -1,8 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
-import { ViewController } from 'ionic-angular';
+import { IonicPage,ViewController } from 'ionic-angular';
 import { SignaturePad } from 'angular2-signaturepad/signature-pad';
 import { Storage } from '@ionic/storage';
-
+@IonicPage()
 @Component({
   selector: 'page-signature',
   templateUrl: 'signature.html'

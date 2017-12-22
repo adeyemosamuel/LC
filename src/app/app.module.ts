@@ -13,11 +13,18 @@ import { ControllerServiceProvider } from '../providers/controller-service/contr
 import { ProductdataProvider } from '../providers/productdata/productdata';
 import { LeadsServiceProvider } from '../providers/leads-service/leads-service';
 import { AppDataProvider } from '../providers/app-data/app-data';
-import { ControllerService2Provider } from '../providers/controller-service2/controller-service2';
+import { ControllerServiceProvider2 } from '../providers/controller-service2/controller-service2';
 import { NativeprocessProvider } from '../providers/nativeprocess/nativeprocess';
 import { StorageServiceProvider } from '../providers/storage-service/storage-service';
 import { ValidateServiceProvider } from '../providers/validate-service/validate-service';
 import { ServerServiceProvider } from '../providers/server-service/server-service';
+import { SignaturePadModule } from 'angular2-signaturepad';
+import { IonicStorageModule } from '@ionic/storage';
+
+
+import { LGAFilter } from '../pipes/lgafilter/lgafilter';
+import { Rmfilter } from '../pipes/rm/rm';
+import { OrderByPipe } from '../pipes/oderby/oderby';
 
 
 
@@ -27,12 +34,17 @@ import { ServerServiceProvider } from '../providers/server-service/server-servic
 @NgModule({
   declarations: [
     MyApp,
+    LGAFilter,
+    Rmfilter,
+    OrderByPipe
 
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    HttpModule
+    HttpModule,
+    SignaturePadModule,
+    IonicStorageModule.forRoot()
   
   ],
   bootstrap: [IonicApp],
@@ -56,7 +68,7 @@ import { ServerServiceProvider } from '../providers/server-service/server-servic
     ProductdataProvider,
     LeadsServiceProvider,
     AppDataProvider,
-    ControllerService2Provider,
+    ControllerServiceProvider2,
     NativeprocessProvider,
     StorageServiceProvider,
     ValidateServiceProvider,

@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage,NavController } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
-import { ValidateServiceProvider } from '../../providers/validate-service';
-import { StorageServiceProvider } from '../../providers/storage-service';
-import { ControllerService2Provider } from '../../providers/controller-service2';
-import { AppDataProvider } from '../../providers/app-data';
+import { ValidateServiceProvider } from '../../providers/validate-service/validate-service';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
+import { AppDataProvider } from '../../providers/app-data/app-data';
 // import { DetailsPage } from '../details/details';
 import { Popover2Page } from '../popover2/popover2';
-import { NativeprocessProvider } from '../../providers/nativeprocess';
+import { NativeprocessProvider } from '../../providers/nativeprocess/nativeprocess';
 import { DatePicker, DatePickerOptions } from '@ionic-native/date-picker';
-
+@IonicPage()
 @Component({
   selector: 'page-bio',
   templateUrl: 'bio.html'
@@ -31,11 +31,11 @@ export class BioPage {
   constructor(
     public navCtrl: NavController,
     private storage: Storage,
-    private validate: ValidateService,
-    private _storage: StorageService,
-    private controller: ControllerService,
-    private appdata: AppData,
-    private native: Nativeprocess,
+    private validate: ValidateServiceProvider,
+    private _storage: StorageServiceProvider,
+    private controller: ControllerServiceProvider2,
+    private appdata: AppDataProvider,
+    private native: NativeprocessProvider,
     private datepicker: DatePicker
   ) {}
 

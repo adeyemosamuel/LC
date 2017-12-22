@@ -17,6 +17,10 @@ export class ProductsPage {
     console.log('ionViewDidLoad ProductsPage');
   }
 
+  accountOpeningPage(){
+    this.navCtrl.setRoot('LoginPage')
+  }
+
   loanCalculator(){
     this.navCtrl.push('CalculatorHomePage')
     }

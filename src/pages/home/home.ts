@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 // import { BioPage } from '../bio/bio';
 import { Popover2Page } from '../popover2/popover2';
 import { Storage } from '@ionic/storage';
-import { ControllerService2Provider } from '../../providers/controller-service2';
-import { StorageServiceProvider } from '../../providers/storage-service';
-
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
+@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -19,9 +19,9 @@ export class HomePage {
 
   constructor(
     public navCtrl: NavController,
-    private controller: ControllerService,
+    private controller: ControllerServiceProvider2,
     private storage: Storage,
-    private store: StorageService
+    private store: StorageServiceProvider
   ) {}
 
   ionViewDidLoad() {

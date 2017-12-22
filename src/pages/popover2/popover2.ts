@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { ViewController, NavController } from 'ionic-angular';
-import { StorageServiceProvider } from '../../providers/storage-service';
+import { IonicPage,ViewController, NavController } from 'ionic-angular';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
 // import { LoginPage } from '../login/login';
-
+@IonicPage()
 @Component({
   selector: 'page-popover2',
   templateUrl: 'popover2.html'

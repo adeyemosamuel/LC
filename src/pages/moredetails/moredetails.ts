@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {  IonicPage, NavController } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 // import { ConfirmPage } from '../confirm/confirm';
 import { Popover2Page } from '../popover2/popover2';
-import { ValidateServiceProvider } from '../../providers/validate-service';
-import { StorageServiceProvider } from '../../providers/storage-service';
-import { ControllerService2Provider } from '../../providers/controller-service2';
-import { AppDataProvider } from '../../providers/app-data';
-
+import { ValidateServiceProvider } from '../../providers/validate-service/validate-service';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
+import { AppDataProvider } from '../../providers/app-data/app-data';
+@IonicPage()
 @Component({
   selector: 'page-moredetails',
   templateUrl: 'moredetails.html'
@@ -26,10 +26,10 @@ export class MoredetailsPage {
 
   constructor(
     public navCtrl: NavController,
-    private validate: ValidateService,
-    private controller: ControllerService,
-    private appdata: AppData,
-    private store: StorageService,
+    private validate: ValidateServiceProvider,
+    private controller: ControllerServiceProvider2,
+    private appdata: AppDataProvider,
+    private store: StorageServiceProvider,
     private storage: Storage
   ) {}
 

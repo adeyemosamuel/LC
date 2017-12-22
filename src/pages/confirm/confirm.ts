@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { IonicPage,NavController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
-import { ValidateServiceProvider } from '../../providers/validate-service';
-import { ServerServiceProvider } from '../../providers/server-service';
-import { ControllerService2Provider } from '../../providers/controller-service2';
-import { StorageServiceProvider } from '../../providers/storage-service';
+import { ValidateServiceProvider } from '../../providers/validate-service/validate-service';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
 import { Popover2Page } from '../popover2/popover2';
-import { NativeprocessProvider } from '../../providers/nativeprocess';
-import { AppDataProvider } from '../../providers/app-data';
+import { NativeprocessProvider } from '../../providers/nativeprocess/nativeprocess';
+import { AppDataProvider } from '../../providers/app-data/app-data';
 // import { ResultPage } from '../result/result';
 // import { SignaturePage } from '../signature/signature';
-
+@IonicPage()
 @Component({
   selector: 'page-confirm',
   templateUrl: 'confirm.html'
@@ -59,12 +59,12 @@ export class ConfirmPage {
     public navCtrl: NavController,
     private validate: ValidateServiceProvider,
     private serverservice: ServerServiceProvider,
-    private controller: ControllerService,
-    private native: Nativeprocess,
-    private appdata: AppData,
+    private controller: ControllerServiceProvider2,
+    private native: NativeprocessProvider,
+    private appdata: AppDataProvider,
     private navParam: NavParams,
     private storage: Storage,
-    private store: StorageService
+    private store: StorageServiceProvider
   ) {}
 
   ionViewDidLoad() {

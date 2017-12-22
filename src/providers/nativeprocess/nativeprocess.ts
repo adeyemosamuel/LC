@@ -6,8 +6,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 import { DatePicker, DatePickerOptions } from '@ionic-native/date-picker';
 import { Device } from '@ionic-native/device';
 import { Http } from '@angular/http';
-import { StorageService } from './storage-service';
-import { AppData } from './app-data';
+import { StorageServiceProvider } from '../storage-service/storage-service';
+import { AppDataProvider } from '../app-data/app-data';
+// import { PouchDB } from 'pouchdb'
 
 @Injectable()
 export class NativeprocessProvider {
@@ -22,9 +23,9 @@ export class NativeprocessProvider {
     private datepicker: DatePicker,
     private plt: Platform,
     private device: Device,
-    private store: StorageService,
+    private store: StorageServiceProvider,
     private http: Http,
-    private appdata: AppData
+    private appdata: AppDataProvider
   ) {
     console.log('Hello Nativeprocess Provider');
     this.getLocation();

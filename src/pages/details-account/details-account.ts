@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
-import { ValidateServiceProvider } from '../../providers/validate-service';
-import { StorageServiceProvider } from '../../providers/storage-service';
-import { ControllerServiceProvider } from '../../providers/controller-service';
-import { AppDataProvider } from '../../providers/app-data';
+import { ValidateServiceProvider } from '../../providers/validate-service/validate-service';
+import { StorageServiceProvider } from '../../providers/storage-service/storage-service';
+import { ControllerServiceProvider2 } from '../../providers/controller-service2/controller-service2';
+import { AppDataProvider } from '../../providers/app-data/app-data';
 import { MoredetailsPage } from '../moredetails/moredetails';
 import { Popover2Page } from '../popover2/popover2';
 // import { ConfirmPage } from '../confirm/confirm';
 
-
+@IonicPage()
 @Component({
   selector: 'page-details-account',
   templateUrl: 'details-account.html',
@@ -38,10 +38,10 @@ export class DetailsAccountPage {
   constructor(
     public navCtrl: NavController,
     private storage: Storage,
-    private validate: ValidateService,
-    private controller: ControllerService,
-    private appdata: AppData,
-    private store: StorageService
+    private validate: ValidateServiceProvider,
+    private controller: ControllerServiceProvider2,
+    private appdata: AppDataProvider,
+    private store: StorageServiceProvider
   ) {}
 
   ionViewDidLoad() {
