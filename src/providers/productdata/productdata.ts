@@ -7,7 +7,7 @@ import { NavController, NavParams } from 'ionic-angular'
 export class ProductdataProvider {
     product: any;
     sector: any;
-    apiUrl:string = '/branch';
+    apiUrl:string = '/sectors';
     // apiUrl:string = 'http://192.168.8.102:9000/api';
     header: Headers = new Headers();
     

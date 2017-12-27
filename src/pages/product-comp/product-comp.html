@@ -29,11 +29,11 @@
       
     <ion-card class="card">  
       <ion-list *ngSwitchCase="'products'">
-        <ion-item *ngFor="let item of category_type; let i = index" (click)="toggleDescription(item)">
+        <ion-item *ngFor="let item of data; let i = index" (click)="toggleDescription(item)">
           <ion-avatar item-start>
             <img class="img" src="../assets/imgs/logo4.png">
           </ion-avatar>
-          <p text-uppercase style="white-space:normal; color:white;"><b>{{item.product_category}}</b></p>
+          <p text-uppercase style="white-space:normal; color:white;"><b>{{item.categoryName}}</b></p>
           <ion-icon item-end name="ios-arrow-forward"></ion-icon>
         </ion-item>
 
@@ -42,11 +42,11 @@
 
     <ion-card class="card">
         <ion-list *ngSwitchCase="'sectors'">
-          <ion-item *ngFor="let item of sector_category_type; let i = index" (click)="toggle_Description(item)">
+          <ion-item *ngFor="let item of sectors; let i = index" (click)="toggle_Description(item)">
             <ion-avatar item-start>
               <img class="img" src="../assets/imgs/logo4.png">
             </ion-avatar>
-            <p style="white-space:normal; color:white;"><b>{{item.sector_category}}</b></p>
+            <p style="white-space:normal; color:white;"><b>{{item.sectorName}}</b></p>
             <ion-icon item-end name="ios-arrow-forward"></ion-icon>
           </ion-item>
   

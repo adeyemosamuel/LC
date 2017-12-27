@@ -27,6 +27,7 @@ import { SignaturePadModule } from 'angular2-signaturepad';
 import { IonicStorageModule } from '@ionic/storage';
 
 
+
 import { LGAFilter } from '../pipes/lgafilter/lgafilter';
 import { Rmfilter } from '../pipes/rm/rm';
 import { OrderByPipe } from '../pipes/oderby/oderby';
@@ -82,7 +83,8 @@ import { OrderByPipe } from '../pipes/oderby/oderby';
     Camera,
     DatePicker,
     Network,
-    SQLite
+    SQLite,
+
   ]
 })
 export class AppModule {}

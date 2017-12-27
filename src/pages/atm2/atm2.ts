@@ -27,7 +27,7 @@ export class Atm2Page {
 
 
     constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
-    }
+    } 
 
     async ionViewDidLoad() {
         const response = await this.Data.getService('atm');

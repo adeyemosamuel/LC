@@ -1,0 +1,33 @@
+page-landing { background-image: url('../assets/internet.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    ion-content {
+        background-color: rgba(6,6,6,0.4) !important;
+    }
+
+// .login_icon {
+//     margin-right: auto;
+//     margin-left: auto;
+//     display: block;  
+// }
+
+.input_area{
+    margin-top: 280px;
+}
+ 
+
+
+.button {
+    margin-right: auto;
+    margin-left: auto;
+   margin-top: 30px;
+    display: block;
+}
+
+ion-input {
+    border-bottom: 1px solid map-get($colors, primary);
+}
+
+
+}

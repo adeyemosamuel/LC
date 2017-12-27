@@ -126,18 +126,18 @@ export class LoginPage {
         console.log(this.topUser);
 
         // ECs and RMs
-        // if (resp.branches != null) {
-        //   for (let val of resp.branches)
-        //   {
-        //     this.ecData.push({
-        //       branchcode: val.branchCode,
-        //       branchname: val.branchName,
-        //       rm: val.dummyDsa,
-        //       userid: val.rmuserId
-        //     });
-        //   }
-        // }
-        // console.log(this.ecData);
+        if (resp.branches != null) {
+          for (let val of resp.branches)
+          {
+            this.ecData.push({
+              branchcode: val.branchCode,
+              branchname: val.branchName,
+              rm: val.dummyDsa,
+              userid: val.rmuserId
+            });
+          }
+        }
+        console.log(this.ecData);
         user.username = this.username;
         user.harsh = this.password;
         user.noOfAccounts = 80;
@@ -172,32 +172,32 @@ export class LoginPage {
       return false;
     }
     
-    // let datum = {
-    //   'username': this.username,
-    //   'password': this.password,
-    //   'deviceName': this.native.deviceModel(),
-    //   'deviceUUID': this.uuid,
-    //   'OS': this.native.deviceOS()
-    // }
-    // let funcName = '/register';
+    let datum = {
+      'username': this.username,
+      'password': this.password,
+      'deviceName': this.native.deviceModel(),
+      'deviceUUID': this.uuid,
+      'OS': this.native.deviceOS()
+    }
+    let funcName = '/register';
 
     let loader = this.controller.loadCtrl('Registering...');
     loader.present();
 
-    // this.serverservice.processData(datum, funcName).then((value) => {
-    //   loader.dismiss();
-    //   this.resp = value;
-    //   console.log(this.resp);
-    //   if (this.resp.responseCode == '76'){
-    //     this.controller.toastCtrl(this.resp.message, 'middle', false);
-    //   }
-    //   else if (this.resp.responseCode == '96'){
-    //     this.controller.toastCtrl(this.resp.message, 'middle', false);
-    //   }
-    //   else{
-    //     this.controller.toastCtrl('Unable to register. Try again!', 'middle', false);
-    //   }
-    // });
+    this.serverservice.processData(datum, funcName).then((value) => {
+      loader.dismiss();
+      this.resp = value;
+      console.log(this.resp);
+      if (this.resp.responseCode == '76'){
+        this.controller.toastCtrl(this.resp.message, 'middle', false);
+      }
+      else if (this.resp.responseCode == '96'){
+        this.controller.toastCtrl(this.resp.message, 'middle', false);
+      }
+      else{
+        this.controller.toastCtrl('Unable to register. Try again!', 'middle', false);
+      }
+    });
   }
 
 }
