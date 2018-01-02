@@ -100,7 +100,7 @@ export class Atm2Page {
 
         if (val && val.trim() != '') {
             this.branches = this.branches.filter((item) => {
-                return (item.atmAdress.toLowerCase().indexOf(val.toLowerCase()) > -1);
+                return (item.ecbAdress.toLowerCase().indexOf(val.toLowerCase()) > -1);
             });
         }
 

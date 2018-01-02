@@ -30,7 +30,7 @@
                     "benefit 3"
                 ]
             },
-            {
+            { 
                 "sector_category_type": "Personal Loan (External Customers)",
                 "sector_type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
                 "sector_type_features": [

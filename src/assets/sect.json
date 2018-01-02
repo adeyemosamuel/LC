@@ -1,0 +1,12 @@
+{
+    "Sectors": {
+        "Entertainment": [
+            {"Types":"Auto Loan", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]},
+            {"Types":"Personal Loan", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]}
+        ],
+        "Real_Estate": [
+             {"Types":"Salary Advance", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]},
+             {"Types":"Web Payment", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]}
+        ]
+    }
+}
