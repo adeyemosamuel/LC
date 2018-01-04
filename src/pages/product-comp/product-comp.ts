@@ -82,7 +82,7 @@ export class ProductCompPage {
   }
 
   searchModal(){
-    let modal = this.modalCtrl.create('SearchModalPage');
+    let modal = this.modalCtrl.create('SearchmodalPage');
     modal.present();
     modal.onDidDismiss(data => {
       console.log(data);

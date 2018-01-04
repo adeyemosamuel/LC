@@ -24,7 +24,7 @@ export class AtmdataProvider {
     getdata() {
 
         return new Promise(resolve => {
-            this.http.get('assets/atm2.json').map(res => res.json()).subscribe(data => {
+            this.http.get('assets/cat.json').map(res => res.json()).subscribe(data => {
                 this.data = data;
                 resolve(this.data)
             });

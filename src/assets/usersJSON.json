@@ -11,7 +11,8 @@
                 "Phone_Number": 2348023333333,
                 "Email_Address": "mike_olawale@gmail.com",
                 "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
-                "Product_Type": "HB Savings Account"
+                "Product_Type": "HB Savings Account",
+                "Status":"Pending"
             },
             {
                 "Name": "Bimpe Ayoola",
@@ -22,7 +23,8 @@
                 "Phone_Number": 2348023333333,
                 "Email_Address": "mike_olawale@gmail.com",
                 "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
-                "Product_Type": "HB Savings Account"
+                "Product_Type": "HB Savings Account",
+                "Status":"Delivered"
             },
             {
                 "Name": "Wunmi Sowunmi",
@@ -33,7 +35,8 @@
                 "Phone_Number": 2348023333333,
                 "Email_Address": "mike_olawale@gmail.com",
                 "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
-                "Product_Type": "HB Savings Account"
+                "Product_Type": "HB Savings Account",
+                "Status":"Pending"
             },
             {
                 "Name": "Adeyemo Samuel",
@@ -44,7 +47,8 @@
                 "Phone_Number": 2348023333333,
                 "Email_Address": "mike_olawale@gmail.com",
                 "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
-                "Product_Type": "HB Savings Account"
+                "Product_Type": "HB Savings Account",
+                "Status":"Delivered"
             },
             {
                 "Name": "Mercy Eneli",
@@ -55,7 +59,8 @@
                 "Phone_Number": 2348023333333,
                 "Email_Address": "mike_olawale@gmail.com",
                 "Address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
-                "Product_Type": "HB Savings Account"
+                "Product_Type": "HB Savings Account",
+                "Status":"Pending"
             }
         ]
     }

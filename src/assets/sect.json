@@ -1,12 +1,14 @@
 {
     "Sectors": {
         "Entertainment": [
-            {"Types":"Auto Loan", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]},
-            {"Types":"Personal Loan", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]}
+            {"Types":"Auto Loan", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"],"Keywords":["a","e","i","o","u"]},
+            {"Types":"Personal Loan", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"],"Keywords":["a","e","i","o","u"]}
+            
+
         ],
         "Real_Estate": [
-             {"Types":"Salary Advance", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]},
-             {"Types":"Web Payment", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"]}
+             {"Types":"Salary Advance", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"],"Keywords":["a","e","i","o","u"]},
+             {"Types":"Web Payment", "Description":"Its just the best in town", "Features":["feature 1","feature 2"], "Benefits":["benefit 1","benefit 2"],"Keywords":["a","e","i","o","u"]}
         ]
     }
 }
