@@ -16,6 +16,18 @@ export class RegisterLeadsPage {
   selectedProduct: string = '';
   storage: any;
   leadsArray:any=[];
+  occupation:any;
+  dob:any;
+  gender:any;
+  marital_status:any;
+  
+  emailaddress:any;
+  address:any;
+  name: string = '';
+  phonenumber: string = '';
+  leadArray: Array<any> = [];
+  status: any;
+
   
   
    
@@ -110,10 +122,34 @@ export class RegisterLeadsPage {
 //     }
 // ];
 
-savedetails(){
-  this.store.set('leads', this.leadsArray)
-
+savedetails() {
+  this.store.get('leads').then((val) => {
+      if (val) this.leadArray = val;
+      this.storedetails();
+  });
 }
+
+storedetails() {
+  let body = {
+      name: this.name,
+      phonenumber: this.phonenumber,
+      selectedProduct: this.selectedProduct,
+      occupation: this.occupation,
+      dob: this.dob,
+      address: this.address,
+      marital_status:this.marital_status,
+      gender: this.gender,
+      emailaddress: this.emailaddress,
+      Status:this.status,
+
+      
+
+  };
+  this.leadArray.push(body);
+  this.store.set('leads', this.leadArray);
+}
+
+
 
 
 
