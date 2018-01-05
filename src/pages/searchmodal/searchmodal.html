@@ -11,7 +11,11 @@
     </ion-navbar>
   
   </ion-header>
-  
+  <ion-list radio-group [(ngModel)]="selectedE">
+    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines *ngFor="let e of data">
+      <ion-label>{{e}}</ion-label>
+    </ion-item>
+  </ion-list>
   
   <ion-content padding>
   

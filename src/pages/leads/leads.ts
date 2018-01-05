@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
+import { Storage } from '@ionic/storage';
 import { LeadsServiceProvider } from '../../providers/leads-service/leads-service';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
@@ -12,26 +14,31 @@ import 'rxjs/add/operator/map';
 export class LeadsPage {
 data: any;
 selectedItem: any;
-leads: any = [];
+leadsArray: any = [];
+storage:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private http: Http, private leadsServiceProvider: LeadsServiceProvider) {
-    this.selectedItem = navParams.get('item');
-    let localData = this.http.get('assets/usersJSON.json').map(res => res.json());
-    localData.subscribe(data => {
-      this.data= data.data;
-      console.log(this.data);
-    });
+
+  constructor(public navCtrl: NavController, public navParams: NavParams,private store: Storage, private http: Http, private leadsServiceProvider: LeadsServiceProvider,private sqlite: SQLite) {
+    // this.selectedItem = navParams.get('item');
+    // let localData = this.http.get('assets/usersJSON.json').map(res => res.json());
+    // localData.subscribe(data => {
+    //   this.data= data.data;
+    //   console.log(this.data);
+    // });
+    
   }
 
   ionViewDidLoad() {
-    this.leadsServiceProvider.getdata().then(data => {
-      this.leads = data;
-    })
+    this.getLeads();
   }
 
-  ionViewWillUnload() {
-    this.leads = [];
-  }
+  // ionViewWillUnload() {
+  //   this.leads = [];
+  // }
+
+ 
+
+
 
   itemTapped(event, item) {
     this.navCtrl.push('LeadsDetailsPage', {
@@ -42,5 +49,16 @@ leads: any = [];
   addLead(){
     this.navCtrl.push('RegisterLeadsPage')
   }
+ 
+  getLeads(){
+    this.store.get('leads').then((val) => {
+      // console.log(val);
+      this.leadsArray = val;
+
+    });
+  
+  }
+
+  
 
 }

@@ -12,7 +12,7 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of data">
+    <ion-item *ngFor="let item of leadsArray">
       <ion-grid>
         <ion-row>
           <ion-col col-2>
@@ -21,16 +21,16 @@
             </ion-avatar>
           </ion-col>
           <ion-col col-6 (click)="itemTapped($event,item)">
-            <h2>{{item.Name}}</h2>
-            <p>{{item.Product_Type}}</p>
-          
-              
-                <span style="color:orange">Status:{{item.Status}}</span>
-              
-              
-                
-              
-            
+            <h2>{{item.name}}</h2>
+            <p>{{item.product_type}}</p>
+
+
+            <span style="color:orange">Status:{{item.Status}}</span>
+
+
+
+
+
 
           </ion-col>
           <!-- <ion-col col-2>

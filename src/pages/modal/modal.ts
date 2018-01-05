@@ -22,6 +22,8 @@ export class ModalPage {
         }
       }
       this._data = this.data;
+      console.log(data);
+      
     });
   }
 
