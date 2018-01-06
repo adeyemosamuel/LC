@@ -11,13 +11,20 @@
     </ion-navbar>
   
   </ion-header>
-  <ion-list radio-group [(ngModel)]="selectedE">
-    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines *ngFor="let e of data">
-      <ion-label>{{e}}</ion-label>
+ 
+  <ion-list>
+      <br>
+      <br>
+      <br>
+    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines  *ngFor="let e of dat">
+       
+      <ion-label>{{e.category_type}}</ion-label>
+     
     </ion-item>
   </ion-list>
-  
+  <ion-buttons>
+      <button ion-button (click)="toggleDescription()"><ion-icon name="ios-search"></ion-icon></button>
+    </ion-buttons>
   <ion-content padding>
-  
   </ion-content>
   

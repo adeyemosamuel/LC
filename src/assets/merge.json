@@ -1,0 +1,67 @@
+[
+    {
+        "product_category": "Retail/SME",
+        "category_data": [
+            {
+                "category_type": "Personal Loan (External Customers)",
+                "keywords": "External customer, Consumer, Household, Electronics, Personal loan, Risk asset, Loan, Facility ",
+                "type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }, 
+            {
+                "category_type": "Ajanlwekoko )",
+                "keywords": "Staff, Consumer, Household, Electronics, Personal loan, Risk asset, Loan, Facility ",
+                "type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "category_type": "Asfjfngksdfbjsdbgsd",
+                "keywords": "Automobile, Car, Vehicle, Comprehensive Insurance, Brand New Car, Risk asset, Loan  ",
+                "type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            },
+            {
+                "category_type": "xsafdjwbdjfdfbdjfd jfbjdfdj",
+                "keywords": "Current Account,  50% Of Net Monthly Salary, Salary Domicilliation, Overdraft, Risk asset, Loan ",
+                "type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
+                "type_features": [
+                    "features 1",
+                    "feature 2",
+                    "features 3"
+                ],
+                "type_benefits": [
+                    "benefit 1",
+                    "benefit 2",
+                    "benefit 3"
+                ]
+            }
+        ]
+    }
+]
