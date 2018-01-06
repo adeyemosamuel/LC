@@ -16,12 +16,13 @@ export class SearchmodalPage {
   // data2: Array<string> = [];
   // data3: Array<string> = [];
   selectedE: string = '';
+  // keywords: string='';
 
   constructor( private http: Http,public navCtrl: NavController, public navParams: NavParams,public viewCtrl:ViewController, public modalCtrl: ModalController) {
     let localData1 = this.http.get('assets/merge.json').map(res1 => res1.json());
     localData1.subscribe(dat => {
       for (let val of dat) {
-        for (let newVal of val.category_data) {
+        for (let newVal of val.categories.category_data) {
           this.dat.push(newVal);
         }
       }
@@ -72,7 +73,8 @@ export class SearchmodalPage {
 
     if (val && val.trim() != '') {
         this.dat = this.dat.filter((item) => {
-            return (item.keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
+          //console.log(item.keywords);
+          return (item.keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
         });
     }
 
@@ -83,11 +85,12 @@ export class SearchmodalPage {
   }
 
   toggleDescription(item, title) {
-    console.log("yes");
+    console.log(item);
+    console.log(title);
     // console.log(title);
-    // this.navCtrl.push('Details3Page', {
-    //   data: item, title:title
-    // });
+    this.navCtrl.push('Details3Page', {
+      data: item, title:title
+    });
   }
 
 }

@@ -4,6 +4,7 @@
         "Product_data": [
             {
                 "TYPES": "Personal Loan (External Customers)",
+                "keywords":"",
                 "DESCRIPTION": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
                 "FEATURES": [
                     "Determined by 33.3% of monthly take home",
