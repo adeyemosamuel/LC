@@ -31,6 +31,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { LGAFilter } from '../pipes/lgafilter/lgafilter';
 import { Rmfilter } from '../pipes/rm/rm';
 import { OrderByPipe } from '../pipes/oderby/oderby';
+import { LandingProvider } from '../providers/landing/landing';
 
 
 
@@ -84,6 +85,7 @@ import { OrderByPipe } from '../pipes/oderby/oderby';
     DatePicker,
     Network,
     SQLite,
+    LandingProvider,
 
   ]
 })

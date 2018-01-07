@@ -74,7 +74,7 @@ export class SearchmodalPage {
     if (val && val.trim() != '') {
         this.dat = this.dat.filter((item) => {
           //console.log(item.keywords);
-          return (item.keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
+          return (item._keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
         });
     }
 

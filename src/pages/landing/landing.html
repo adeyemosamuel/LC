@@ -7,12 +7,12 @@
 </ion-header> -->
 
 <ion-content padding>
-<!-- <div>
+  <!-- <div>
 <ion-item>
   <ion-img class="login_icon" style="width: 194px; height: 65px;" src="assets/hb-logo.png"></ion-img>
 </ion-item>
 </div> -->
-<div class="input_area">
+  <div class="input_area">
 
     <!-- <ion-item no-lines>
         
@@ -28,26 +28,20 @@
 
 
     <ion-item no-lines>
-        
-        <ion-label floating style="color:#4fc143"><ion-icon color="prefer" name="person"></ion-icon>&nbsp;Username</ion-label>
-        <ion-input [(ngModel)]="username" type="text" style="color:white" ></ion-input>
-      </ion-item>
 
-      <ion-item no-lines>
-         
-          <ion-label floating style="color:#4fc143"><ion-icon color="prefer" name="lock"></ion-icon>&nbsp;Password</ion-label>
-          <ion-input [(ngModel)]="password" type="password" style="color:white"></ion-input>
-        </ion-item>
+      <ion-label floating style="color:#4fc143">
+        <ion-icon color="prefer" name="person"></ion-icon>&nbsp;Username</ion-label>
+      <ion-input [(ngModel)]="Username" type="text" style="color:white"></ion-input>
+    </ion-item>
+
+    <ion-item no-lines>
+
+      <ion-label floating style="color:#4fc143">
+        <ion-icon color="prefer" name="lock"></ion-icon>&nbsp;Password</ion-label>
+      <ion-input [(ngModel)]="Password" type="password" style="color:white"></ion-input>
+    </ion-item>
   </div>
 
- 
-    
-
-  
-
-  <button ion-button full color="primary" class="button" (click)="submit()">Register
-    
-      </button>
-  
+  <button ion-button full color="primary" [disabled]="!Username || !Password" [class.disabled]="!Username || !Password" (click)="Login()">Login</button> 
 
 </ion-content>

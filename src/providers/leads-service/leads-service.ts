@@ -13,7 +13,7 @@ export class LeadsServiceProvider {
 
 
   getdata() {
-
+ 
     return new Promise(resolve => {
       this.http.get('assets/usersJSON.json').map(res => res.json()).subscribe(data => {
         resolve(data);
