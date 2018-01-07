@@ -46,7 +46,7 @@ storage:any;
     });
   }
 
-  addLead(){
+  addLead(){ 
     this.navCtrl.push('RegisterLeadsPage')
   }
  

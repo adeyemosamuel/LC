@@ -21,15 +21,15 @@
                         "benefit 1",
                         "benefit 2",
                         "benefit 3"
-                    ]
+                    ] 
                 },
                 {
-                    "product_category": "Retail/SME",
+                    "product_category": "Retail/SME", 
                     "sector_category_type": "Ajanlwekoko )",
                     "_keywords": "Staff, Consumer, Household, Electronics, Personal loan, Risk asset, Loan, Facility ",
                     "type_description": "It is a loan designed for customers of the bank who are confirmed staff their place of work.",
                     "sectors": [
-                        "agriculture",
+                        "agriculture", 
                         "entertainment"
                     ],
                     "type_features": [

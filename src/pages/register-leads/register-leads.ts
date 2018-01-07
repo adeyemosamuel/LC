@@ -26,7 +26,7 @@ export class RegisterLeadsPage {
   name: string = '';
   phonenumber: string = '';
   leadArray: Array<any> = [];
-  status: any;
+  status: any = 'Pending';
 
   
   
@@ -95,7 +95,7 @@ export class RegisterLeadsPage {
 //         "address": "9B, Mojisola Close, Off Mercy Eneli Street, Masha, Surulere, Lagos",
 //         "product_type": "HB Savings Account",
 //         "Status":"Pending"
-//     },
+//     }, 
 //     {
 //         "name": "Adeyemo Samuel",
 //         "occupation": "Mobile Developer",
@@ -140,7 +140,7 @@ storedetails() {
       marital_status:this.marital_status,
       gender: this.gender,
       emailaddress: this.emailaddress,
-      Status:this.status,
+      status:this.status,
 
       
 

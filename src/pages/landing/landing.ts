@@ -11,7 +11,7 @@ import { LandingProvider } from '../../providers/landing/landing';
   selector: 'page-landing',
   templateUrl: 'landing.html',
 })
-export class LandingPage {
+export class LandingPage { 
  
 
   Username: string = '';
