@@ -14,7 +14,7 @@ export class ServerServiceProvider {
   constructor(public http: Http) {
     console.log('Hello ServerService Provider');
   }
-
+//post api
   async processData(body, funcName): Promise<any> {
     console.log(body);
     console.log(funcName);
@@ -32,5 +32,25 @@ export class ServerServiceProvider {
       return {responseCode: "96", message: err.json().Message};
     }
   }
+
+// get api
+
+async getData(body, funcName): Promise<any> {
+  console.log(body);
+  console.log(funcName);
+
+  let headers = new Headers();
+  headers.append('Content-Type', 'application/json');
+
+  try {
+    let response = await this.http.get(this.url + funcName, {headers: headers}).toPromise();
+    console.log(response.json());
+    return response.json();
+  }
+  catch(err) {
+    console.log(err.json());
+    return {responseCode: "96", message: err.json().Message};
+  }
+}
 
 }

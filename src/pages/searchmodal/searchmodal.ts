@@ -76,7 +76,7 @@ export class SearchmodalPage {
           //console.log(item.keywords);
           return (item._keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
         });
-      }
+      } 
 
 }
 

@@ -48,8 +48,8 @@
     </ion-item>
 
     <ion-item >
-      <ion-label style="color:#4fc143" floating>Phone Number</ion-label>
-      <ion-input [(ngModel)]="phonenumber" type="number" maxlength="11"></ion-input>
+      <ion-label style="color:#4fc143" floating >Phone Number</ion-label>
+      <ion-input [(ngModel)]="phonenumber" type="number" [attr.maxlength]="11"></ion-input>
     </ion-item>
 
     <ion-item >
@@ -81,7 +81,7 @@
       
  
       </ion-grid>
-    </div>
+    </div> 
 
   </ion-list>
 
