@@ -25,6 +25,7 @@
     "@ionic-native/date-picker": "^4.5.2",
     "@ionic-native/device": "^4.5.2",
     "@ionic-native/geolocation": "^4.4.2",
+    "@ionic-native/local-notifications": "^4.5.2",
     "@ionic-native/location-accuracy": "^4.3.3",
     "@ionic-native/native-geocoder": "^4.5.2",
     "@ionic-native/network": "^4.5.2",
@@ -35,6 +36,7 @@
     "@types/pouchdb": "6.3.2",
     "angular2-signaturepad": "^2.6.1",
     "cordova-android": "~6.3.0",
+    "cordova-plugin-app-event": "^1.2.1",
     "cordova-plugin-camera": "^3.0.0",
     "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-datepicker": "^0.9.3",
@@ -48,10 +50,12 @@
     "cordova-plugin-statusbar": "^2.4.0",
     "cordova-plugin-whitelist": "^1.3.1",
     "cordova-sqlite-storage": "^2.1.4",
+    "de.appplant.cordova.plugin.local-notification": "^0.8.5",
     "ionic-angular": "3.7.1",
     "ionic-plugin-keyboard": "^2.2.1",
     "ionic2-super-tabs": "^4.1.4",
     "ionicons": "3.0.0",
+    "moment": "^2.20.1",
     "pouchdb": "^6.4.1",
     "rxjs": "5.4.3",
     "sw-toolbox": "3.6.0",
@@ -79,7 +83,8 @@
       "cordova-plugin-datepicker": {},
       "cordova-sqlite-storage": {},
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-network-information": {}
+      "cordova-plugin-network-information": {},
+      "de.appplant.cordova.plugin.local-notification": {}
     },
     "platforms": [
       "android",

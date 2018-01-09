@@ -25,6 +25,8 @@ import { ValidateServiceProvider } from '../providers/validate-service/validate-
 import { ServerServiceProvider } from '../providers/server-service/server-service';
 import { SignaturePadModule } from 'angular2-signaturepad';
 import { IonicStorageModule } from '@ionic/storage';
+import { LocalNotifications } from '@ionic-native/local-notifications';
+
 
 
 
@@ -68,6 +70,7 @@ import { LandingProvider } from '../providers/landing/landing';
     SplashScreen,
     Geolocation,
     NativeGeocoder,
+    LocalNotifications,
     LocationAccuracy,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AtmdataProvider,

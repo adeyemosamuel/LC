@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, ModalController, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, ModalController, NavController, NavParams, LoadingController } from 'ionic-angular';
 import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 // import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { Storage } from '@ionic/storage';
@@ -9,7 +9,6 @@ import {ServerServiceProvider} from '../../providers/server-service/server-servi
 
 // declare var navigator: any;
 // declare var Connection: any;
-
 
 
 
@@ -40,7 +39,7 @@ export class RegisterLeadsPage {
 
 l
 
-  constructor(public navCtrl: NavController,private server:ServerServiceProvider, public http: Http, public navParams: NavParams, private network: Network, public modalCtrl: ModalController, private controller: ControllerServiceProvider, private store: Storage) {
+  constructor(public navCtrl: NavController,public loadingCtrl: LoadingController,private server:ServerServiceProvider, public http: Http, public navParams: NavParams, private network: Network, public modalCtrl: ModalController, private controller: ControllerServiceProvider, private store: Storage) {
 
   }
 
@@ -101,6 +100,12 @@ l
         });
       }
     });
+    this.loadingCtrl.create({
+      content: 'Saving...',
+      duration: 3000,
+      dismissOnPageChange: true
+    }).present();
+    this.navCtrl.setRoot('LeadsPage');
   }
 
 

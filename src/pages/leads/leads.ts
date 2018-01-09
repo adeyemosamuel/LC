@@ -59,6 +59,8 @@ storage:any;
   
   }
 
-  
+  notifications(){
+    this.navCtrl.push('ReminderPage');
+  }
 
 }
