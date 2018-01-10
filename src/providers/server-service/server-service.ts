@@ -7,7 +7,7 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class ServerServiceProvider {
   // url: string = 'http://10.0.33.73:9000/api';
- url: string = 'http://192.168.8.102:9000/api';
+ url: string = 'http://192.168.8.103:9000/api';
  // url: string = 'http://hbbom.hbng.com:9000/api';
   //url: string = '/api';
 

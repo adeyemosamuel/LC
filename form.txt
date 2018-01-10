@@ -283,3 +283,7 @@ export class RegisterLeadsPage implements OnInit{
     this.store.set('leads', this.leadArray, );
   }
 }
+
+
+
+
