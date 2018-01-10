@@ -73,4 +73,9 @@ export class CalculatorHomePage {
       this.navCtrl.push('LouniPage');
     }
 
+    fxdeposit(){
+      console.log("FX Rates")
+      this.navCtrl.push('FxcalcPage')
+    }
+
   }

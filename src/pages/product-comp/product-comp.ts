@@ -52,6 +52,13 @@ export class ProductCompPage {
     
 // }
 
+    //funcName is 'registerLeads'
+    // this.server.processData(body, 'ProductComp').then((data) => {
+    //   console.log(data);
+    // }) .catch((err) => {
+    //   console.log(err)
+    // })
+
   toggleSection(i) {
     this.category_type[i].open = !this.category_type[i].open;
   }
