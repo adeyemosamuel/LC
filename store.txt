@@ -1,0 +1,100 @@
+//home.ts page
+
+import storage
+export class {
+
+    userName: any;
+    userPassword: any;
+    isRemember: boolean;
+
+constructor(public storage: Storage){
+this.readLoginInfo();
+}
+
+//store login details in local storage
+
+saveLoginInfo(userName, userPassword){
+    if(this.isRemember)
+    {
+        this.storage.set("userName", userName);
+        this.storage.set("userPassword", userName);
+    }else
+    {
+        this.storage.remove("userName");
+        this.storage.remove("userPassword");
+//to clear storage
+        this.storage.clear();
+    }
+    }
+}
+
+//method read login info 
+//We have two type of response...Success response
+
+readLoginInfo()
+{
+    this.isRemember = false;
+    this.storage.get("userName").then(data=>
+    {
+        if(data) //if data is not blank
+        {
+            this.userName= data;
+            this.isRemember=true;
+        }else
+
+        {
+            this.isRemember= false;
+        }
+//catch error condition
+    }).catch(err =>{
+this.userName = "-";
+this.isRemember = false;
+    });
+
+// For Password 
+
+this.storage.get("userPassword").then(data=>
+    {
+        if(data) //if data is not blank
+        {
+            this.userName= data;
+            
+        }
+//catch error condition
+    }).catch(err =>{
+this.userPassword = "-";
+
+    });
+}
+
+doLogin(){
+    this.navCtrl.push('DashboardPage');
+}
+
+}
+
+//dashboard.ts page
+
+//read userName, meanwhile, declare userName at export class as any
+
+readUsername(){
+
+    this.storage.get("userName").then(data=>
+    {
+        if(data) 
+        {
+            this.userName= data;
+            
+        }
+
+    }).catch(err =>{
+this.userName = "-";
+
+    });
+}
+
+}
+
+//Bind userName with dashboard.html
+
+<h1>Welcome {{userName}}</h1>

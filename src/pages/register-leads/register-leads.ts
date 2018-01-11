@@ -5,7 +5,7 @@ import { ControllerServiceProvider } from '../../providers/controller-service/co
 import { Storage } from '@ionic/storage';
 import { Network } from '@ionic-native/network';
 import { Http } from '@angular/http';
-import {ServerServiceProvider} from '../../providers/server-service/server-service';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
 // declare var navigator: any;
 // declare var Connection: any;
@@ -26,7 +26,7 @@ export class RegisterLeadsPage {
   dob: any;
   gender: any;
   marital_status: any;
-
+  comments: any;
   emailaddress: any;
   address: any;
   name: string = '';
@@ -34,12 +34,13 @@ export class RegisterLeadsPage {
   leadArray: Array<any> = [];
   status: any = 'Pending';
   connection: any;
+  user: any;
 
 
 
-l
+  l
 
-  constructor(public navCtrl: NavController,public loadingCtrl: LoadingController,private server:ServerServiceProvider, public http: Http, public navParams: NavParams, private network: Network, public modalCtrl: ModalController, private controller: ControllerServiceProvider, private store: Storage) {
+  constructor(public navCtrl: NavController, public loadingCtrl: LoadingController, private server: ServerServiceProvider, public http: Http, public navParams: NavParams, private network: Network, public modalCtrl: ModalController, private controller: ControllerServiceProvider, private store: Storage) {
 
   }
 
@@ -82,13 +83,14 @@ l
           marital_status: this.marital_status,
           gender: this.gender,
           emailaddress: this.emailaddress,
+          comments: this.comments,
           user: 'username'
         };
 
         //funcName is 'registerLeads'
         this.server.processData(body, 'registerLeads').then((data) => {
           console.log(data);
-        }) .catch((err) => {
+        }).catch((err) => {
           console.log(err)
         })
 
@@ -123,6 +125,7 @@ l
       gender: this.gender,
       emailaddress: this.emailaddress,
       status: this.status,
+      comments: this.comments
     };
     this.leadArray.push(body);
     this.store.set('leads', this.leadArray, );

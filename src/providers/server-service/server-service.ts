@@ -34,9 +34,7 @@ export class ServerServiceProvider {
   }
 
 // get api
-
-async getData(body, funcName): Promise<any> {
-  console.log(body);
+async getData(funcName): Promise<any> {
   console.log(funcName);
 
   let headers = new Headers();
