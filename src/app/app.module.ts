@@ -34,6 +34,7 @@ import { LGAFilter } from '../pipes/lgafilter/lgafilter';
 import { Rmfilter } from '../pipes/rm/rm';
 import { OrderByPipe } from '../pipes/oderby/oderby';
 import { LandingProvider } from '../providers/landing/landing';
+import { VerifyServiceProvider } from '../providers/verify-service/verify-service';
 
 
 
@@ -89,6 +90,7 @@ import { LandingProvider } from '../providers/landing/landing';
     Network,
     SQLite,
     LandingProvider,
+    VerifyServiceProvider,
 
   ]
 })

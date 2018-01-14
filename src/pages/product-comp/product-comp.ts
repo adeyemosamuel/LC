@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams,ModalController } from 'ionic-angular';
-import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
-// import { ProductdataProvider } from '../../providers/productdata/productdata';
-
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
 @IonicPage()
 @Component({
@@ -18,46 +15,24 @@ export class ProductCompPage {
   _data: any;
   sectors: Array<any> = [];
   _sectors: Array<any> = [];
-  searchModalData:string = '';
+  searchModalData: string = '';
 
+  constructor(
+    public navCtrl: NavController,
+    private serverService: ServerServiceProvider, 
+    public modalCtrl: ModalController, 
+    public navParams: NavParams
+  ) {}
 
+  async ionViewDidLoad() {
+    const response = await this.serverService.getData('/category');
+    this.data = response;
+    console.log(this.data);
 
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController, public navParams: NavParams, private http: Http) {
-    let localData = this.http.get('assets/product.json').map(res => res.json());
-    let local_Data = this.http.get('assets/sector.json').map(res => res.json());
-    localData.subscribe(data => {
-      this.category_type = data;
-      this._data= data;
-      console.log(this.category_type);
-    });
-
-
-    local_Data.subscribe(data => {
-      this.sector_category_type = data;
-      this._sectors = data;
-      console.log(this.sector_category_type);
-    });
-
-
+    const sectorres = await this.serverService.getData('/sectors');
+    this.sectors = sectorres;
+    console.log(this.sectors);
   }
-//   async ionViewDidLoad() {
-//     const response = await this.Data.getService('category');
-//     // console.log(response[0]);
-//     this.data = response;
-//     console.log(this.data);
-    
-//     const sectorres= await this.Data.getService('sectors');
-//     this.sectors = sectorres;
-//     console.log(this.sectors);
-    
-// }
-
-    //funcName is 'registerLeads'
-    // this.server.processData(body, 'ProductComp').then((data) => {
-    //   console.log(data);
-    // }) .catch((err) => {
-    //   console.log(err)
-    // })
 
   toggleSection(i) {
     this.category_type[i].open = !this.category_type[i].open;
@@ -98,7 +73,7 @@ export class ProductCompPage {
    }
 
 
-  
+
   getItems(ev) {
     if (this.segment === 'products') {
       this.filterProducts(ev);
@@ -130,5 +105,9 @@ export class ProductCompPage {
     }
 
   }
-
 }
+
+
+
+
+

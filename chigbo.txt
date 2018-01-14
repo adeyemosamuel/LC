@@ -1,0 +1,126 @@
+http://localhost:9000/api/checkleads
+PoST
+that is for the leads API
+{
+            "username": "morayo.temi-bello"
+        
+}
+{
+    "id": 1,
+    "lName": "chigbo",
+    "phoneNumber": "07037708319",
+    "lProducts": {
+        "id": 1,
+        "productName": "eep",
+        "productDescription": "ooo",
+        "productEligibility": "ooo",
+        "productBenefits": "ooo",
+        "category": {
+            "id": 1,
+            "categoryCode": "ASSET PRODUCTS",
+            "categoryName": "ASSET PRODUCTS",
+            "description": "this is it here one",
+            "email": "yahoo@femi.com"
+        }
+    },
+    "occupation": "engineer",
+    "dob": 1515426625000,
+    "address": "29 oyewole street palmgroove",
+    "comments": "i am a software developer",
+    "maritalStatus": "married",
+    "gender": "male",
+    "emailAddress": "wofo@gmail.com",
+    "emailstatus": "PENDING",
+    "lUser": {
+        "id": 1,
+        "username": "morayo.temi-bello",
+        "passwordHash": "$2a$10$jTLZEU9vlR2r5WhBt4Mr2.yiMLgiY88buL7elDSGrPlHVQA0s6zGe",
+        "firstName": "chibbb",
+        "lastName": "morayo",
+        "middleName": "gbooo",
+        "email": "chi@gmail.com",
+        "phoneNumber": "",
+        "address": "",
+        "userId": "1",
+        "userType": "BOTH",
+        "roleId": "1",
+        "message": "bello",
+        "isEnabled": true,
+        "isDeleted": false,
+        "irole": {
+            "id": 1,
+            "name": "ADMIN",
+            "description": "ADMINISTRATORS"
+        }
+    },
+    "lname": "chigbo",
+    "luser": {
+        "id": 1,
+        "username": "morayo.temi-bello",
+        "passwordHash": "$2a$10$jTLZEU9vlR2r5WhBt4Mr2.yiMLgiY88buL7elDSGrPlHVQA0s6zGe",
+        "firstName": "chibbb",
+        "lastName": "morayo",
+        "middleName": "gbooo",
+        "email": "chi@gmail.com",
+        "phoneNumber": "",
+        "address": "",
+        "userId": "1",
+        "userType": "BOTH",
+        "roleId": "1",
+        "message": "bello",
+        "isEnabled": true,
+        "isDeleted": false,
+        "irole": {
+            "id": 1,
+            "name": "ADMIN",
+            "description": "ADMINISTRATORS"
+        }
+    },
+    "lproducts": {
+        "id": 1,
+        "productName": "eep",
+        "productDescription": "ooo",
+        "productEligibility": "ooo",
+        "productBenefits": "ooo",
+        "category": {
+            "id": 1,
+            "categoryCode": "ASSET PRODUCTS",
+            "categoryName": "ASSET PRODUCTS",
+            "description": "this is it here one",
+            "email": "yahoo@femi.com"
+        }
+    }
+}
+request and response message respectively
+http://localhost:9000/api/sectors
+GET
+[
+    {
+        "id": 1,
+        "sectorName": "Entertainment"
+    }
+]
+http://localhost:9000/api/productBySector
+[
+    {
+        "id": 1,
+        "products": {
+            "id": 1,
+            "productName": "eep",
+            "productDescription": "ooo",
+            "productEligibility": "ooo",
+            "productBenefits": "ooo",
+            "category": {
+                "id": 1,
+                "categoryCode": "ASSET PRODUCTS",
+                "categoryName": "ASSET PRODUCTS",
+                "description": "this is it here one",
+                "email": "yahoo@femi.com"
+            }
+        },
+        "sectors": {
+            "id": 1,
+            "sectorName": "Entertainment"
+        }
+    }
+]

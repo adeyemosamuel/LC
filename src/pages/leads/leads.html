@@ -20,10 +20,10 @@
               <img src="../assets/imgs/logo2.png">
             </ion-avatar>
           </ion-col>
-          <ion-col col-6 (click)="itemTapped($event,item)">
-            <h2>{{item.name}}</h2>
-            <p>{{item.selectedProduct}}</p>
-            <span style="color:orange">Status:{{item.status}}</span>
+          <ion-col col-6 (click)="itemTapped(item)">
+            <h2>{{item.lName}}</h2>
+            <p>{{item.lProducts.productName}}</p>
+            <span style="color:orange">Status:{{item.emailstatus}}</span>
            
           </ion-col>
          

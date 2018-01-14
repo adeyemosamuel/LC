@@ -71,12 +71,12 @@ export class SearchmodalPage {
     this.dat = this._dat;
     var val = ev.target.value;
 
-    if (val && val.trim() != '') {
-        this.dat = this.dat.filter((item) => {
-          //console.log(item.keywords);
-          return (item._keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
-        });
-      } 
+    // if (val && val.trim() != '') {
+    //     this.dat = this.dat.filter((item) => {
+    //       //console.log(item.keywords);
+    //       return (item._keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
+    //     });
+    //   } 
 
 }
 

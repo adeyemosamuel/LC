@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { Storage } from '@ionic/storage';
 import { LeadsServiceProvider } from '../../providers/leads-service/leads-service';
-import { Http } from '@angular/http';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
 import 'rxjs/add/operator/map';
 
 @IonicPage()
@@ -14,11 +14,18 @@ import 'rxjs/add/operator/map';
 export class LeadsPage {
 data: any;
 selectedItem: any;
-leadsArray: any = [];
+leadsArray: Array<any> = [];
 storage:any;
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,private store: Storage, private http: Http, private leadsServiceProvider: LeadsServiceProvider,private sqlite: SQLite) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams,
+    private store: Storage,
+    private leadsServiceProvider: LeadsServiceProvider,
+    private sqlite: SQLite,
+    private serverService: ServerServiceProvider
+  ) {
     // this.selectedItem = navParams.get('item');
     // let localData = this.http.get('assets/usersJSON.json').map(res => res.json());
     // localData.subscribe(data => {
@@ -29,7 +36,8 @@ storage:any;
   }
 
   ionViewDidLoad() {
-    this.getLeads();
+    // this.getLeads();
+    this.getLeadsFromServer();
   }
 
   // ionViewWillUnload() {
@@ -40,7 +48,7 @@ storage:any;
 
 
 
-  itemTapped(event, item) {
+  itemTapped(item) {
     this.navCtrl.push('LeadsDetailsPage', {
       item: item
     });
@@ -50,13 +58,33 @@ storage:any;
     this.navCtrl.push('RegisterLeadsPage')
   }
  
-  getLeads(){
+  getLeads() {
     this.store.get('leads').then((val) => {
       // console.log(val);
       this.leadsArray = val;
 
     });
-  
+  }
+//get leads from server
+  async getLeadsFromServer() {
+    let _username: string = await this.store.get('username');
+    let body = {
+      // username: _username
+      username: 'morayo.temi-bello'
+    };
+
+    try {
+      let response = await this.serverService.processData(body, '/checkleads');
+      console.log(response);
+      this.leadsArray = response;
+      // if (response.responseCode === '76') {
+      //   this.leadsArray.push(response.leads);
+      // } else {
+      //   console.log(response.message);
+      // }
+    } catch(err) {
+      console.log(err);
+    }
   }
 
   notifications(){

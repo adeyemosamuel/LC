@@ -46,22 +46,21 @@ export class ValidateServiceProvider {
     }
 
     if (occup != '' && occup != null) {
-      if (!isNaN(occup)){
+      if (!isNaN(occup)) {
         this.errorMessage = 'Occupation cannot contain numbers';
         return false;
       }
     }
 
-    if (dob == '' || dob == ''){
+    if (dob == '' || dob == '') {
       this.errorMessage = 'Enter date of birth';
       return false;
     }
 
-    if ((title == 'MR.' && gender == 'F') || (title == 'MRS.' && gender == 'M') || (title == 'MISS' && gender == 'M') || (title == 'MS.' && gender == 'M') || (title == 'MAST' && gender == 'F') || (title == 'SIR' && gender == 'F'))
-	  {
-	  	this.errorMessage = 'TITLE and GENDER mismatch';
-	  	return false;
-	  }
+    if ((title == 'MR.' && gender == 'F') || (title == 'MRS.' && gender == 'M') || (title == 'MISS' && gender == 'M') || (title == 'MS.' && gender == 'M') || (title == 'MAST' && gender == 'F') || (title == 'SIR' && gender == 'F')) {
+      this.errorMessage = 'TITLE and GENDER mismatch';
+      return false;
+    }
 
     return true;
   }
@@ -95,12 +94,12 @@ export class ValidateServiceProvider {
 
     if (email != '' && email != null) {
       var atpos = email.indexOf('@');
-			var dotpos = email.lastIndexOf('.');
+      var dotpos = email.lastIndexOf('.');
 
-		  if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length) {
-		    this.errorMessage = 'Invalid email';
-		    return false;
-		  }
+      if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+        this.errorMessage = 'Invalid email';
+        return false;
+      }
     }
 
     if (addr == '' || addr == null) {
@@ -149,86 +148,72 @@ export class ValidateServiceProvider {
     // }
 
     var arrayLen = penDoc.length;
-	  var arrayVal = '';
-	  var arrayString = '';
+    var arrayVal = '';
+    var arrayString = '';
 
-	  if (arrayLen > 1)
-	  {
-	    for(var value of penDoc)
-	    {
-	      arrayVal = `${value}`;
-	      if (arrayVal == 'NONE')
-	      {
-	        arrayString = arrayVal;
-	      }
-	    }
-	    if (arrayString == 'NONE')
-	    {
-	      this.errorMessage = 'Pending documents cannot be NONE plus any other document';
-	      return false;
-	    }
-	  }
+    if (arrayLen > 1) {
+      for (var value of penDoc) {
+        arrayVal = `${value}`;
+        if (arrayVal == 'NONE') {
+          arrayString = arrayVal;
+        }
+      }
+      if (arrayString == 'NONE') {
+        this.errorMessage = 'Pending documents cannot be NONE plus any other document';
+        return false;
+      }
+    }
 
-    for(var value of penDoc)
-	  {
-	    arrayVal = `${value}`;
-	    if (arrayVal == 'BVN')
-	    {
-	      arrayString = arrayVal;
-	    }
-	  }
+    for (var value of penDoc) {
+      arrayVal = `${value}`;
+      if (arrayVal == 'BVN') {
+        arrayString = arrayVal;
+      }
+    }
 
-	  if (arrayString == 'BVN' && bvn != '' && bvn != null)
-	  {
-	    this.errorMessage = 'BVN has been provided. Kindly remove from pending documents';
-	    return false;
-	  }
-	  else if (arrayString != 'BVN' && (bvn == '' || bvn == null))
-	  {
-	    this.errorMessage = 'BVN not captured. Kindly select as part of pending documents';
-	    return false;
-	  }
+    if (arrayString == 'BVN' && bvn != '' && bvn != null) {
+      this.errorMessage = 'BVN has been provided. Kindly remove from pending documents';
+      return false;
+    }
+    else if (arrayString != 'BVN' && (bvn == '' || bvn == null)) {
+      this.errorMessage = 'BVN not captured. Kindly select as part of pending documents';
+      return false;
+    }
 
     return true;
   }
 
   validateMoreDet(pob, maidenName, lga, stateorigin, nextKin, kinRel) {
-    if (pob == '' || pob == null)
-    {
-	      this.errorMessage= 'Enter Place of Birth';
-	      return false;
-	  }
+    if (pob == '' || pob == null) {
+      this.errorMessage = 'Enter Place of Birth';
+      return false;
+    }
 
-    if (maidenName == '' || maidenName == null)
-    {
-	      this.errorMessage= "Enter Mother's Maiden Name";
-	      return false;
-	  }
+    if (maidenName == '' || maidenName == null) {
+      this.errorMessage = "Enter Mother's Maiden Name";
+      return false;
+    }
 
-	  if (stateorigin == '' || stateorigin == null)
-	  {
-	  	this.errorMessage = 'Select State of Origin';
-	  	return false;
-	  }
+    if (stateorigin == '' || stateorigin == null) {
+      this.errorMessage = 'Select State of Origin';
+      return false;
+    }
 
-	  if (lga == '' || lga == null)
-	  {
-	      this.errorMessage= 'Select a Local Government';
-	      return false;
-	  }
+    if (lga == '' || lga == null) {
+      this.errorMessage = 'Select a Local Government';
+      return false;
+    }
 
-	  if (nextKin == '' || nextKin == null)
-	  {
-	      this.errorMessage= 'Enter Next of Kin';
-	      return false;
-	  }
+    if (nextKin == '' || nextKin == null) {
+      this.errorMessage = 'Enter Next of Kin';
+      return false;
+    }
 
-	  if (kinRel == '' || kinRel == null)
-	  {
-	      this.errorMessage= 'Select Next of Kin Relationship';
-	      return false;
-	  }
-	  return true;
+    if (kinRel == '' || kinRel == null) {
+      this.errorMessage = 'Select Next of Kin Relationship';
+      return false;
+    }
+    return true;
   }
 
   validateMandate(mandate, photo) {
@@ -244,18 +229,17 @@ export class ValidateServiceProvider {
     return true;
   }
 
-  getAge(dob) 
-	{
-	    var today = new Date();
-	    var birthDate = new Date(dob);
-	    var age = today.getFullYear() - birthDate.getFullYear();
-	    var m = today.getMonth() - birthDate.getMonth();
+  getAge(dob) {
+    var today = new Date();
+    var birthDate = new Date(dob);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
 
-	    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-	        age--;
-      }
-	    return age;
-  	}
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
 
   displayMessage() {
     this.controller.toastCtrl(this.errorMessage, 'bottom', false);

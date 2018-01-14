@@ -20,7 +20,7 @@ export class BioPage {
   middleName: string = '';
   lastName: string = '';
   gender: string = '';
-  relStatus: string = '';
+  relStatus: string = ''; 
   occup: string = '';
   dob: string = '';
   _dob: string = '';

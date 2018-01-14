@@ -6,7 +6,7 @@ import { Storage } from '@ionic/storage';
 import { Network } from '@ionic-native/network';
 import { Http } from '@angular/http';
 import { ServerServiceProvider } from '../../providers/server-service/server-service';
-
+import { VerifyServiceProvider } from '../../providers/verify-service/verify-service';
 // declare var navigator: any;
 // declare var Connection: any;
 
@@ -40,9 +40,17 @@ export class RegisterLeadsPage {
 
   l
 
-  constructor(public navCtrl: NavController, public loadingCtrl: LoadingController, private server: ServerServiceProvider, public http: Http, public navParams: NavParams, private network: Network, public modalCtrl: ModalController, private controller: ControllerServiceProvider, private store: Storage) {
+  constructor(public navCtrl: NavController,
+    public loadingCtrl: LoadingController,
+    private server: ServerServiceProvider,
+    public http: Http, public navParams: NavParams,
+    private network: Network, public modalCtrl: ModalController,
+    private controller: ControllerServiceProvider,
+    private verify: VerifyServiceProvider,
+    private store: Storage) {
 
   }
+
 
   popover(ev) {
     let pop = this.controller.miscPopOver('PopoverPage', ev);
@@ -69,7 +77,10 @@ export class RegisterLeadsPage {
 
   savedetails() {
 
-
+    if (!this.verify.verifyRegisterLeads(this.name, this.occupation, this.dob, this.gender, this.marital_status, this.phonenumber, this.emailaddress, this.address)) {
+      // alert(this.verify.errorMessage);
+      return false;
+    }
     //API
     this.store.get('networkStatus').then((val) => {
       if (val) {
@@ -88,7 +99,7 @@ export class RegisterLeadsPage {
         };
 
         //funcName is 'registerLeads'
-        this.server.processData(body, 'registerLeads').then((data) => {
+        this.server.processData(body, '/registerLeads').then((data) => {
           console.log(data);
         }).catch((err) => {
           console.log(err)
@@ -130,4 +141,5 @@ export class RegisterLeadsPage {
     this.leadArray.push(body);
     this.store.set('leads', this.leadArray, );
   }
+
 }
