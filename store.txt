@@ -19,7 +19,7 @@ saveLoginInfo(userName, userPassword){
         this.storage.set("userName", userName);
         this.storage.set("userPassword", userName);
     }else
-    {
+    { 
         this.storage.remove("userName");
         this.storage.remove("userPassword");
 //to clear storage
@@ -98,3 +98,8 @@ this.userName = "-";
 //Bind userName with dashboard.html
 
 <h1>Welcome {{userName}}</h1>
+
+//drop down
+<ion-label stacked>Money</label>
+<ion-select interface="action-sheet"></ion-select>
+<options>

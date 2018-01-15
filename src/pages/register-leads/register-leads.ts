@@ -95,7 +95,7 @@ export class RegisterLeadsPage {
           gender: this.gender,
           emailaddress: this.emailaddress,
           comments: this.comments,
-          user: 'username'
+          user: 'Username'
         };
 
         //funcName is 'registerLeads'

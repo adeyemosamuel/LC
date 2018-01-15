@@ -7,6 +7,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { Network } from '@ionic-native/network';
 import { Storage } from '@ionic/storage';
+import { LandingPage } from '../pages/landing/landing';
+import { ProductsPage } from '../pages/products/products';
+import { LandingPage } from '../pages/landing/landing';
+import { ProductsPage } from '../pages/products/products';
 
 
 
@@ -14,7 +18,8 @@ import { Storage } from '@ionic/storage';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = 'LandingPage';
+  // rootPage:any = 'LandingPage';
+  public rootPage: any;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private network: Network, public store: Storage) {
     platform.ready().then(() => {
@@ -22,15 +27,22 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
+
+
       network.onDisconnect().subscribe(() => {
         this.store.set('networkStatus', 'false');
-    });
-    
-    network.onConnect().subscribe(() => {
+      });
+
+      network.onConnect().subscribe(() => {
         this.store.set('networkStatus', 'true');
+      });
     });
-    });
+
+    this.store.get('Username').then((val) => {
+      (val) ? this.rootPage = 'ProductsPage' : this.rootPage = 'LandingPage'
+  });
   }
+  
   
 }
 
