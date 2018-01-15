@@ -9,8 +9,8 @@ import { Network } from '@ionic-native/network';
 import { Storage } from '@ionic/storage';
 import { LandingPage } from '../pages/landing/landing';
 import { ProductsPage } from '../pages/products/products';
-import { LandingPage } from '../pages/landing/landing';
-import { ProductsPage } from '../pages/products/products';
+// import { LandingPage } from '../pages/landing/landing';
+// import { ProductsPage } from '../pages/products/products';
 
 
 
