@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
 
 
 
@@ -9,13 +10,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'products.html',
 })
 export class ProductsPage {
+  Username: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private store: Storage) {
+    
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ProductsPage');
-  }
+
+      this.store.get('Username').then((val) => {
+        this.Username = val;
+  
+      });
+    }
+  
 
   accountOpeningPage(){
     this.navCtrl.setRoot('LoginPage')
@@ -36,5 +44,7 @@ export class ProductsPage {
     bankProducts(){
       this.navCtrl.push('ProductCompPage')
     }
+
+    
 
 }

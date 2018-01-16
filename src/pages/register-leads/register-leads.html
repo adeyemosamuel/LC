@@ -16,7 +16,7 @@
   <ion-list no-lines>
     <ion-item>
       <ion-label style="color:#4fc143" floating>Name</ion-label>
-      <ion-input [(ngModel)]="name"></ion-input>
+      <ion-input [(ngModel)]="nameOfUser"></ion-input>
     </ion-item>
 
     <ion-item>
@@ -26,7 +26,7 @@
 
     <ion-item>
       <ion-label style="color:#4fc143">Date of Birth</ion-label>
-      <ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="MMM DD YYYY" [(ngModel)]="dob"></ion-datetime>
+      <ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="MMM DD YYYY" [(ngModel)]="dateOfBirth"></ion-datetime>
     </ion-item>
 
     <ion-item>
@@ -39,7 +39,7 @@
 
     <ion-item>
       <ion-label style="color:#4fc143">Marital Status</ion-label>
-      <ion-select [(ngModel)]="marital_status">
+      <ion-select [(ngModel)]="maritalStatus">
         <ion-option value="single">Single</ion-option>
         <ion-option value="married">Married</ion-option>
         <ion-option value="divorced">Divorced</ion-option>
@@ -49,12 +49,12 @@
 
     <ion-item>
       <ion-label style="color:#4fc143" floating>Phone Number</ion-label>
-      <ion-input [(ngModel)]="phonenumber" type="tel" maxlength="11"></ion-input>
+      <ion-input [(ngModel)]="phoneNum" type="tel" maxlength="11"></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label style="color:#4fc143" floating>E-mail Address</ion-label>
-      <ion-input [(ngModel)]="emailaddress"></ion-input>
+      <ion-input [(ngModel)]="emailAddress"></ion-input>
     </ion-item>
 
     <ion-item>
@@ -72,7 +72,7 @@
           </ion-col>
           <ion-col col-9>
             <ion-item no-lines style="color:limegreen; white-space:normal; font-weight:lighter;" (click)="selectProductModal()">
-              <p style="color:limegreen">{{selectedProduct}}</p>
+              <p style="color:limegreen">{{products}}</p>
               <ion-icon class="icon" item-end name="ios-options"></ion-icon>
             </ion-item>
           </ion-col>
@@ -94,4 +94,4 @@
   <ion-toolbar color="primary">
     <ion-title text-center (click)="savedetails()">SAVE</ion-title>
   </ion-toolbar>
-</ion-footer>
+</ion-footer> 

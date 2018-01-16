@@ -17,12 +17,12 @@
 
   </ion-navbar>
 
-</ion-header>
+</ion-header> 
 
 
 <ion-content padding>
   <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
-  <ion-list radio-group [(ngModel)]="selectedE">
+  <ion-list radio-group [(ngModel)]="products">
     <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines *ngFor="let e of data">
       <ion-label>{{e}}</ion-label>
       <ion-radio [value]="e"></ion-radio>

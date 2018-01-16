@@ -18,23 +18,24 @@ import { VerifyServiceProvider } from '../../providers/verify-service/verify-ser
   templateUrl: 'register-leads.html',
 })
 export class RegisterLeadsPage {
+  Username: any;
   Http: any;
-  selectedProduct: string = ''
+  products: string = ''
   storage: any;
   leadsArray: any = [];
   occupation: any;
-  dob: any;
+  dateOfBirth: any;
   gender: any;
-  marital_status: any;
+  maritalStatus: any;
   comments: any;
-  emailaddress: any;
+  emailAddress: any;
   address: any;
-  name: string = '';
-  phonenumber: string = '';
+  nameOfUser: string = '';
+  phoneNum: string = '';
   leadArray: Array<any> = [];
   status: any = 'Pending';
   connection: any;
-  user: any;
+ 
 
 
 
@@ -66,7 +67,7 @@ export class RegisterLeadsPage {
     modal.present();
     modal.onDidDismiss(data => {
       console.log(data);
-      this.selectedProduct = data;
+      this.products = data;
     });
   }
 
@@ -77,7 +78,7 @@ export class RegisterLeadsPage {
 
   savedetails() {
 
-    if (!this.verify.verifyRegisterLeads(this.name, this.occupation, this.dob, this.gender, this.marital_status, this.phonenumber, this.emailaddress, this.address)) {
+    if (!this.verify.verifyRegisterLeads(this.nameOfUser, this.occupation, this.dateOfBirth, this.gender, this.maritalStatus, this.phoneNum, this.emailAddress, this.address)) {
       // alert(this.verify.errorMessage);
       return false;
     }
@@ -85,21 +86,21 @@ export class RegisterLeadsPage {
     this.store.get('networkStatus').then((val) => {
       if (val) {
         let body = {
-          name: this.name,
-          phonenumber: this.phonenumber,
-          selectedProduct: this.selectedProduct,
+          nameOfUser: this.nameOfUser,
+          phoneNum: this.phoneNum,
+          products: this.products,
           occupation: this.occupation,
-          dob: this.dob,
+          dateOfBirth: this.dateOfBirth,
           address: this.address,
-          marital_status: this.marital_status,
+          maritalStatus: this.maritalStatus,
           gender: this.gender,
-          emailaddress: this.emailaddress,
+          emailAddress: this.emailAddress,
           comments: this.comments,
-          user: 'Username'
+          leadsUser: this.Username
         };
 
-        //funcName is 'registerLeads'
-        this.server.processData(body, '/registerLeads').then((data) => {
+        //funcnameOfUser is 'registerLeads'
+        this.server.processData(body, '/saveLeads').then((data) => {
           console.log(data);
         }).catch((err) => {
           console.log(err)
@@ -126,15 +127,15 @@ export class RegisterLeadsPage {
 
   storedetails() {
     let body = {
-      name: this.name,
-      phonenumber: this.phonenumber,
-      selectedProduct: this.selectedProduct,
+      nameOfUser: this.nameOfUser,
+      phoneNum: this.phoneNum,
+      products: this.products,
       occupation: this.occupation,
-      dob: this.dob,
+      dateOfBirth: this.dateOfBirth,
       address: this.address,
-      marital_status: this.marital_status,
+      maritalStatus: this.maritalStatus,
       gender: this.gender,
-      emailaddress: this.emailaddress,
+      emailAddress: this.emailAddress,
       status: this.status,
       comments: this.comments
     };

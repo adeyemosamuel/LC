@@ -44,7 +44,15 @@ export class LandingPage {
   async Login() {
     this.store.set("Username", this.Username);
     this.store.set("Password", this.Password);
+    this.loadingCtrl.create({
+      content: 'Please wait...',
+      duration: 1000,
+      dismissOnPageChange: true
+    }).present();
     this.navCtrl.push('ProductsPage');
+  
+}
+
       
       // let body = {
       //   Username: 'morayo.temi-bello',
@@ -59,7 +67,7 @@ export class LandingPage {
       // } catch(err) {
       //   console.log(err);
       // }
-    }
+  
   
 
   //store login details in local storage

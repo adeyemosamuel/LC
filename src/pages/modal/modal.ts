@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams,  ViewController } from 'ionic-angular';
 import { Http } from '@angular/http';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
 
 @IonicPage()
@@ -11,24 +12,32 @@ import { Http } from '@angular/http';
 export class ModalPage {
   data: Array<string> = [];
   _data: Array<string> = [];
-  selectedE: string = '';
+  products: string = ''; 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,  public viewCtrl: ViewController, private http: Http ) {
-    let localData = this.http.get('assets/paul.json').map(res => res.json());
-    localData.subscribe(data => {
-      for (let val of data) {
-        for (let newVal of val.Product_data) {
-          this.data.push(newVal.TYPES);
-        }
-      }
-      this._data = this.data;
-      console.log(data);
+  constructor(public navCtrl: NavController, public navParams: NavParams,private server: ServerServiceProvider,  public viewCtrl: ViewController, private http: Http ) {
+    // let localData = this.http.get('assets/paul.json').map(res => res.json());
+    // localData.subscribe(data => {
+    //   for (let val of data) {
+    //     for (let newVal of val.Product_data) {
+    //       this.data.push(newVal.TYPES);
+    //     }
+    //   }
+    //   this._data = this.data;
+    //   console.log(data);
       
-    });
+    // });
+
+  
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ModalPage');
+  }
+
+  async getProductsData(){
+    const response = await this.server.processData(this.products, '/products');
+    this.data = response;
+    console.log(this.data);
   }
 
 
@@ -37,7 +46,7 @@ export class ModalPage {
   }
 
   selectDone() {
-    this.viewCtrl.dismiss(this.selectedE);
+    this.viewCtrl.dismiss(this.products);
   }
 
   getItems(ev) {

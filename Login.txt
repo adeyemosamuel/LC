@@ -8,19 +8,19 @@
     // console.log(this.Password);
     // this.API.Login(this.Username, this.Password).then((result) => {
     //   console.log(result);
-    //   this.loadingCtrl.create({
-    //     content: 'Please wait...',
-    //     duration: 3000,
-    //     dismissOnPageChange: true
-    //   }).present();
+      this.loadingCtrl.create({
+        content: 'Please wait...',
+        duration: 3000,
+        dismissOnPageChange: true
+      }).present();
 
-    //   // this.loading.dismiss(); 
+      this.loading.dismiss(); 
     //   // this.data = result;
     //   // localStorage.setItem('token', this.data.apiKey);
     //   this.navCtrl.setRoot('ProductsPage');
-    // }, (err) => {
-    //   // this.loading.dismiss();
-    //   // this.presentToast(err);
-    // });
+    }, (err) => {
+      this.loading.dismiss();
+      this.presentToast(err); 
+    });
 
     }
