@@ -28,7 +28,7 @@ export class LandingPage {
     private API: LandingProvider,
     public loadingCtrl: LoadingController,
     private store: Storage,
-    private server: ServerServiceProvider,) {
+    private server: ServerServiceProvider, ) {
     this.LoginForm = formBuilder.group({
       Username: ['', Validators.compose([Validators.maxLength(30), Validators.pattern('[a-zA-Z ]*'), Validators.required])],
       Password: ['', Validators.compose([Validators.maxLength(30), Validators.pattern('[a-zA-Z ]*'), Validators.required])],
@@ -42,6 +42,19 @@ export class LandingPage {
   }
 
   async Login() {
+    // let body = {
+    //   Username: 'morayo.temi-bello',
+    //   Password: 'chigbo'
+    // };
+
+    // try {
+    //   let response = await this.server.processData(body, '/login');
+    //   console.log(response);
+    //   this.LoginForm = response;
+
+    // } catch (err) {
+    //   console.log(err);
+    // }
     this.store.set("Username", this.Username);
     this.store.set("Password", this.Password);
     this.loadingCtrl.create({
@@ -50,28 +63,9 @@ export class LandingPage {
       dismissOnPageChange: true
     }).present();
     this.navCtrl.push('ProductsPage');
-  
-}
 
-      
-      // let body = {
-      //   Username: 'morayo.temi-bello',
-      //   Password: 'chigbo'
-      // };
-  
-      // try {
-      //   let response = await this.server.processData(body, '/login');
-      //   console.log(response);
-      //   this.LoginForm = response;
-        
-      // } catch(err) {
-      //   console.log(err);
-      // }
-  
-  
-
+  }
   //store login details in local storage
-
   saveLoginInfo(Username, Password) {
     if (this.successLogin) {
       this.store.set("Username", Username);
@@ -85,13 +79,13 @@ export class LandingPage {
       console.log('saveLoginInfo');
     }
 
-   
+
   }
 
-  
+
 }
 
-  
+
 
 
 

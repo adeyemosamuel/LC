@@ -11,15 +11,14 @@ export class Details3Page {
 title:any;
 data:any;
   constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
-    this.title = this.navParams.get('title');
-    this.data = this.navParams.get('data');
+    
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Details3Page');
   }
 
-  popover(ev) {
+  popover(ev) { 
     let pop = this.controller.miscPopOver('PopoverPage', ev);
     pop.present({ev: ev});
     pop.onDidDismiss((data) => {

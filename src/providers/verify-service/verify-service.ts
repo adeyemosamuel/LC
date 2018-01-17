@@ -51,6 +51,9 @@ export class VerifyServiceProvider {
       this.errorMessage = 'Date of birth is required';
       return false;
     }
+    return true;
   }
+
+
 
 }

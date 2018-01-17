@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams,  ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
@@ -10,11 +10,11 @@ import { ServerServiceProvider } from '../../providers/server-service/server-ser
   templateUrl: 'modal.html',
 })
 export class ModalPage {
-  data: Array<string> = [];
-  _data: Array<string> = [];
-  products: string = ''; 
+  data: Array<any> = [];
+  _data: Array<any> = [];
+  products: string = '';
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,private server: ServerServiceProvider,  public viewCtrl: ViewController, private http: Http ) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private server: ServerServiceProvider, public viewCtrl: ViewController, private http: Http) {
     // let localData = this.http.get('assets/paul.json').map(res => res.json());
     // localData.subscribe(data => {
     //   for (let val of data) {
@@ -24,20 +24,20 @@ export class ModalPage {
     //   }
     //   this._data = this.data;
     //   console.log(data);
-      
+
     // });
 
-  
+
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ModalPage');
+  async ionViewDidLoad() {
+    await this.getProductsData();
   }
 
-  async getProductsData(){
-    const response = await this.server.processData(this.products, '/products');
+  async getProductsData() {
+    const response = await this.server.getData('/products');
     this.data = response;
-    console.log(this.data);
+    this._data=response;
   }
 
 
@@ -54,10 +54,10 @@ export class ModalPage {
     var val = ev.target.value;
 
     if (val && val.trim() != '') {
-        this.data = this.data.filter((item) => {
-            return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
-        });
+      this.data = this.data.filter((item) => {
+        return (item.productName.toLowerCase().indexOf(val.toLowerCase()) > -1);
+      });
     }
 
-}
+  }
 }

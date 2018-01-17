@@ -16,9 +16,9 @@
  
   <ion-list>
      
-    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines  *ngFor="let e of dat" (click)="toggleDescription(e, e.product_category)">
+    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines  *ngFor="let e of data" (click)="toggleDescription(e, e.productName)">
        
-      {{e.sector_category_type}}
+      {{e.productName}}
      
     </ion-item>
   </ion-list>

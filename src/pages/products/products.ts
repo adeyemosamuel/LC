@@ -17,7 +17,11 @@ export class ProductsPage {
   }
 
   ionViewDidLoad() {
+    this.getUsername();
+      
+    }
 
+    async getUsername(){
       this.store.get('Username').then((val) => {
         this.Username = val;
   

@@ -13,7 +13,7 @@ data:any;
   constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
     this.title = this.navParams.get('title');
     this.data = this.navParams.get('data');
-  }
+  } 
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Details2Page');

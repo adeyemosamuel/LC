@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, ModalController, NavController, NavParams, LoadingController } from 'ionic-angular';
+import { AlertController } from 'ionic-angular';
 import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 // import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { Storage } from '@ionic/storage';
@@ -26,7 +27,7 @@ export class RegisterLeadsPage {
   occupation: any;
   dateOfBirth: any;
   gender: any;
-  maritalStatus: any;
+  maritalStatus: any; 
   comments: any;
   emailAddress: any;
   address: any;
@@ -35,11 +36,6 @@ export class RegisterLeadsPage {
   leadArray: Array<any> = [];
   status: any = 'Pending';
   connection: any;
- 
-
-
-
-  l
 
   constructor(public navCtrl: NavController,
     public loadingCtrl: LoadingController,
@@ -48,10 +44,9 @@ export class RegisterLeadsPage {
     private network: Network, public modalCtrl: ModalController,
     private controller: ControllerServiceProvider,
     private verify: VerifyServiceProvider,
-    private store: Storage) {
-
-  }
-
+    private store: Storage,
+    private alertCtrl: AlertController
+  ) {}
 
   popover(ev) {
     let pop = this.controller.miscPopOver('PopoverPage', ev);
@@ -71,20 +66,30 @@ export class RegisterLeadsPage {
     });
   }
 
-
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RegisterLeadsPage');
+    this.getUsernameFromStorage();
+  }
+
+  async getUsernameFromStorage(){
+    this.store.get('Username').then((val) => {
+      this.Username = val;
+    });
   }
 
   savedetails() {
 
     if (!this.verify.verifyRegisterLeads(this.nameOfUser, this.occupation, this.dateOfBirth, this.gender, this.maritalStatus, this.phoneNum, this.emailAddress, this.address)) {
       // alert(this.verify.errorMessage);
+      this.alertCtrl.create({
+        subTitle: 'Error',
+        message: this.verify.errorMessage
+      }).present();
       return false;
     }
     //API
     this.store.get('networkStatus').then((val) => {
-      if (val) {
+      console.log(val);
+      if (!val) {
         let body = {
           nameOfUser: this.nameOfUser,
           phoneNum: this.phoneNum,

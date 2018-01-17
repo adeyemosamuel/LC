@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
 
 @IonicPage()
@@ -8,32 +9,33 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'test3.html',
 })
 export class Test3Page {
-  data: any;
-  sector_category_type: string = '';
-  sector_type_description: string = '';
+  data: Array<any> = [];
+  _data: any;
+  
   title:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-    console.log('ionViewDidLoad Test3Page');
-    this.title = this.navParams.get('data').sector_category;
-    this.data = this.navParams.get('data').sector_category_data;
+  constructor(public navCtrl: NavController, private server: ServerServiceProvider,public navParams: NavParams) {
+  
+  }
+
+  async ionViewDidLoad() {
+    this._data = this.navParams.get('data');
     console.log(this.data);
-
+    await this.SendSectorsId();
   }
 
-  ionViewDidLoad() {
-    
-    this.sector_category_type = this.data.sector_category_type;
-    this.sector_type_description = this.data.sector_type_description;
+  async SendSectorsId(){
+    let body={
+      sectorId: this._data.id
+        };
+        let response = await this.server.processData(body, '/getProductBySecId');
+        this.data = response;
+      
   }
 
-  ionViewDidEnter() {
-
-  }
-
-  toggleDescription(item, title) {
+  productsByCategory(item) {
     this.navCtrl.push('Details3Page', {
-      data: item, title:title
+      data: item
     });
   }
 

@@ -34,33 +34,16 @@ export class ProductCompPage {
     console.log(this.sectors);
   }
 
-  toggleSection(i) {
-    this.category_type[i].open = !this.category_type[i].open;
-  }
-
-  toggleItem(i, j) {
-    this.category_type[i].children[j].open = !this.category_type[i].children[j].open;
-  }
-
-  toggle_Section(i) {
-    this.sector_category_type[i].open = !this.sector_category_type[i].open;
-  }
-
-  toggle_Item(i, j) {
-    this.sector_category_type[i].children[j].open = !this.sector_category_type[i].children[j].open;
-  }
-
-  toggleDescription(item) {
+  productsByCategory(item) {
     this.navCtrl.push('Test2Page', {
       data: item
     });
   }
 
-  toggle_Description(item) {
+  productsBySector(val) {
     this.navCtrl.push('Test3Page', {
-      data: item
+      data: val
     });
-
   }
 
   searchModal(){

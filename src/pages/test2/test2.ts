@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the TestPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
 @IonicPage()
 @Component({
@@ -14,45 +8,38 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'test2.html',
 })
 export class Test2Page {
-  data: any;
-  category_type: string = '';
-  type_description: string = '';
-  title:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-    console.log('ionViewDidLoad TestPage');
-    this.title = this.navParams.get('data').product_category;
-    this.data = this.navParams.get('data').category_data;
-    console.log(this.data);
+  data: Array<any> = [];
+  _data: any;
+  title: any;
+  
 
+  constructor(public navCtrl: NavController, private server: ServerServiceProvider, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    
-    this.category_type = this.data.category_type;
-    this.type_description = this.data.type_description;
-  }
+  async ionViewDidLoad() {
+    this._data = this.navParams.get('data');
+    await this.SendCategoryId();
+  } 
 
-  ionViewDidEnter() {
+  
 
-  }
 
-  toggleDescription(item, title) {
-    this.navCtrl.push('Details2Page', {
-      data: item, title:title
-    });
-  }
+async SendCategoryId(){
+  let body={
+    categoryId: this._data.id
+      };
+  let response = await this.server.processData(body, '/getProductByCatId');
+  this.data = response;
 
-  // toggleTypes(item) {
-  //   this.navCtrl.push('RegisterLeadsPage', {
-  //     data: this.TYPES, 
-  //   });
-  // }
 
-  // selectProduct(TYPES){
-  //   this.navCtrl.push('RegisterLeadsPage',{
-  //     data: this.TYPES,
-  //   })
-  // }
+}
 
+productsByCategory(item) {
+  this.navCtrl.push('Details2Page', {
+    data: item
+  });
+}
+
+ 
 }
