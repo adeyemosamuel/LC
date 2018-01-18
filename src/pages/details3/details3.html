@@ -8,7 +8,7 @@
           </button>
         </ion-buttons>
     </ion-navbar>
-    <ion-item-divider no-lines text-left class="div" style="white-space:normal; font-weight: light; font-size: 18px; color: black;">{{data.sector_category_type}}</ion-item-divider>
+    <ion-item-divider no-lines text-left class="div" style="white-space:normal; font-weight: light; font-size: 18px; color: black;">{{data.productName}}</ion-item-divider>
   
   
   
@@ -26,7 +26,7 @@
     <ion-item no-lines>
   
       <ul>
-        <li *ngFor="let d of data.type_features" style="font-weight: light; white-space:normal;">{{d}}</li>
+        <li *ngFor="let d of data.peligibility" style="font-weight: light; white-space:normal;">{{d.eligibilityName}}</li>
       </ul>
     </ion-item>
   
@@ -34,9 +34,9 @@
   
     <ion-item no-lines>
       <ul>
-      <li *ngFor="let b of data.type_benefits" style="font-weight: light; white-space:normal;">{{b}}</li>
+      <li *ngFor="let b of data.pbenefits" style="font-weight: light; white-space:normal;">{{b.benefitsName}}</li>
     </ul>
-    </ion-item>
+    </ion-item> 
   
     <ion-fab right bottom>
       <button ion-fab color="primary" (click)="addLead()"><ion-icon name="add-circle"></ion-icon></button>

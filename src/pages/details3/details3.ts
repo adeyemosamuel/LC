@@ -9,13 +9,15 @@ import { ControllerServiceProvider } from '../../providers/controller-service/co
 })
 export class Details3Page {
 title:any;
-data:any;
+data:any = {};
   constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
     
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Details3Page');
+    this.data = this.navParams.get('data');
+    console.log('data');
   }
 
   popover(ev) { 
@@ -26,7 +28,7 @@ data:any;
             this.navCtrl.setRoot(data);
     });
   }
-
+ 
   addLead(){
     this.navCtrl.push('RegisterLeadsPage')
   }

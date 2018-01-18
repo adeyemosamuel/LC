@@ -33,7 +33,7 @@
 
     <ion-card class="card">
       <ion-list *ngSwitchCase="'products'">
-        <ion-item *ngFor="let item of data; let i = index" (click)="productsByCategory(item)">
+        <ion-item *ngFor="let item of data; let i = index" (click)="productsByCategory(item,item.categoryName)">
           <ion-avatar item-start>
             <img class="img" src="../assets/imgs/logo4.png">
           </ion-avatar>
@@ -46,7 +46,7 @@
 
     <ion-card class="card">
       <ion-list *ngSwitchCase="'sectors'">
-        <ion-item *ngFor="let item of sectors; let i = index" (click)="productsBySector(item)">
+        <ion-item *ngFor="let item of sectors; let i = index" (click)="productsBySector(item,item.sectorName)">
           <ion-avatar item-start>
             <img class="img" src="../assets/imgs/logo4.png">
           </ion-avatar>

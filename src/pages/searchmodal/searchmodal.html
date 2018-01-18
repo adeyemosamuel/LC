@@ -2,9 +2,8 @@
 <ion-header>
   
     <ion-navbar color="primary">
-      <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
-  
-       <!-- <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar> -->
+      <ion-searchbar [(ngModel)]="searchTerm" (keyup)="searchProduct($event)"></ion-searchbar>
+
       <ion-buttons end>
         <button ion-button (click)="selectCancel()">CANCEL</button>
       </ion-buttons>
@@ -14,9 +13,9 @@
 
   <ion-content padding>
  
-  <ion-list>
+  <ion-list> 
      
-    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines  *ngFor="let e of data" (click)="toggleDescription(e, e.productName)">
+    <ion-item style="color:limegreen; white-space:normal; font-weight:lighter; " no-lines  *ngFor="let e of data" (click)="toDescriptionView(e)" >
        
       {{e.productName}}
      

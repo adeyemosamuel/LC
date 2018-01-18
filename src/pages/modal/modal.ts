@@ -13,6 +13,7 @@ export class ModalPage {
   data: Array<any> = [];
   _data: Array<any> = [];
   products: string = '';
+  searchTerm: string='';
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private server: ServerServiceProvider, public viewCtrl: ViewController, private http: Http) {
     // let localData = this.http.get('assets/paul.json').map(res => res.json());
@@ -40,6 +41,9 @@ export class ModalPage {
     this._data=response;
   }
 
+  // selectOne(){
+  //   this.viewCtrl.dismiss(this.products);
+  // }
 
   selectCancel() {
     this.viewCtrl.dismiss('');
@@ -51,7 +55,7 @@ export class ModalPage {
 
   getItems(ev) {
     this.data = this._data;
-    var val = ev.target.value;
+    var val = ev.target.value; 
 
     if (val && val.trim() != '') {
       this.data = this.data.filter((item) => {

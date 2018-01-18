@@ -17,8 +17,9 @@ data:any;
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Details2Page');
+    this.data = this.navParams.get('data');
   }
-
+ 
   popover(ev) {
     let pop = this.controller.miscPopOver('PopoverPage', ev);
     pop.present({ev: ev});

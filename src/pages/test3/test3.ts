@@ -20,6 +20,7 @@ export class Test3Page {
 
   async ionViewDidLoad() {
     this._data = this.navParams.get('data');
+    this.title= this.navParams.get('title');
     console.log(this.data);
     await this.SendSectorsId();
   }
@@ -43,7 +44,7 @@ export class Test3Page {
   //   this.navCtrl.push('RegisterLeadsPage', {
   //     data: this.TYPES, 
   //   });
-  // }
+  // } 
 
   // selectProduct(TYPES){
   //   this.navCtrl.push('RegisterLeadsPage',{

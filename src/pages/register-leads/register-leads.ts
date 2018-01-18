@@ -87,13 +87,13 @@ export class RegisterLeadsPage {
       return false;
     }
     //API
-    this.store.get('networkStatus').then((val) => {
-      console.log(val);
-      if (!val) {
+    // this.store.get('networkStatus').then((val) => {
+    //   console.log(val);
+    //   if (!val) {
         let body = {
           nameOfUser: this.nameOfUser,
           phoneNum: this.phoneNum,
-          products: this.products,
+          products: this.products.split(',')[1],
           occupation: this.occupation,
           dateOfBirth: this.dateOfBirth,
           address: this.address,
@@ -103,6 +103,7 @@ export class RegisterLeadsPage {
           comments: this.comments,
           leadsUser: this.Username
         };
+        console.log(body);
 
         //funcnameOfUser is 'registerLeads'
         this.server.processData(body, '/saveLeads').then((data) => {
@@ -111,14 +112,14 @@ export class RegisterLeadsPage {
           console.log(err)
         })
 
-      } else {
-        this.store.get('leads').then((val) => {
+    //   } else {
+    //     this.store.get('leads').then((val) => {
 
-          if (val) this.leadArray = val;
-          this.storedetails();
-        });
-      }
-    });
+    //       if (val) this.leadArray = val;
+    //       this.storedetails();
+    //     });
+    //   }
+    // }); 
     this.loadingCtrl.create({
       content: 'Saving...',
       duration: 3000,

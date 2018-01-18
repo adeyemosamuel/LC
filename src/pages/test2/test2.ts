@@ -19,6 +19,7 @@ export class Test2Page {
 
   async ionViewDidLoad() {
     this._data = this.navParams.get('data');
+    this.title= this.navParams.get('title');
     await this.SendCategoryId();
   } 
 

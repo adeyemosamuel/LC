@@ -12,46 +12,53 @@ export class SearchmodalPage {
   data: Array<any> = [];
   _data: Array<any> = [];
   products: string = '';
+  searchTerm: string='';
+ 
  
 
   constructor( private http: Http,public navCtrl: NavController,private server: ServerServiceProvider, public navParams: NavParams,public viewCtrl:ViewController, public modalCtrl: ModalController) {
   
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ModalPage');
-  }
+  async ionViewDidLoad() {
+    this._data = this.navParams.get('data');
+    // await this.getProductsData();
+  } 
+
 
   async getProductsData() {
-    const response = await this.server.getData('/products');
+    let body={
+      keywordName: this._data
+
+        };
+    const response = await this.server.processData(body,'/getProductByKeyName');
     this.data = response;
     this._data=response;
   }
   
-
-  getItems(ev) {
-    this.data = this._data;
-    var val = ev.target.value;
-
-    if (val && val.trim() != '') {
-        this.data = this.data.filter((item) => {
-        
-          return (item.productName._keywords.toLowerCase().indexOf(val.toLowerCase()) > -1);
-        });
-      } 
-
-}
+  async searchProduct(event){
+    console.log(event.target.value);
+    let body = {
+      keywordName: event.target.value
+    };
+    
+    // if (event.key === 'Enter') {
+      let response = await this.server.processData(body, '/getProductByKeyName');
+      console.log(response);
+      this.data = response;
+    // }
+  }
 
   selectCancel() {
     this.viewCtrl.dismiss('');
   }
 
-  toggleDescription(item, title) {
-    console.log(item);
-    console.log(title);
+  toDescriptionView(e) {
+    console.log(e);
     // console.log(title);
+   
     this.navCtrl.push('Details3Page', {
-      data: item, title:title
+      data: e, 
     });
   }
 
