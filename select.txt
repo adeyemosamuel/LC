@@ -1,0 +1,84 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>FX RATES</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="card">
+    <ion-card-header text-center color="primary">
+      <strong>CALCULATOR</strong>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-list no-lines>
+
+          <ion-item>
+              <ion-label style="color:#4fc143">Tenure</ion-label>
+              <ion-select [(ngModel)]="tenure">
+                <ion-option value="tenure1">30 Days</ion-option>
+                <ion-option value="tenure2">60 Days</ion-option>
+                <ion-option value="tenure3">90 Days</ion-option>
+                <ion-option value="tenure4">180-365 Days</ion-option>
+              </ion-select>
+            </ion-item>
+
+        <ion-item>
+            <ion-label style="color:#4fc143">Deposit Range</ion-label>
+            <ion-select [(ngModel)]="range">
+                <ion-option value="range1">$100k - $499k</ion-option>
+                <ion-option value="range2">$500k - $999k</ion-option>
+                <ion-option value="range3">$1M - $9.99M</ion-option>
+                <ion-option value="range4">$10M Above</ion-option>
+              </ion-select>
+        </ion-item>
+        <ion-item>
+            
+          <ion-label style="color:#4fc143; " stacked>Deposit Amount($)</ion-label>
+          <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
+        </ion-item>
+        <p ion-text text-center [hidden]="( (p == null || range == null) || (  (range == 'range1' && p >= 100000 && p <=499000)
+          || (range == 'range2' && p >= 500000 && p <=999000) || (range == 'range3' && p >= 1000000 && p <=9999999) || (range == 'range4' && p >= 10000000)
+          ))" style="color: red">Invalid Range</p>
+        
+        <ion-item>
+          <ion-label style="color:#4fc143;" stacked>Interest Rate(%)</ion-label>
+          <ion-input   name="r" value="{{tenure == 'tenure1' &&  range == 'range1' ? '0.50-0.80':
+          tenure == 'tenure1' &&  range == 'range2' ? '0.60-1.00':
+          tenure == 'tenure1' &&  range == 'range3' ? '0.75-1.2':
+          tenure == 'tenure1' &&  range == 'range4' ? '1.00-1.75':
+          tenure == 'tenure2' &&  range == 'range1' ? '0.90-1.20':
+          tenure == 'tenure2' &&  range == 'range2' ? '1.20-1.50':
+          tenure == 'tenure2' &&  range == 'range3' ? '1.25-1.75':
+          tenure == 'tenure2' &&  range == 'range4' ? '2.00-2.50':
+          tenure == 'tenure3' &&  range == 'range1' ? '1.50-2.75':
+          tenure == 'tenure3' &&  range == 'range2' ? '2.00-3.25':
+          tenure == 'tenure3' &&  range == 'range3' ? '2.00-4.25':
+          tenure == 'tenure3' &&  range == 'range4' ? '3.00-5.00':
+          tenure == 'tenure4' &&  range == 'range1' ? '3.00-3.25':
+          tenure == 'tenure4' &&  range == 'range2' ? '3.50-3.75':
+          tenure == 'tenure4' &&  range == 'range3' ? '4.50-4.75':
+          tenure == 'tenure4' &&  range == 'range4' ? '5.25-5.50':0
+    
+      }}"></ion-input>
+        </ion-item>
+
+        <!-- <ion-item>
+          <ion-label style="color:#4fc143;" stacked>Days</ion-label>
+          <ion-input [(ngModel)]="n" type="number" name="n"></ion-input>
+        </ion-item> -->
+        
+
+      </ion-list>
+      <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
+
+
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

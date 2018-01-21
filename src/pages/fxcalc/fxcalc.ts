@@ -16,8 +16,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class FxcalcPage {
 p:number= null;
 range:string=null;
-r:string=null;
+r:number=null;
 tenure:string=null;
+SI;
+isSubmitted:boolean=false;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -25,4 +27,21 @@ tenure:string=null;
     console.log('ionViewDidLoad FxcalcPage');
   }
 
+  calculateInterest(){
+    var t;
+    if(this.tenure =='tenure1'){
+      t = 30/365;
+    }
+    else if(this.tenure =='tenure2'){
+      t = 60/365;
+    }
+    else if (this.tenure =='tenure3'){
+      t = 90/365;
+    }
+    else{
+      t = 180/365;
+    }
+    this.isSubmitted = true;
+    this.SI = ((this.p * this.r * t).toFixed(2));
+  }
 }

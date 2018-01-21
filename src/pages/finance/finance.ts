@@ -33,7 +33,7 @@ export class FinancePage {
       this.MR = (parseInt(this.TI) + parseInt(this.p)) / 12;
       this.TP = (parseInt(this.TI) + parseInt(this.p));
       this.LD = ((this.p)) - ((this.p) * 0.02) ;
-      this.isSubmitted = true;
+      this.isSubmitted = true; 
     }
     
     
