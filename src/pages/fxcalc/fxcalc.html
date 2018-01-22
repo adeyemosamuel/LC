@@ -30,15 +30,15 @@
         <ion-item>
           <ion-label style="color:#4fc143">Deposit Range</ion-label>
           <ion-select [(ngModel)]="range">
-            <ion-option value="range1">$100k - $499k</ion-option>
-            <ion-option value="range2">$500k - $999k</ion-option>
-            <ion-option value="range3">$1M - $9.99M</ion-option>
-            <ion-option value="range4">$10M Above</ion-option>
+            <ion-option value="range1"> ₦100k -  ₦499k</ion-option>
+            <ion-option value="range2"> ₦500k -  ₦999k</ion-option>
+            <ion-option value="range3"> ₦1M -  ₦9.99M</ion-option>
+            <ion-option value="range4"> ₦10M Above</ion-option>
           </ion-select>
         </ion-item>
         <ion-item>
 
-          <ion-label style="color:#4fc143; " stacked>Deposit Amount($)</ion-label>
+          <ion-label style="color:#4fc143; " stacked>Deposit Amount(₦)</ion-label>
           <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
         </ion-item>
         <p ion-text text-center [hidden]="( (p == null || range == null) || (  (range == 'range1' && p >= 100000 && p <=499000)
@@ -97,15 +97,15 @@
 
   <div *ngIf="isSubmitted">
     <ion-card>
-      <ion-card-header>RESULT</ion-card-header>
+      <ion-card-header  text-center color="primary">RESULT</ion-card-header>
       <ion-card-content>
         <ion-grid>
-          <ion-row>
+          <ion-row class="row1">
             <ion-col col-6>
               <p>Simple Interest</p>
             </ion-col>
             <ion-col col-6>
-              <p>{{SI}}</p>
+              <p>₦{{SI}}</p>
             </ion-col>
           </ion-row>
         </ion-grid>
