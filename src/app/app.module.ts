@@ -6,7 +6,6 @@ import { Device } from '@ionic-native/device';
 import { Camera } from '@ionic-native/camera';
 import { DatePicker } from '@ionic-native/date-picker';
 import { Network } from '@ionic-native/network';
-import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -26,7 +25,7 @@ import { ServerServiceProvider } from '../providers/server-service/server-servic
 import { SignaturePadModule } from 'angular2-signaturepad';
 import { IonicStorageModule } from '@ionic/storage';
 import { LocalNotifications } from '@ionic-native/local-notifications';
-
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 
 
@@ -68,6 +67,7 @@ import { VerifyServiceProvider } from '../providers/verify-service/verify-servic
   providers: [
     Geolocation,
     StatusBar,
+    SocialSharing,
     SplashScreen,
     Geolocation,
     NativeGeocoder,
@@ -88,7 +88,6 @@ import { VerifyServiceProvider } from '../providers/verify-service/verify-servic
     Camera,
     DatePicker,
     Network,
-    SQLite,
     LandingProvider,
     VerifyServiceProvider,
 

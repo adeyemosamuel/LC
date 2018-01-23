@@ -42,7 +42,7 @@ export class ProductsPage {
     }
 
     leadManagement(){
-      this.navCtrl.push('LeadsPage')
+      this.navCtrl.push('OpenleadsPage')
     }
 
     bankProducts(){

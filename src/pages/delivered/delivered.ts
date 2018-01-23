@@ -8,32 +8,20 @@ import 'rxjs/add/operator/map';
 
 @IonicPage()
 @Component({
-  selector: 'page-leads',
-  templateUrl: 'leads.html',
+  selector: 'page-delivered',
+  templateUrl: 'delivered.html',
 })
-export class LeadsPage {
-data: any;
-selectedItem: any;
-leadsArray: Array<any> = [];
-storage:any;
+export class DeliveredPage {
 
+  data: any;
+  selectedItem: any;
+  leadsArray: Array<any> = [];
+  storage: any;
 
-  constructor(
-    public navCtrl: NavController, 
-    public navParams: NavParams,
-    private store: Storage,
+  constructor(public navCtrl: NavController, public navParams: NavParams, private store: Storage,
     private leadsServiceProvider: LeadsServiceProvider,
-    private serverService: ServerServiceProvider
-  ) {
-    // this.selectedItem = navParams.get('item');
-    // let localData = this.http.get('assets/usersJSON.json').map(res => res.json());
-    // localData.subscribe(data => {
-    //   this.data= data.data;
-    //   console.log(this.data);
-    // });
-    
+    private serverService: ServerServiceProvider) {
   }
-
   ionViewDidLoad() {
     // this.getLeads();
     this.getLeadsFromServer();
@@ -85,9 +73,4 @@ storage:any;
       console.log(err);
     }
   }
-
-  notifications(){
-    this.navCtrl.push('ReminderPage');
-  }
-
 }
