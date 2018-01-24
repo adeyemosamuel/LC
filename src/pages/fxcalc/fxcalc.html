@@ -24,8 +24,8 @@
             <ion-option value="tenure2">60 Days</ion-option>
             <ion-option value="tenure3">90 Days</ion-option>
             <ion-option value="tenure4">180 Days</ion-option>
-            <!-- <ion-option value="tenure4">270 Days</ion-option>
-            <ion-option value="tenure4">365 Days</ion-option> -->
+            <ion-option value="tenure5">270 Days</ion-option>
+            <ion-option value="tenure6">365 Days</ion-option>
           </ion-select>
         </ion-item>
 
@@ -67,7 +67,15 @@
             (tenure == 'tenure4' && range == 'range1' && r >= 1.00 && r <=1.75 ) ||
             (tenure == 'tenure4' && range == 'range2' && r >= 2.00 && r <=2.5 ) ||
             (tenure == 'tenure4' && range == 'range3' && r >= 3.0 && r <=5.0 ) ||
-            (tenure == 'tenure4' && range == 'range4' && r >= 5.25 && r <=5.50 )
+            (tenure == 'tenure4' && range == 'range4' && r >= 5.25 && r <=5.50) ||
+            (tenure == 'tenure5' && range == 'range1' && r >= 1.00 && r <=1.75 ) ||
+            (tenure == 'tenure5' && range == 'range2' && r >= 2.00 && r <=2.5 ) ||
+            (tenure == 'tenure5' && range == 'range3' && r >= 3.0 && r <=5.0 ) ||
+            (tenure == 'tenure5' && range == 'range4' && r >= 5.25 && r <=5.50) ||
+            (tenure == 'tenure6' && range == 'range1' && r >= 1.00 && r <=1.75 ) ||
+            (tenure == 'tenure6' && range == 'range2' && r >= 2.00 && r <=2.5 ) ||
+            (tenure == 'tenure6' && range == 'range3' && r >= 3.0 && r <=5.0 ) ||
+            (tenure == 'tenure6' && range == 'range4' && r >= 5.25 && r <=5.50)
                        ))" style="color: red">Invalid Range</p>
 
 
@@ -89,7 +97,15 @@
         (tenure == 'tenure4' && range == 'range1' && r >= 1.00 && r <=1.75 ) ||
         (tenure == 'tenure4' && range == 'range2' && r >= 2.00 && r <=2.5 ) ||
         (tenure == 'tenure4' && range == 'range3' && r >= 3.0 && r <=5.0 ) ||
-        (tenure == 'tenure4' && range == 'range4' && r >= 5.25 && r <=5.50 ) ) 
+        (tenure == 'tenure4' && range == 'range4' && r >= 5.25 && r <=5.50 )||
+        (tenure == 'tenure5' && range == 'range1' && r >= 1.00 && r <=1.75 ) ||
+        (tenure == 'tenure5' && range == 'range2' && r >= 2.00 && r <=2.5 ) ||
+        (tenure == 'tenure5' && range == 'range3' && r >= 3.0 && r <=5.0 ) ||
+        (tenure == 'tenure5' && range == 'range4' && r >= 5.25 && r <=5.50) ||
+        (tenure == 'tenure6' && range == 'range1' && r >= 1.00 && r <=1.75 ) ||
+        (tenure == 'tenure6' && range == 'range2' && r >= 2.00 && r <=2.5 ) ||
+        (tenure == 'tenure6' && range == 'range3' && r >= 3.0 && r <=5.0 ) ||
+        (tenure == 'tenure6' && range == 'range4' && r >= 5.25 && r <=5.50)) 
        && ( (range == 'range1' && p >= 100000 && p <=499000) || (range == 'range2' && p >= 500000 && p <=999000) || (range == 'range3' && p >= 1000000 && p <=9999999) || (range == 'range4' && p >= 10000000)
                    ))" (click)="calculateInterest()">Calculate</button>
 

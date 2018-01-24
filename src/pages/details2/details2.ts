@@ -36,24 +36,24 @@ export class Details2Page {
     this.navCtrl.push('RegisterLeadsPage')
   }
 
-  shareInfo() {
-    this.socialSharing.shareViaEmail('message', 'subject', ['to'], ['cc'], ['bcc'], 'files').
-      then(() => {
-        alert("Sharing success");
-        // Success!
-      }).catch(() => {
-        // Error!
-        alert("Share failed");
-      });
+  // shareInfo() {
+  //   this.socialSharing.shareViaEmail(this.title+this.data, 'subject', ['to'], ['cc'], ['bcc'], 'files').
+  //     then(() => {
+  //       alert("Sharing success");
+  //       // Success!
+  //     }).catch(() => {
+  //       // Error!
+  //       alert("Share failed");
+  //     });
 
-    this.socialSharing.shareViaWhatsApp('message', 'image', ' url').then(() => {
-      alert("Sharing success");
-      // Success!
-    }).catch(() => {
-      // Error!
-      alert("Share failed");
-    });
+  //   this.socialSharing.shareViaWhatsApp(this.title+this.data, 'image', ' url').then(() => {
+  //     alert("Sharing success");
+  //     // Success!
+  //   }).catch(() => {
+  //     // Error!
+  //     alert("Share failed");
+  //   });
 
-  }
+  // }
 
 }

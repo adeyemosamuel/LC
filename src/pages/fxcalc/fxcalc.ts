@@ -38,15 +38,15 @@ isSubmitted:boolean=false;
     else if (this.tenure =='tenure3'){
       t = 90/365;
     }
-    else{
+    else if (this.tenure == 'tenure4'){
       t= 180/365;
     }
-  //   else if (this.tenure == 'tenure5'){
-  //     t = 270/365;
-  //   }
-  //  else {
-  //     t= 365/365;
-  //   }
+    else if (this.tenure == 'tenure5'){
+      t = 270/365;
+    }
+   else {
+      t= 365/365;
+    }
     this.isSubmitted = true;
     this.SI = ((this.p * this.r * t).toFixed(2));
   }
