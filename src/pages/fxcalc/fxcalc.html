@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>FX RATES</ion-title>
+    <ion-title>FOREIGN CURRENCY DEPOSIT</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -23,17 +23,19 @@
             <ion-option value="tenure1">30 Days</ion-option>
             <ion-option value="tenure2">60 Days</ion-option>
             <ion-option value="tenure3">90 Days</ion-option>
-            <ion-option value="tenure4">180-365 Days</ion-option>
+            <ion-option value="tenure4">180 Days</ion-option>
+            <!-- <ion-option value="tenure4">270 Days</ion-option>
+            <ion-option value="tenure4">365 Days</ion-option> -->
           </ion-select>
         </ion-item>
 
         <ion-item>
           <ion-label style="color:#4fc143">Deposit Range</ion-label>
           <ion-select [(ngModel)]="range">
-            <ion-option value="range1"> ₦100k -  ₦499k</ion-option>
-            <ion-option value="range2"> ₦500k -  ₦999k</ion-option>
-            <ion-option value="range3"> ₦1M -  ₦9.99M</ion-option>
-            <ion-option value="range4"> ₦10M Above</ion-option>
+            <ion-option value="range1"> $100k -  $499k</ion-option>
+            <ion-option value="range2"> $500k -  $999k</ion-option>
+            <ion-option value="range3"> $1M -  $9.99M</ion-option>
+            <ion-option value="range4"> $10M Above</ion-option>
           </ion-select>
         </ion-item>
         <ion-item>

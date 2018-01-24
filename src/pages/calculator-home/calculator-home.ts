@@ -73,9 +73,19 @@ export class CalculatorHomePage {
       this.navCtrl.push('LouniPage');
     }
 
-    fxdeposit(){
-      console.log("FX Rates")
+    fcd(){
+      console.log("Foreign Deposit")
       this.navCtrl.push('FxcalcPage')
+    }
+
+    lcd(){
+      console.log("Local Deposit")
+      this.navCtrl.push('LcdPage')
+    }
+
+    customer(){
+      console.log("Customer Loan")
+      this.navCtrl.push('CustomerPage')
     }
 
   }

@@ -3,16 +3,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 
 
+
 @IonicPage()
 @Component({
-  selector: 'page-local',
-  templateUrl: 'local.html',
+  selector: 'page-customer',
+  templateUrl: 'customer.html',
 })
-export class LocalPage {
-
+export class CustomerPage {
   p: any;
-  r: number = 27;
-  n: any;
+  r: number = 29;
+  n: any; 
   nRadio: any = 'month';
   TI :any;
   MR :any;
@@ -20,25 +20,23 @@ export class LocalPage {
   LD :any;
   TOR:any;
   isSubmitted:boolean=false;
-  
-  constructor(public navCtrl: NavController, public navParams: NavParams, private controller: ControllerServiceProvider) {
+
+  constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
   }
 
   calculateInterest() {
-    console.log('button clicked');
-    if (this.p <= 20000000) {
+    console.log('button clicked'); 
+ 
     if (this.nRadio !== 'month') {
       this.n = this.n;
     }
     this.TI = ((this.p * this.r * (this.n)*0.0833333)/100).toFixed(2);
     this.MR = ((parseInt(this.TI) + parseInt(this.p))/((this.n))).toFixed(2);
     this.TP = (parseInt(this.TI) + parseInt(this.p)).toFixed(2);
-    this.LD = (((this.p)) - ((this.p) * 0.02)).toFixed(2) ;
+    this.LD = (((this.p)) - ((this.p) * 0.03)).toFixed(2) ;
     this.TOR= ((parseInt(this.TP))-parseInt(this.MR)).toFixed(2);
     this.isSubmitted = true;
   }
-}
-
   popover(ev) {
     let pop = this.controller.miscPopOver('PopoverPage', ev);
     pop.present({ev: ev});
@@ -47,6 +45,6 @@ export class LocalPage {
             this.navCtrl.setRoot(data);
     });
   }
-   
-}
 
+
+}

@@ -34,19 +34,19 @@ export class ProductsPage {
   }
 
   loanCalculator(){
-    this.navCtrl.push('CalculatorHomePage')
+    this.navCtrl.setRoot('CalculatorHomePage')
     }
 
     locateUs(){
-      this.navCtrl.push('Atm2Page')
+      this.navCtrl.setRoot('Atm2Page')
     }
 
     leadManagement(){
-      this.navCtrl.push('OpenleadsPage')
+      this.navCtrl.setRoot('OpenleadsPage')
     }
 
     bankProducts(){
-      this.navCtrl.push('ProductCompPage')
+      this.navCtrl.setRoot('ProductCompPage')
     }
 
     

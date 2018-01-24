@@ -40,7 +40,7 @@ export class ProductCompPage {
       data: item,
       title: categoryName
     });
-  }
+  } 
 
   productsBySector(val, sectorName) {
     this.navCtrl.push('Test3Page', {

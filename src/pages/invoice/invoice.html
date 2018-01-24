@@ -41,8 +41,8 @@
           
                   <ion-list radio-group [(ngModel)]="nRadio" no-lines>
                     <ion-item  >
-                      <ion-label >Year</ion-label>
-                      <ion-radio value="year"></ion-radio>
+                      <ion-label >Months</ion-label>
+                      <ion-radio value="month"></ion-radio>
                     </ion-item>
                     <!-- <ion-item>
                             <ion-label>Month</ion-label>
@@ -51,7 +51,7 @@
                   </ion-list>
           <button ion-button full class="calculate" (click)="calculateInterest()">Calculate</button>
         </ion-card-content>
-      </ion-card>
+      </ion-card> 
     
           <div *ngIf="isSubmitted">
             
@@ -92,10 +92,19 @@
     
                   <ion-row class="row4">
                     <ion-col width-22>
-                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Payment(₦)</p>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Repayment(₦)</p>
                     </ion-col>
                     <ion-col>
                       <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TP}}</p>
+                    </ion-col>
+                  </ion-row>
+
+                  <ion-row class="row5">
+                    <ion-col width-22>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Outstanding Repayment(₦)</p>
+                    </ion-col>
+                    <ion-col>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TOR}}</p>
                     </ion-col>
                   </ion-row>
     

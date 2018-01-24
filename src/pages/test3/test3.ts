@@ -34,9 +34,10 @@ export class Test3Page {
       
   }
 
-  productsByCategory(item) {
+  productsBySector(item, sectorName) {
     this.navCtrl.push('Details3Page', {
-      data: item
+      data: item,
+      title: sectorName
     });
   }
 

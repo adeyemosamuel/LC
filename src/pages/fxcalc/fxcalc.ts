@@ -39,8 +39,14 @@ isSubmitted:boolean=false;
       t = 90/365;
     }
     else{
-      t = 180/365;
+      t= 180/365;
     }
+  //   else if (this.tenure == 'tenure5'){
+  //     t = 270/365;
+  //   }
+  //  else {
+  //     t= 365/365;
+  //   }
     this.isSubmitted = true;
     this.SI = ((this.p * this.r * t).toFixed(2));
   }

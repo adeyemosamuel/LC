@@ -36,9 +36,10 @@ async SendCategoryId(){
 
 }
 
-productsByCategory(item) {
+productsByCategory(item, categoryName) {
   this.navCtrl.push('Details2Page', {
-    data: item
+    data: item,
+    title: categoryName
   });
 }
 

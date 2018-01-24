@@ -18,7 +18,7 @@ page-cusad {background-color: white;
     }
     .result{
         width: 330px;
-        height: 250px;
+        height: 280px;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -28,8 +28,13 @@ page-cusad {background-color: white;
         
         margin-right: auto;
         margin-left: auto;
-        display: block;
+        display: block; 
     }
+    .row5{
+        
+                background-color: #b2b2b2;
+            }
+
     ion-input{
         border: 1px solid limegreen;
         background-color: rgba(79,193,67, 0.05);

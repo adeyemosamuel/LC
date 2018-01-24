@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 @IonicPage()
 @Component({
@@ -10,13 +11,15 @@ import { ControllerServiceProvider } from '../../providers/controller-service/co
 export class Details3Page {
 title:any;
 data:any = {};
-  constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private controller: ControllerServiceProvider,
+    private socialSharing: SocialSharing) {
     
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Details3Page');
     this.data = this.navParams.get('data');
+    this.title= this.navParams.get('title');
     console.log('data');
   }
 
@@ -31,6 +34,26 @@ data:any = {};
  
   addLead(){
     this.navCtrl.push('RegisterLeadsPage')
+  }
+
+  shareInfo(){
+    this.socialSharing.shareViaEmail('message', 'subject', ['to'], ['cc'], ['bcc'], 'files').
+    then(() => {
+    alert("Sharing success");
+    // Success!
+    }).catch(() => {
+    // Error!
+    alert("Share failed");
+    });
+
+    this.socialSharing.shareViaWhatsApp('message', 'image',' url').then(() => {
+      alert("Sharing success");
+      // Success!
+      }).catch(() => {
+      // Error!
+      alert("Share failed");
+      });
+
   }
 
 }

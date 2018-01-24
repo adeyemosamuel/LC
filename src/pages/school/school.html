@@ -37,12 +37,12 @@
                       <ion-label style="color:#4fc143;" stacked>Duration</ion-label>
                       <ion-input [(ngModel)]="n"  type="number"  name="n"></ion-input>
                     </ion-item>
-                  </ion-list>
+                  </ion-list> 
           
                   <ion-list radio-group [(ngModel)]="nRadio" no-lines>
                     <ion-item  >
-                      <ion-label >Year</ion-label>
-                      <ion-radio value="year"></ion-radio>
+                      <ion-label >Months</ion-label>
+                      <ion-radio value="month"></ion-radio>
                     </ion-item>
                     <!-- <ion-item>
                             <ion-label>Month</ion-label>
@@ -93,10 +93,19 @@
     
                   <ion-row class="row4">
                     <ion-col width-22>
-                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Payment(₦)</p>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Total Repayment(₦)</p>
                     </ion-col>
                     <ion-col>
                       <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TP}}</p>
+                    </ion-col>
+                  </ion-row>
+
+                  <ion-row class="row5">
+                    <ion-col width-22>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">Outstanding Repayment(₦)</p>
+                    </ion-col>
+                    <ion-col>
+                      <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TOR}}</p>
                     </ion-col>
                   </ion-row>
     
