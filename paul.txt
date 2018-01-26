@@ -1,0 +1,24 @@
+{{  !(tenure == 'tenure1' && range == '$100k - $499k' && r >= 0.5 && r <=0.8 ) ?  0.5 - 0.8 : 
+                       (tenure == 'tenure1' && range == '$500k - $999k' && r >=  0.90 && r <=1.20 )   ? 0.9 - 1.20 :
+                       (tenure == 'tenure1' && range == '$1M - $9.99M' && r >= 1.50 && r <=2.75 ) ? 1.5 - 2.75 :
+                       (tenure == 'tenure1' && range == '$10M Above' && r >= 3.00 && r <=3.25 )? 3.0 - 3.25 :
+                       (tenure == 'tenure2' && range == '$100k - $499k' && r >= 0.60 && r <=1.0 )? 0.6 - 1.0 :
+                       (tenure == 'tenure2' && range == '$500k - $999k' && r >= 0.20 && r <=1.5 ) ? 0.2 - 1.5 :
+                       (tenure == 'tenure2' && range == '$1M - $9.99M' && r >= 2.00 && r <=3.25 ) ? 2.0 - 3.25 :
+                       (tenure == 'tenure2' && range == '$10M Above' && r >= 3.50 && r <=3.75 ) ? 3.5 - 3.75 :
+                       (tenure == 'tenure3' && range == '$100k - $499k' && r >= 0.75 && r <=1.20 ) ? 0.75 - 0.75 :
+                       (tenure == 'tenure3' && range == '$500k - $999k' && r >= 1.25 && r <=1.75 ) ? 1.25 - 1.75 :
+                       (tenure == 'tenure3' && range == '$1M - $9.99M' && r >= 2.00 && r <=4.25 ) ? 2.0 - 4.25 :
+                       (tenure == 'tenure3' && range == '$10M Above' && r >= 4.50 && r <=4.75 ) ? 4.5 - 4.75 :
+                       (tenure == 'tenure4' && range == '$100k - $499k' && r >= 1.00 && r <=1.75 ) ? 1.0 - 1.75 :
+                       (tenure == 'tenure4' && range == '$500k - $999k' && r >= 2.00 && r <=2.5 ) ? 2.0 - 2.25 :
+                       (tenure == 'tenure4' && range == '$1M - $9.99M' && r >= 3.0 && r <=5.0 ) ? 3.0 - 5.0 :
+                       (tenure == 'tenure4' && range == '$10M Above' && r >= 5.25 && r <=5.50) ? 5.25 - 5.50 :
+                       (tenure == 'tenure5' && range == '$100k - $499k' && r >= 1.00 && r <=1.75 ) ? 1 - 1.75 :
+                       (tenure == 'tenure5' && range == '$500k - $999k' && r >= 2.00 && r <=2.00 ) ? 2.00 - 2.00 :
+                       (tenure == 'tenure5' && range == '$1M - $9.99M' && r >= 3.0 && r <=5.0 ) ? ? 3.0 - 5.0 :
+                       (tenure == 'tenure5' && range == '$10M Above' && r >=  5.25 && r <=5.50) ? 5.25 - 5.50 :
+                       (tenure == 'tenure6' && range == '$100k - $499k' && r >= 1.00 && r <=1.75 ) ? 1 - 1.75 :
+                       (tenure == 'tenure6' && range == '$500k - $999k' && r >= 2.00 && r <=2.5 ) ? 2.0 - 2.5 :
+                       (tenure == 'tenure6' && range == '$1M - $9.99M' && r >= 3.0 && r <=5.0 ) ? ? 3.0 - 5.0 :
+                       (tenure == 'tenure6' && range == '$10M Above' && r >= 5.25 && r <=5.50) }} 

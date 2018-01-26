@@ -17,6 +17,7 @@ export class NapelPage {
   TP :any; 
   LD :any;
   TOR:any;
+  FR: any;
   isSubmitted:boolean=false;
   
   constructor(public navCtrl: NavController, public navParams: NavParams, private controller: ControllerServiceProvider) {
@@ -31,8 +32,9 @@ export class NapelPage {
     this.TI = ((this.p * this.r * (this.n)*0.0833333)/100).toFixed(2);
     this.MR = ((parseInt(this.TI) + parseInt(this.p))/((this.n))).toFixed(2);
     this.TP = (parseInt(this.TI) + parseInt(this.p)).toFixed(2);
-    this.LD = (((this.p)) - ((this.p) * 0.03)).toFixed(2) ;
+    this.LD = this.p;
     this.TOR= ((parseInt(this.TP))-parseInt(this.MR)).toFixed(2);
+    this.FR=(this.p) * 0.03;
     this.isSubmitted = true;
   }
   popover(ev) {

@@ -69,7 +69,7 @@ storage:any;
     let _username: string = await this.store.get('username');
     let body = {
       // username: _username
-      username: 'morayo.temi-bello'
+      username: 'morayo.temi-bello' 
     };
 
     try {

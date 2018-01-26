@@ -18,6 +18,7 @@ export class FinancePage {
   MR :any;
   TP :any;
   LD :any;
+  FR: any; 
   TOR:any;
   isSubmitted:boolean=false;
   
@@ -33,8 +34,9 @@ export class FinancePage {
       this.TI = ((this.p * this.r * (this.n)*0.0833333)/100).toFixed(2);
       this.MR = ((parseInt(this.TI) + parseInt(this.p))/((this.n))).toFixed(2);
       this.TP = (parseInt(this.TI) + parseInt(this.p)).toFixed(2);
-      this.LD = (((this.p)) - ((this.p) * 0.02)).toFixed(2) ;
+      this.LD = this.p;
       this.TOR= ((parseInt(this.TP))-parseInt(this.MR)).toFixed(2);
+      this.FR=(this.p) * 0.02;
       this.isSubmitted = true; 
     }
     

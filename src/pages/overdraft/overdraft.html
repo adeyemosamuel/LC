@@ -26,7 +26,7 @@
           <ion-label style="color:#4fc143; " stacked>Loan Amount(₦)</ion-label>
           <ion-input [(ngModel)]="p" type="number" name="p"></ion-input>
         </ion-item>
-        <p ion-text text-center [hidden]="p <= 20000000" style="color: red">Obligor Limit is N5m</p>
+        <p ion-text text-center [hidden]="p <= 5000000" style="color: red">Obligor Limit is N5m</p>
         <ion-item>
           <ion-label style="color:#4fc143;" stacked>Interest Rate(%)</ion-label>
           <ion-input disabled="true" [(ngModel)]="r" type="number" name="r"></ion-input>
@@ -98,13 +98,22 @@
               <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TP}}</p>
             </ion-col>
           </ion-row>
-
+<!-- 
           <ion-row class="row5">
             <ion-col width-22>
               <p text-center style="font-weight: light; font-size: 15px; color: white;">Outstanding Repayment(₦)</p>
             </ion-col>
             <ion-col>
               <p text-center style="font-weight: light; font-size: 15px; color: white;">{{TOR}}</p>
+            </ion-col>
+          </ion-row> -->
+
+          <ion-row class="row5">
+            <ion-col width-22>
+              <p text-center style="font-weight: light; font-size: 15px; color: white;">Flat fee payable upfront (₦)</p>
+            </ion-col>
+            <ion-col>
+              <p text-center style="font-weight: light; font-size: 15px; color: white;">{{FR}}</p>
             </ion-col>
           </ion-row>
 

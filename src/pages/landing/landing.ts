@@ -61,7 +61,7 @@ export class LandingPage {
       content: 'Please wait...',
       duration: 1000,
       dismissOnPageChange: true
-    }).present();
+    }).present(); 
     this.navCtrl.push('ProductsPage');
 
   }
