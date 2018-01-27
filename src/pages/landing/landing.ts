@@ -59,10 +59,13 @@ export class LandingPage {
     this.store.set("Password", this.Password);
     this.loadingCtrl.create({
       content: 'Please wait...',
-      duration: 1000,
-      dismissOnPageChange: true
+      duration: 2000,
+       dismissOnPageChange: true
     }).present(); 
-    this.navCtrl.push('ProductsPage');
+    this.navCtrl.push('ProductsPage')
+    
+    
+    
 
   }
   //store login details in local storage

@@ -1,0 +1,82 @@
+
+                        (tenure == 'tenure1' && range == '$100k - $499k')? '0.5 - 0.8' : 
+                          (tenure == 'tenure1' && range == '$500k - $999k')? '0.9 - 1.20' :
+                           (tenure == 'tenure1' && range == '$1M - $9.99M') ? '1.5 - 2.75' :
+                       (tenure == 'tenure1' && range == '$10M Above' )? '3.0 - 3.25' :
+                       (tenure == 'tenure2' && range == '$100k - $499k' )? '0.6 - 1.0' :
+                       (tenure == 'tenure2' && range == '$500k - $999k' ) ? '0.2 - 1.5' :
+                       (tenure == 'tenure2' && range == '$1M - $9.99M' ) ? '2.0 - 3.25' :
+                       (tenure == 'tenure2' && range == '$10M Above') ? '3.5 - 3.75' :
+                       (tenure == 'tenure3' && range == '$100k - $499k' ) ? '0.75 - 0.75' :
+                       (tenure == 'tenure3' && range == '$500k - $999k'  ) ? '1.25 - 1.75' :
+                       (tenure == 'tenure3' && range == '$1M - $9.99M' ) ? '2.0 - 4.25' :
+                       (tenure == 'tenure3' && range == '$10M Above' ) ? '4.5 - 4.75' :
+                       (tenure == 'tenure4' && range == '$100k - $499k') ? '1.0 - 1.75' :
+                       (tenure == 'tenure4' && range == '$500k - $999k'  ) ? '2.0 - 2.25' :
+                       (tenure == 'tenure4' && range == '$1M - $9.99M' ) ? '3.0 - 5.0' :
+                       (tenure == 'tenure4' && range == '$10M Above' ) ? '5.25 - 5.50' :
+                       (tenure == 'tenure5' && range == '$100k - $499k' ) ? '1 - 1.75':
+                       (tenure == 'tenure5' && range == '$500k - $999k' ) ? '2.00 - 2.5' :
+                       (tenure == 'tenure5' && range == '$1M - $9.99M' ) ? '3.0 - 5.0' :
+                       (tenure == 'tenure5' && range == '$10M Above') ? '5.25 - 5.50' :
+                       (tenure == 'tenure6' && range == '$100k - $499k' ) ? '1 - 1.75' :
+                       (tenure == 'tenure6' && range == '$500k - $999k' ) ? '2.0 - 2.5' :
+                       (tenure == 'tenure6' && range == '$1M - $9.99M' ) ? '3.0 - 5.0' :
+                       (tenure == 'tenure6' && range == '$10M Above' )  ? '5.25 - 5.50' :''
+
+
+
+(tenure == 'tenure0' && range == '0.25mm - 0.50mm') ?'1.00' :
+(tenure == 'tenure0' && range == '0.50mm - 1.0mm') ?'1.50':
+(tenure == 'tenure0' && range == '1.0mm - 3.0mm') ?'2.00':
+(tenure == 'tenure0' && range == '3.0mm - 5.0mm')?'2.50':
+(tenure == 'tenure0' && range == '5.0mm - 10.0mm')?'3.00':
+(tenure == 'tenure0' && range == '10.0mm - 50.0mm')?'4.00':
+(tenure == 'tenure0' && range == '50.0mm - 100.0mm')?'6.00':
+(tenure == 'tenure0' && range == '100mm - 200mm')?'7.50':
+(tenure == 'tenure0' && range == '200mm Above')?'8.50':
+(tenure == 'tenure1' && range == '0.25mm - 0.50mm')?'4.25':
+(tenure == 'tenure1' && range == '0.50mm - 1.0mm')?'4.25':
+(tenure == 'tenure1' && range == '1.0mm - 3.0mm')?'4.25-4.25':
+(tenure == 'tenure1' && range == '3.0mm - 5.0mm')?'4.25-4.75':
+(tenure == 'tenure1' && range == '5.0mm - 10.0mm')?'4.75-5.75':
+(tenure == 'tenure1' && range == '10.0mm - 50.0mm')?'6.00-9.00':
+(tenure == 'tenure1' && range == '50.0mm - 100.0mm')?'9.75-10.50':
+(tenure == 'tenure1' && range == '100mm - 200mm')?'11.25-12.25':
+(tenure == 'tenure1' && range == '200mm Above')?'12.50-13.00'
+(tenure == 'tenure2' && range == '0.25mm - 0.50mm')?'4.25':
+(tenure == 'tenure2' && range == '0.50mm - 1.0mm')?'4.25':
+(tenure == 'tenure2' && range == '1.0mm - 3.0mm')?'4.25-4.25':
+(tenure == 'tenure2' && range == '3.0mm - 5.0mm')?'4.50-5.00':
+(tenure == 'tenure2' && range == '5.0mm - 10.0mm')?'5.00-6.00':
+(tenure == 'tenure2' && range == '10.0mm - 50.0mm')?'6.25-9.25':
+(tenure == 'tenure2' && range == '50.0mm - 100.0mm')?'10.00-10.75':
+(tenure == 'tenure2' && range == '100mm - 200mm')?'11.50-12.50':
+(tenure == 'tenure2' && range == '200mm Above')?'12.75-14.25':
+(tenure == 'tenure3' && range == '0.25mm - 0.50mm')? '4.25':
+(tenure == 'tenure3' && range == '0.50mm - 1.0mm')?'4.25':
+(tenure == 'tenure3' && range == '1.0mm - 3.0mm')?'4.25-4.50':
+(tenure == 'tenure3' && range == '3.0mm - 5.0mm')?'4.75-5.25':
+(tenure == 'tenure3' && range == '5.0mm - 10.0mm')?'5.25-6.25':
+(tenure == 'tenure3' && range == '10.0mm - 50.0mm')?'6.75-9.75':
+(tenure == 'tenure3' && range == '50.0mm - 100.0mm')?'10.75-11.25':
+(tenure == 'tenure3' && range == '100mm - 200mm')?'13.00-14.50':
+(tenure == 'tenure3' && range == '200mm Above')?'14.50-16.00':
+(tenure == 'tenure4' && range == '0.25mm - 0.50mm') ?'4.25':
+(tenure == 'tenure4' && range == '0.50mm - 1.0mm')?'4.25':
+(tenure == 'tenure4' && range == '1.0mm - 3.0mm')?'4.25-4.50':
+(tenure == 'tenure4' && range == '3.0mm - 5.0mm')?'4.75-5.25':
+(tenure == 'tenure4' && range == '5.0mm - 10.0mm')?'5.25-6.25':
+(tenure == 'tenure4' && range == '10.0mm - 50.0mm')?'6.75-9.75':
+(tenure == 'tenure4' && range == '50.0mm - 100.0mm')?'10.75-11.25':
+(tenure == 'tenure4' && range == '100mm - 200mm')?'11.25-12.50':
+(tenure == 'tenure4' && range == '200mm Above')?'12.50-14.00':
+(tenure == 'tenure5' && range == '0.25mm - 0.50mm')? '4.25':
+(tenure == 'tenure5' && range == '0.50mm - 1.0mm')?'4.25':
+(tenure == 'tenure5' && range == '1.0mm - 3.0mm')?'4.25-4.50':
+(tenure == 'tenure5' && range == '3.0mm - 5.0mm')?'4.75-5.25':
+(tenure == 'tenure5' && range == '5.0mm - 10.0mm')?'5.25-6.25':
+(tenure == 'tenure5' && range == '10.0mm - 50.0mm')?'6.75-9.75':
+(tenure == 'tenure5' && range == '50.0mm - 100.0mm')?'10.75-11.25':
+(tenure == 'tenure5' && range == '100mm - 200mm')?'11.25-12.50':
+(tenure == 'tenure5' && range == '200mm Above')?'12.50-14.00': ''

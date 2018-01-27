@@ -24,3 +24,21 @@
     });
 
     }
+
+
+
+    LOADER
+
+    presentLoadingCustom() {
+    let loading = this.loadingCtrl.create({
+      spinner: 'hide',
+      content: `<img src="assets/img/gif.gif" />`,
+      duration: 5000
+    });
+
+    loading.onDidDismiss(() => {
+      console.log('Dismissed loading');
+    });
+
+    loading.present();
+  }

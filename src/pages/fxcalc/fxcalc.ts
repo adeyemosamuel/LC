@@ -15,7 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class FxcalcPage {
 p:number= null;
-range:string=null;
+range:string=null; 
 r:number=null;
 tenure:string=null;
 SI;

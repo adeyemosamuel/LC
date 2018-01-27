@@ -1,0 +1,92 @@
+[disabled]="!((r != null || range != null || tenure != null || p!=null)
+   &&  (
+    (tenure == 'tenure0'  && u < 30 && range == '0.25mm - 0.50mm' && r==1.00 ) || 
+    (tenure == 'tenure0'  && u < 30 && range == '0.50mm - 1.0mm' && r==1.50 ) ||
+    (tenure == 'tenure0'  && u < 30 && range == '1.0mm - 3.0mm' && r==2.00 )  ||
+    (tenure == 'tenure0'  && u < 30 && range == '3.0mm - 5.0mm' && r==2.50 ) ||
+    (tenure == 'tenure0'  && u < 30 && range == '5.0mm - 10.0mm' && r==3.00 ) ||
+    (tenure == 'tenure0'  && u < 30 && range == '10.0mm - 50.0mm' && r==4.00) ||
+    (tenure == 'tenure0'  && u < 30 && range == '50.0mm - 100.0mm' && r==6.00 ) ||
+    (tenure == 'tenure0'  && u < 30 && range == '100mm - 200mm' && r==7.50) ||
+    (tenure == 'tenure0'  && u < 30 && range == '200mm Above' && r==8.50) ||
+    (tenure == 'tenure1' && range == '0.25mm - 0.50mm' && r==4.25) || 
+    (tenure == 'tenure1' && range == '0.50mm - 1.0mm' && r==4.25) ||
+    (tenure == 'tenure1' && range == '1.0mm - 3.0mm' && r >= 4.25 && r <=4.25 )  ||
+    (tenure == 'tenure1' && range == '3.0mm - 5.0mm' && r >= 4.25 && r <=4.75 ) ||
+    (tenure == 'tenure1' && range == '5.0mm - 10.0mm' && r >= 4.75 && r <=5.75 ) ||
+    (tenure == 'tenure1' && range == '10.0mm - 50.0mm' && r >= 6.00 && r <=9.00 ) ||
+    (tenure == 'tenure1' && range == '50.0mm - 100.0mm' && r >= 9.75 && r <=10.50 ) ||
+    (tenure == 'tenure1' && range == '100mm - 200mm' && r >= 11.25 && r <=12.25 ) ||
+    (tenure == 'tenure1' && range == '200mm Above' && r >= 12.50 && r <=13.00 ) ||
+    (tenure == 'tenure2' && range == '0.25mm - 0.50mm' && r==4.25 ) || 
+    (tenure == 'tenure2' && range == '0.50mm - 1.0mm' && r==4.25 ) ||
+    (tenure == 'tenure2' && range == '1.0mm - 3.0mm' && r >= 4.25 && r <=4.25 )  ||
+    (tenure == 'tenure2' && range == '3.0mm - 5.0mm' && r >= 4.50 && r <=5.00) ||
+    (tenure == 'tenure2' && range == '5.0mm - 10.0mm' && r >= 5.00 && r <=6.00 ) ||
+    (tenure == 'tenure2' && range == '10.0mm - 50.0mm' && r >= 6.25 && r <=9.25 ) ||
+    (tenure == 'tenure2' && range == '50.0mm - 100.0mm' && r >=10.00 && r <=10.75 ) ||
+    (tenure == 'tenure2' && range == '100mm - 200mm' && r >= 11.50 && r <=12.50 ) ||
+    (tenure == 'tenure2' && range == '200mm Above' && r >= 12.75 && r <=14.25 ) ||
+    (tenure == 'tenure3' && range == '0.25mm - 0.50mm' && r==4.25) || 
+    (tenure == 'tenure3' && range == '0.50mm - 1.0mm' && r==4.25) ||
+    (tenure == 'tenure3' && range == '1.0mm - 3.0mm' && r >= 4.25 && r <=4.50 )  ||
+    (tenure == 'tenure3' && range == '3.0mm - 5.0mm' && r >= 4.75 && r <=5.25 ) ||
+    (tenure == 'tenure3' && range == '5.0mm - 10.0mm' && r >= 5.25 && r <=6.25 ) ||
+    (tenure == 'tenure3' && range == '10.0mm - 50.0mm' && r >= 6.75 && r <=9.75 ) ||
+    (tenure == 'tenure3' && range == '50.0mm - 100.0mm' && r >= 10.75 && r <=11.25 ) ||
+    (tenure == 'tenure3' && range == '100mm - 200mm' && r >= 13.00 && r <=14.50 ) ||
+    (tenure == 'tenure3' && range == '200mm Above' && r >= 14.50 && r <=16.00 ) ||
+    (tenure == 'tenure4' && range == '0.25mm - 0.50mm' && r==4.25 ) || 
+    (tenure == 'tenure4' && range == '0.50mm - 1.0mm' && r==4.25) ||
+    (tenure == 'tenure4' && range == '1.0mm - 3.0mm' && r >= 4.25 && r <=4.50 )  ||
+    (tenure == 'tenure4' && range == '3.0mm - 5.0mm' &&  r >= 4.75 && r <=5.25 ) ||
+    (tenure == 'tenure4' && range == '5.0mm - 10.0mm' && r >= 5.25 && r <=6.25 ) ||
+    (tenure == 'tenure4' && range == '10.0mm - 50.0mm' && r >= 6.75 && r <=9.75 ) ||
+    (tenure == 'tenure4' && range == '50.0mm - 100.0mm' && r >= 10.75 && r <=11.25 ) ||
+    (tenure == 'tenure4' && range == '100mm - 200mm' && r >= 11.25 && r <=12.50 ) ||
+    (tenure == 'tenure4' && range == '200mm Above' && r >= 12.50 && r <=14.00 ) ||
+    (tenure == 'tenure5' && range == '0.25mm - 0.50mm' && r==4.25 ) || 
+    (tenure == 'tenure5' && range == '0.50mm - 1.0mm' && r==4.25) ||
+    (tenure == 'tenure5' && range == '1.0mm - 3.0mm' &&  r >= 4.25 && r <=4.50 )  ||
+    (tenure == 'tenure5' && range == '3.0mm - 5.0mm' &&  r >= 4.75 && r <=5.25 ) ||
+    (tenure == 'tenure5' && range == '5.0mm - 10.0mm' && r >= 5.25 && r <=6.25 ) ||
+    (tenure == 'tenure5' && range == '10.0mm - 50.0mm' && r >= 6.75 && r <=9.75 ) ||
+    (tenure == 'tenure5' && range == '50.0mm - 100.0mm' && r >= 10.75 && r <=11.25 ) ||
+    (tenure == 'tenure5' && range == '100mm - 200mm' && r >= 11.25 && r <=12.50 ) ||
+    (tenure == 'tenure5' && range == '200mm Above' && r >= 12.50 && r <=14.00 ) 
+     && ( (range == '0.25mm - 0.50mm' && p >= 0.25 && p <=0.50)
+     || (range == '0.50mm - 1.0mm' && p >= 0.50 && p <=1.0) || (range == '1.0mm - 3.0mm' && p >= 1.0 && p <=3.0) || 
+     (range == '3.0mm - 5.0mm' && p >= 3.0 && p <=5.0)|| (range == '5.0mm - 10.0mm' && p >= 5.0 && p <=10.0) ||
+      (range == '10.0mm - 50.0mm' && p >= 10.0 && p <=50.0)|| (range == '50.0mm - 100.0mm' && p >= 50.0 && p <=100.0)||
+       (range == '100.0mm - 200.0mm' && p >= 100.0 && p <=200.0)||(range == '200mm Above' && p >= 200)
+                 ))"
+
+
+
+(tenure == 'tenure0'  && u < 30 && range == '0.25mm - 0.50mm' && r==1.00 ) || 
+          (tenure == 'tenure0'  && u < 30 && range == '0.50mm - 1.0mm' && r==1.50 ) ||
+          (tenure == 'tenure0'  && u < 30 && range == '1.0mm - 3.0mm' && r==2.00 )  ||
+          (tenure == 'tenure0'  && u < 30 && range == '3.0mm - 5.0mm' && r==2.50 ) ||
+          (tenure == 'tenure0'  && u < 30 && range == '5.0mm - 10.0mm' && r==3.00 ) ||
+          (tenure == 'tenure0'  && u < 30 && range == '10.0mm - 50.0mm' && r==4.00) ||
+          (tenure == 'tenure0'  && u < 30 && range == '50.0mm - 100.0mm' && r==6.00 ) ||
+          (tenure == 'tenure0'  && u < 30 && range == '100mm - 200mm' && r==7.50) ||
+          (tenure == 'tenure0'  && u < 30 && range == '200mm Above' && r==8.50) ||
+
+
+
+              
+
+                      
+                      (tenure == 'tenure0'  && u < 30 && range == '0.50mm - 1.0mm') ?'1.50':
+                      (tenure == 'tenure0'  && u < 30 && range == '1.0mm - 3.0mm') ?'2.00':
+                      (tenure == 'tenure0'  && u < 30 && range == '3.0mm - 5.0mm')?'2.50':
+                      (tenure == 'tenure0'  && u < 30 && range == '5.0mm - 10.0mm')?'3.00':
+                      (tenure == 'tenure0'  && u < 30 && range == '10.0mm - 50.0mm')?'4.00':
+                      (tenure == 'tenure0'  && u < 30 && range == '50.0mm - 100.0mm')?'6.00':
+                      (tenure == 'tenure0'  && u < 30 && range == '100mm - 200mm')?'7.50':
+                      (tenure == 'tenure0'  && u < 30 && range == '200mm Above')?'8.50':
+
+
+
+                       ''

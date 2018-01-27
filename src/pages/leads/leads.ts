@@ -11,7 +11,7 @@ import 'rxjs/add/operator/map';
   selector: 'page-leads',
   templateUrl: 'leads.html',
 })
-export class LeadsPage {
+export class LeadsPage { 
 data: any;
 selectedItem: any;
 leadsArray: Array<any> = [];

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { ServerServiceProvider } from '../../providers/server-service/server-service';
-import { Storage } from '@ionic/storage';
+// import { ServerServiceProvider } from '../../providers/server-service/server-service';
+// import { Storage } from '@ionic/storage';
+// import 'rxjs/add/operator/map';
 
 @IonicPage()
 @Component({
@@ -12,7 +13,7 @@ export class OpenleadsPage {
   // leadspending:  Array<any> = [];
   // leadsdelivered:  Array<any> = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,private serverService: ServerServiceProvider, private store: Storage) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
@@ -28,7 +29,7 @@ export class OpenleadsPage {
 //     };
 
 //     try {
-//       let response = await this.serverService.processData(body, '/checkleads');
+//       let response = await this.serverService.processData(body, '/showListPending');
 //       console.log(response);
 //       this.leadspending = response;
 //     } catch(err) {
@@ -47,7 +48,7 @@ export class OpenleadsPage {
 //       };
   
 //       try {
-//         let response = await this.serverService.processData(body, '/checkleads');
+//         let response = await this.serverService.processData(body, '/showListDelivered');
 //         console.log(response);
 //         this.leadsdelivered = response;
 //       } catch(err) {

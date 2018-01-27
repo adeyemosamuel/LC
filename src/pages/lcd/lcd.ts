@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the LcdPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -14,12 +9,45 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'lcd.html',
 })
 export class LcdPage {
+  p:number= null;
+  u:number= 0;
+  range:string=null;
+  r:number=null;
+  tenure:string=null;
+  SI;
+  isSubmitted:boolean=false;
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LcdPage');
+  }
+
+  calculateInterest(){
+    var t;
+    if(this.tenure =='tenure0'){
+      t = 1/365;
+    }
+    else if(this.tenure =='tenure1'){
+      t = 30/365;
+    }
+    else if (this.tenure =='tenure2'){
+      t = 60/365;
+    }
+    else if (this.tenure == 'tenure3'){
+      t= 90/365;
+    }
+    else if (this.tenure == 'tenure4'){
+      t = 180/365;
+    }
+   else {
+      t= 360/365;
+    }
+    this.isSubmitted = true;
+    this.SI = ((this.p * this.r * t).toFixed(2));
   }
 
 }
