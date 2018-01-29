@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-// import { ServerServiceProvider } from '../../providers/server-service/server-service';
-// import { Storage } from '@ionic/storage';
-// import 'rxjs/add/operator/map';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
+import { Storage } from '@ionic/storage';
+import 'rxjs/add/operator/map';
 
 @IonicPage()
 @Component({
@@ -10,52 +10,52 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'openleads.html',
 })
 export class OpenleadsPage {
-  // leadspending:  Array<any> = [];
-  // leadsdelivered:  Array<any> = [];
+  leadspending:  Array<any> = [];
+  leadsdelivered:  Array<any> = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private serverService: ServerServiceProvider, private store: Storage) {
   }
 
   ionViewDidLoad() {
-  //  this.getPendingLeadsFromServer();
-  //  this.getDeliveredLeadsFromServer();
+   this.getPendingLeadsFromServer();
+   this.getDeliveredLeadsFromServer();
   }
 
-//   async getPendingLeadsFromServer() {
-//     let _username: string = await this.store.get('username');
-//     let body = {
-//       // username: _username
-//       username: 'morayo.temi-bello' 
-//     };
+  async getPendingLeadsFromServer() {
+    let _username: string = await this.store.get('username');
+    let body = {
+      // username: _username
+      username: 'morayo.temi-bello' 
+    };
 
-//     try {
-//       let response = await this.serverService.processData(body, '/showListPending');
-//       console.log(response);
-//       this.leadspending = response;
-//     } catch(err) {
-//       console.log(err);
-//     }
+    try {
+      let response = await this.serverService.processData(body, '/showCountPending');
+      console.log(response);
+      this.leadspending = response;
+    } catch(err) {
+      console.log(err);
+    }
 
-// }
+}
 
 
-//     //get delivered leads number from server
-//     async getDeliveredLeadsFromServer() {
-//       let _username: string = await this.store.get('username');
-//       let body = {
-//         // username: _username
-//         username: 'morayo.temi-bello' 
-//       };
+    //get delivered leads number from server
+    async getDeliveredLeadsFromServer() {
+      let _username: string = await this.store.get('username');
+      let body = {
+        // username: _username
+        username: 'morayo.temi-bello' 
+      };
   
-//       try {
-//         let response = await this.serverService.processData(body, '/showListDelivered');
-//         console.log(response);
-//         this.leadsdelivered = response;
-//       } catch(err) {
-//         console.log(err);
-//       }
+      try {
+        let response = await this.serverService.processData(body, '/showCountDelivered');
+        console.log(response);
+        this.leadsdelivered = response;
+      } catch(err) {
+        console.log(err);
+      }
   
-//     }
+    }
 
 
 

@@ -4,7 +4,9 @@ import { ControllerServiceProvider } from '../../providers/controller-service/co
 import { Geolocation } from '@ionic-native/geolocation';
 import { NativeGeocoder } from '@ionic-native/native-geocoder';
 import { LocationAccuracy } from '@ionic-native/location-accuracy';
-import { AtmdataProvider } from '../../providers/atmdata/atmdata';
+import { ServerServiceProvider } from '../../providers/server-service/server-service';
+// import { AtmdataProvider } from '../../providers/atmdata/atmdata';
+import 'rxjs/add/operator/map';
 
 
 @IonicPage()
@@ -23,19 +25,21 @@ export class Atm2Page {
     longi;
     place;
     locator = "atm";
-    
+    searchTerm: any;
+     
 
 
-    constructor(public zone: NgZone, public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
+    constructor(public zone: NgZone, public navCtrl: NavController, 
+         private serverService: ServerServiceProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
     } 
 
     async ionViewDidLoad() {
-        const response = await this.Data.getService('atm');
+        const response = await this.serverService.getData('/atm');
         // console.log(response[0]);
         this.data = response;
         console.log(this.data);
         
-        const branchres= await this.Data.getService('branch');
+        const branchres= await this.serverService.getData('/branch');
         this.branches = branchres;
         console.log(this.branches);
         
@@ -53,21 +57,21 @@ export class Atm2Page {
         });
       }
 
-    getdata() {
-        // this.Data.getdata().then(data => {
-        //     this.data = data;
-        //     this._data = data;
-        //     console.log(this.data);
-        // });
-    }
+    // getdata() {
+    //     // this.Data.getdata().then(data => {
+    //     //     this.data = data;
+    //     //     this._data = data;
+    //     //     console.log(this.data);
+    //     // });
+    // }
 
-    getbranches() {
-        this.Data.getbranches().then(branches => {
-            this.branches = branches;
-            this._branches = branches;
-            console.log(this.branches);
-        });
-    }
+    // getbranches() {
+    //     this.Data.getbranches().then(branches => {
+    //         this.branches = branches;
+    //         this._branches = branches;
+    //         console.log(this.branches);
+    //     });
+    // }
 
 
     openPost(data) {

@@ -13,9 +13,9 @@
   <ion-grid class="lead">
 <ion-row>
 <ion-col>
-    <ion-card class="pending" (click)="pendingLeads()">
+    <ion-card   *ngFor="let item of leadspending" class="pending" (click)="pendingLeads()">
         <img class="img_pending" src="../assets/imgs/hourglass.png">
-        <p  class="text" text-center style="font-weight: light; font-size:25px;  color: white; white-space:normal;">104</p>
+        <p  class="text" text-center style="font-weight: light; font-size:25px;  color: white; white-space:normal;">{{item}}</p>
         <p class="text" text-center style="font-weight: light;  color: white; white-space:normal;">PENDING</p>
       </ion-card>
 
@@ -25,9 +25,9 @@
 
 <ion-row>
   <ion-col>
-      <ion-card class="delivered" (click)="deliveredLeads()">
+      <ion-card  *ngFor="let item of leadsdelivered" class="delivered" (click)="deliveredLeads()">
           <img class="img_delivered" src="../assets/imgs/checked3.png">
-          <p  class="text" text-center style="font-weight: light; font-size:25px;  color: white; white-space:normal;">205</p>
+          <p  class="text" text-center style="font-weight: light; font-size:25px;  color: white; white-space:normal;"> {{item}}</p>
           <p class="text" text-center style="font-weight: light;  color: white; white-space:normal;">DELIVERED</p>
         </ion-card>
 

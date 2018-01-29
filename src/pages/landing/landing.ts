@@ -15,6 +15,7 @@ import { ServerServiceProvider } from '../../providers/server-service/server-ser
 })
 export class LandingPage {
   leadsArray: any;
+  loadCtrl: any;
 
 
   Username: string = '';
@@ -42,6 +43,13 @@ export class LandingPage {
   }
 
   async Login() {
+    let loader = this.loadingCtrl.create({
+      content:'Signing in...',
+    duration:3000,
+    dismissOnPageChange: true
+  });
+    loader.present();
+    
     // let body = {
     //   Username: 'morayo.temi-bello',
     //   Password: 'chigbo'
@@ -57,16 +65,9 @@ export class LandingPage {
     // }
     this.store.set("Username", this.Username);
     this.store.set("Password", this.Password);
-    this.loadingCtrl.create({
-      content: 'Please wait...',
-      duration: 2000,
-       dismissOnPageChange: true
-    }).present(); 
+    
     this.navCtrl.push('ProductsPage')
     
-    
-    
-
   }
   //store login details in local storage
   saveLoginInfo(Username, Password) {
@@ -77,7 +78,7 @@ export class LandingPage {
       this.store.remove("UserName");
       this.store.remove("Password");
       //to clear storage
-      this.store.clear();
+      this.store.clear(); 
 
       console.log('saveLoginInfo');
     }

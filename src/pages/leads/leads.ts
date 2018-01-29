@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 // import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 import { Storage } from '@ionic/storage';
-import { LeadsServiceProvider } from '../../providers/leads-service/leads-service';
+// import { LeadsServiceProvider } from '../../providers/leads-service/leads-service';
 import { ServerServiceProvider } from '../../providers/server-service/server-service';
 import 'rxjs/add/operator/map';
 
@@ -22,7 +22,7 @@ storage:any;
     public navCtrl: NavController, 
     public navParams: NavParams,
     private store: Storage,
-    private leadsServiceProvider: LeadsServiceProvider,
+    // private leadsServiceProvider: LeadsServiceProvider,
     private serverService: ServerServiceProvider
   ) {
     // this.selectedItem = navParams.get('item');
@@ -81,7 +81,7 @@ storage:any;
       // } else {
       //   console.log(response.message);
       // }
-    } catch(err) {
+    } catch(err) { 
       console.log(err);
     }
   }

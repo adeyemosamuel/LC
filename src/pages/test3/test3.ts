@@ -34,12 +34,13 @@ export class Test3Page {
       
   }
 
-  productsBySector(item, sectorName) {
+  productsBySector(item) {
+    console.log(item);
     this.navCtrl.push('Details3Page', {
       data: item,
-      title: sectorName
-    });
-  }
+      title: this.title
+    }); 
+  } 
 
   // toggleTypes(item) {
   //   this.navCtrl.push('RegisterLeadsPage', {

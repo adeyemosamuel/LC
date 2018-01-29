@@ -44,7 +44,7 @@ async getData(funcName): Promise<any> {
     return response.json();
   }
   catch(err) {
-    console.log(err.json());
+    console.log(err.json()); 
     return {responseCode: "96", message: err.json().Message};
   }
 }

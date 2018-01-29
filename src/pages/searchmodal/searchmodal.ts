@@ -13,6 +13,7 @@ export class SearchmodalPage {
   _data: Array<any> = [];
   products: string = '';
   searchTerm: string='';
+  title: any;
  
  
 
@@ -22,6 +23,7 @@ export class SearchmodalPage {
 
   async ionViewDidLoad() {
     this._data = this.navParams.get('data');
+    this._data = this.navParams.get('title')
     // await this.getProductsData();
   } 
 
@@ -58,7 +60,8 @@ export class SearchmodalPage {
     // console.log(title);
    
     this.navCtrl.push('Details3Page', {
-      data: e, 
+      data: e,  
+      title: this.title
     });
   }
 
