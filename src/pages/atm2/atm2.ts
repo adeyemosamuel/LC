@@ -36,10 +36,12 @@ export class Atm2Page {
     async ionViewDidLoad() {
         const response = await this.serverService.getData('/atm');
         // console.log(response[0]);
+        this._data = response;
         this.data = response;
         console.log(this.data);
         
         const branchres= await this.serverService.getData('/branch');
+        this._branches= branchres;
         this.branches = branchres;
         console.log(this.branches);
         
@@ -79,31 +81,40 @@ export class Atm2Page {
     }
 
     getItems(ev) {
+
+        let searchKey = ev.target.value;
         if (this.locator === 'atm') {
-            this.filterATM(ev);
+            this.filterATM(searchKey);
         } else {
-            this.filterBranches(ev);
+            this.filterBranches(searchKey);
         }
     }
 
-    filterATM(ev) {
-        this.data = this._data;
-        var val = ev.target.value;
+    filterATM(val) {
+        //this.data = this._data;
+        if(!val || val.length < 1) {
+            this.data = this._data;
+            return;
+        }
 
         if (val && val.trim() != '') {
-            this.data = this.data.filter((item) => {
+            this.data = this._data.filter((item) => {
                 return (item.atmAdress.toLowerCase().indexOf(val.toLowerCase()) > -1);
             });
         }
 
     }
 
-    filterBranches(ev) {
-        this.branches = this._branches;
-        var val = ev.target.value;
+    filterBranches(val) {
+        // this.branches = this._branches;
+
+        if(!val || val.length < 1) {
+            this.branches = this._branches;
+            return;
+        }
 
         if (val && val.trim() != '') {
-            this.branches = this.branches.filter((item) => {
+            this.branches = this._branches.filter((item) => {
                 return (item.ecbAdress.toLowerCase().indexOf(val.toLowerCase()) > -1);
             });
         }
