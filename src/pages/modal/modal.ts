@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
-import { Http } from '@angular/http';
+// import { Http } from '@angular/http';
 import { ServerServiceProvider } from '../../providers/server-service/server-service';
 
 
@@ -15,7 +15,7 @@ export class ModalPage {
   products: string = '';
   searchTerm: string='';
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private server: ServerServiceProvider, public viewCtrl: ViewController, private http: Http) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private server: ServerServiceProvider, public viewCtrl: ViewController) {
     // let localData = this.http.get('assets/paul.json').map(res => res.json());
     // localData.subscribe(data => {
     //   for (let val of data) {

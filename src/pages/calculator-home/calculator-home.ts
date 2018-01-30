@@ -84,7 +84,7 @@ export class CalculatorHomePage {
     }
 
     customer(){
-      console.log("Customer Loan")
+      console.log("Customer Loan") 
       this.navCtrl.push('CustomerPage')
     }
 

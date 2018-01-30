@@ -1,6 +1,6 @@
 <ion-header>
 
-  <ion-navbar color="priary">
+  <ion-navbar color="primary">
     <ion-title>LOCAL CURRENCY DEPOSIT</ion-title>
   </ion-navbar>
 
@@ -29,7 +29,7 @@
           </ion-select>
         </ion-item>
 
-        <ion-item>  [hidden]="tenure =='!tenure0' || tenure == null || tenure == ''">
+        <ion-item *ngIf="tenure =='tenure0'">
             <ion-label style="color:#4fc143">Enter Tenure Value</ion-label>
             <ion-input  [(ngModel)]="u" [max]="29"  type="number" name="p"></ion-input>
           </ion-item>
@@ -263,6 +263,15 @@
               <p>₦{{SI}}</p>
             </ion-col>
           </ion-row>
+
+          <ion-row class="row2">
+              <ion-col col-6>
+                <p>Norminal Interest</p>
+              </ion-col>
+              <ion-col col-6>
+                <p>₦{{NI}}</p>
+              </ion-col>
+            </ion-row>
         </ion-grid>
       </ion-card-content>
     </ion-card>

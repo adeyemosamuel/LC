@@ -19,7 +19,7 @@ export class SearchModalPage {
   _sectors: Array<any> = [];
 // dd:any
 
-  constructor(public navCtrl: NavController,public viewCtrl:ViewController, public modalCtrl: ModalController,public Data: AtmdataProvider, public navParams: NavParams, private http: Http) {
+  constructor(public navCtrl: NavController, public http: Http,public viewCtrl:ViewController, public modalCtrl: ModalController,public Data: AtmdataProvider, public navParams: NavParams) {
     let localData = this.http.get('assets/product.json').map(res => res.json());
     let local_Data = this.http.get('assets/sector.json').map(res => res.json());
     localData.subscribe(data => {

@@ -1,6 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { AtmdataProvider } from '../../providers/atmdata/atmdata';
+
 declare var google: any;
 
 @IonicPage()
@@ -8,33 +8,20 @@ declare var google: any;
   selector: 'page-google',
   templateUrl: 'google.html',
 })
-export class AtmPage {
+export class GooglePage {
 
   @ViewChild('map') mapRef: ElementRef;
 
-  data;
-  address;
+ 
   long;
   lat;
+  title;
 
-  constructor(public navCtrl: NavController, public Data: AtmdataProvider, public navParams: NavParams) {
-    this.data = this.navParams.get('data');
-    console.log(this.data.region);
-    console.log(this.data.atmAdress);
-    this.address = this.data.atmAdress + ", " + this.data.region;
-    this.long = this.data.longitude;
-    this.lat = this.data.latitude;
-    console.log(this.lat);
-    console.log(this.long);
 
-    //   this.lat=location.lat
-    // this.Data.getLongLat(this.address).subscribe(location=> {
-    //   this.long=location.lng;
-    //   this.lat=location.lat;
-    //   console.log(this.lat);
-    //   console.log(this.long);
-    // this.showMap(this.lat,this.long);
-    // })
+  constructor(public navCtrl: NavController,  public navParams: NavParams) {
+    this.long = this.navParams.get('longitude');
+    this.lat = this.navParams.get('latitude');
+    this.title = this.navParams.get('title');
   }
 
   ionViewDidLoad() {}
@@ -43,29 +30,7 @@ export class AtmPage {
     this.loadMap();
   }
 
-  // showMap(lat, long) {
-  //   //Location - lat long
-  //   const location = new google.maps.LatLng(lat, long);
-
-  //   //Map options
-  //   const options = {
-  //     center: location,
-  //     zoom: 15,
-  //     mapTypeId: 'terrain'
-  //   };
-  //   const map = new google.maps.Map(this.mapRef.nativeElement,
-  //     options);
-
-  //   setTimeout(() => map.setMapTypeId('terrain'), 3000);
-  //   this.addMarker(location, map);
-  // }
-
-  // addMarker(position, map) {
-  //   return new google.maps.Marker({
-  //     position,
-  //     map
-  //   });
-  // }
+ 
 
   loadMap() {
     let latLong = {
@@ -75,7 +40,8 @@ export class AtmPage {
 
     let map = new google.maps.Map(this.mapRef.nativeElement, {
       zoom: 15,
-      center: latLong
+      center: latLong,
+      
     });
 
     let marker = new google.maps.Marker({

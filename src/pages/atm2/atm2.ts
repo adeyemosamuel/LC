@@ -1,4 +1,4 @@
-import { Component, NgZone } from '@angular/core';
+import { Component} from '@angular/core';
 import { IonicPage, NavController, NavParams, ToastController} from 'ionic-angular';
 import { ControllerServiceProvider } from '../../providers/controller-service/controller-service';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -29,13 +29,13 @@ export class Atm2Page {
      
 
 
-    constructor(public zone: NgZone, public navCtrl: NavController, 
+    constructor(public navCtrl: NavController, 
          private serverService: ServerServiceProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
     } 
 
     async ionViewDidLoad() {
         const response = await this.serverService.getData('/atm');
-        // console.log(response[0]);
+
         this._data = response;
         this.data = response;
         console.log(this.data);
@@ -75,10 +75,25 @@ export class Atm2Page {
     //     });
     // }
 
-
-    openPost(data) {
-        this.navCtrl.push('AtmPage', { data: data })
+ 
+    openPost(data, branch) {
+        this.navCtrl.push('GooglePage', { 
+            title: data.ecName,
+            longitude: data.longitude,
+            latitude: data.latitude
+        });
     }
+
+    openBranch(branch){
+        this.navCtrl.push('GooglePage', { 
+            title: branch.ecbName,
+            longitude: branch.longitude,
+            latitude: branch.latitude
+        });
+
+    }
+    // openPost(atmlocation)
+    // openPosts(branch)
 
     getItems(ev) {
 

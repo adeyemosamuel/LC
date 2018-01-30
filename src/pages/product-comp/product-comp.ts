@@ -38,7 +38,7 @@ export class ProductCompPage {
   productsByCategory(item,categoryName) {
     this.navCtrl.push('Test2Page', {
       data: item,
-      title: categoryName
+      title: categoryName 
     });
   } 
 

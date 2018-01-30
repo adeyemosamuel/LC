@@ -11,7 +11,7 @@ import { MyApp } from './app.component';
 import { Geolocation } from '@ionic-native/geolocation';
 import { NativeGeocoder } from '@ionic-native/native-geocoder';
 import { LocationAccuracy } from '@ionic-native/location-accuracy';
-import { AtmdataProvider } from '../providers/atmdata/atmdata';
+// import { AtmdataProvider } from '../providers/atmdata/atmdata';
 import { HttpModule } from '@angular/http';
 import { ControllerServiceProvider } from '../providers/controller-service/controller-service';
 import { ProductdataProvider } from '../providers/productdata/productdata';
@@ -74,7 +74,6 @@ import { VerifyServiceProvider } from '../providers/verify-service/verify-servic
     LocalNotifications,
     LocationAccuracy,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AtmdataProvider,
     ControllerServiceProvider,
     ProductdataProvider,
     LeadsServiceProvider,

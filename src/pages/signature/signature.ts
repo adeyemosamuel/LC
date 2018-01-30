@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage,ViewController } from 'ionic-angular';
 import { SignaturePad } from 'angular2-signaturepad/signature-pad';
-import { Storage } from '@ionic/storage';
+
 @IonicPage()
 @Component({
   selector: 'page-signature',
@@ -19,7 +19,7 @@ export class SignaturePage {
     'canvasHeight': 400
   };
 
-  constructor(public viewCtrl: ViewController, private storage: Storage) {}
+  constructor(public viewCtrl: ViewController, public storage: Storage) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SignaturePage');

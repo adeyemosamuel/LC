@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
-import { Storage } from '@ionic/storage';
+// import { Storage } from '@ionic/storage';
 
 @IonicPage()
 @Component({
@@ -9,7 +9,7 @@ import { Storage } from '@ionic/storage';
 })
 export class PopoverPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,private viewCtrl: ViewController, private store: Storage) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private viewCtrl: ViewController) {
   }
 
   ionViewDidLoad() {

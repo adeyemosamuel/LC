@@ -125,7 +125,7 @@ export class RegisterLeadsPage {
       duration: 3000,
       dismissOnPageChange: true
     }).present();
-    this.navCtrl.setRoot('LeadsPage');
+    this.navCtrl.setRoot('DeliveredPage');
   }
 
 

@@ -45,6 +45,6 @@ isSubmitted:boolean=false;
     }
     this.isSubmitted = true;
     this.SI = ((this.p * this.r * t)/100).toFixed(2);
-    this.NI = (this.p) + (this.SI);
+    this.NI = Number(this.p) + Number(this.SI);
   }
 }

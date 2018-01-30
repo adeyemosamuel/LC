@@ -17,7 +17,7 @@ export class SearchmodalPage {
  
  
 
-  constructor( private http: Http,public navCtrl: NavController,private server: ServerServiceProvider, public navParams: NavParams,public viewCtrl:ViewController, public modalCtrl: ModalController) {
+  constructor( public navCtrl: NavController, public http: Http,private server: ServerServiceProvider, public navParams: NavParams,public viewCtrl:ViewController, public modalCtrl: ModalController) {
   
   }
 
