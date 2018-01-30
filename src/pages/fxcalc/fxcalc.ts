@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the FxcalcPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -14,11 +9,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'fxcalc.html',
 })
 export class FxcalcPage {
-p:number= null;
+p:number=null;
 range:string=null; 
 r:number=null;
 tenure:string=null;
 SI;
+NI;
 isSubmitted:boolean=false;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -48,6 +44,7 @@ isSubmitted:boolean=false;
       t= 365/365;
     }
     this.isSubmitted = true;
-    this.SI = ((this.p * this.r * t).toFixed(2));
+    this.SI = ((this.p * this.r * t)/100).toFixed(2);
+    this.NI = (this.p) + (this.SI);
   }
 }

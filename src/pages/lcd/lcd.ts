@@ -15,6 +15,7 @@ export class LcdPage {
   r:number=null;
   tenure:string=null;
   SI;
+  call:any;
   isSubmitted:boolean=false;
 
 
@@ -29,7 +30,7 @@ export class LcdPage {
   calculateInterest(){
     var t;
     if(this.tenure =='tenure0'){
-      t = 1/365;
+      t = (this.call)/365;
     }
     else if(this.tenure =='tenure1'){
       t = 30/365;
@@ -47,7 +48,7 @@ export class LcdPage {
       t= 360/365;
     }
     this.isSubmitted = true;
-    this.SI = ((this.p * this.r * t).toFixed(2));
+    this.SI = ((this.p * this.r * t)/100).toFixed(2);;
   }
 
 }
