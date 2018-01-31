@@ -94,7 +94,7 @@ export class Atm2Page {
     }
     // openPost(atmlocation)
     // openPosts(branch)
-
+ 
     getItems(ev) {
 
         let searchKey = ev.target.value;
