@@ -1,0 +1,14 @@
+async submitPending(){
+  this.store.get('leads').then((val) => {
+
+          if (val) this.leadArray = val;
+
+          this.server.processData(body, '/saveLeads').then((data) => {
+          console.log(data);
+        }).catch((err) => {
+          console.log(err)
+        })
+
+         
+     });
+}

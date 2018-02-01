@@ -12,7 +12,7 @@ export class GooglePage {
 
   @ViewChild('map') mapRef: ElementRef;
 
- 
+  
   long;
   lat;
   title;
@@ -37,6 +37,8 @@ export class GooglePage {
       lat: Number(this.lat),
       lng: Number(this.long)
     };
+
+    console.log(latLong);
 
     let map = new google.maps.Map(this.mapRef.nativeElement, {
       zoom: 15,

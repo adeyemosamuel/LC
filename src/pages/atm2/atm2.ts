@@ -77,6 +77,7 @@ export class Atm2Page {
 
  
     openPost(data, branch) {
+        console.log(data);
         this.navCtrl.push('GooglePage', { 
             title: data.ecName,
             longitude: data.longitude,
@@ -85,6 +86,7 @@ export class Atm2Page {
     }
 
     openBranch(branch){
+        console.log(branch);
         this.navCtrl.push('GooglePage', { 
             title: branch.ecbName,
             longitude: branch.longitude,
