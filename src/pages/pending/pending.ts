@@ -22,27 +22,16 @@ export class PendingPage {
   constructor(public navCtrl: NavController, public navParams: NavParams,
      private store: Storage,
      public loadingCtrl: LoadingController,
-    // private leadsServiceProvider: LeadsServiceProvider,
+  
     private serverService: ServerServiceProvider) {
 
-      this.loading = this.loadingCtrl.create({
-        content: `'Please wait...',
-        <ion-spinner name="circles"></ion-spinner>`
-      });
-
-      this.getLeadsFromServer();
   }
   ionViewDidLoad() {
+
+   
     // this.getLeads();
     this.getLeadsFromServer();
   }
-
-  // ionViewWillUnload() {
-  //   this.leads = [];
-  // }
-
- 
-
 
 
   itemTapped(item) {

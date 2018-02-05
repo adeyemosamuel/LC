@@ -10,7 +10,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class LcdPage {
   p:number= null;
-  u:number= 0;
+  u:number;
   range:string=null;
   r:number=null;
   tenure:string=null;

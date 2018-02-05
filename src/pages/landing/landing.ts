@@ -18,6 +18,7 @@ export class LandingPage {
   loadCtrl: any;
 
 
+
   Username: string = '';
   Password: string = '';
   LoginForm: FormGroup;
@@ -44,12 +45,13 @@ export class LandingPage {
 
   async Login() {
     let loader = this.loadingCtrl.create({
-      content:'Signing in...',
-    duration:3000,
-    dismissOnPageChange: true
-  });
+      spinner: "circles",
+      content: 'Please wait....',
+      // dismissOnPageChange: true,
+      duration:100
+    });
     loader.present();
-    
+
     // let body = {
     //   Username: 'morayo.temi-bello',
     //   Password: 'chigbo'
@@ -65,9 +67,11 @@ export class LandingPage {
     // }
     this.store.set("Username", this.Username);
     this.store.set("Password", this.Password);
-    
-    this.navCtrl.push('ProductsPage')
-    
+
+    this.navCtrl.push('ProductsPage');
+
+
+
   }
   //store login details in local storage
   saveLoginInfo(Username, Password) {
@@ -78,7 +82,7 @@ export class LandingPage {
       this.store.remove("UserName");
       this.store.remove("Password");
       //to clear storage
-      this.store.clear(); 
+      this.store.clear();
 
       console.log('saveLoginInfo');
     }
