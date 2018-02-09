@@ -158,4 +158,8 @@ page-calculator-home {
         margin: 0 auto;
         display: block;
     }
+
+    [ion-fixed] {
+        height: 100%;
+    }
 }

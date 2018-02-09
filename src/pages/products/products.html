@@ -9,7 +9,7 @@
 
 
 <ion-content padding>
-
+<div ion-fixed>
   <ion-grid class="grid"> 
 
     <div class="welcome">
@@ -19,14 +19,14 @@
     <ion-row>
       <ion-col col-6>
         <ion-card class="account" (click)="accountOpeningPage()">
-          <img class="img_account" src="../assets/imgs/account4.png">
+          <img class="img_account" src="assets/imgs/account4.png">
           <p class="text" text-center style="font-weight: light;  color: white; white-space:normal;">Account Opening</p>
         </ion-card>
       </ion-col>
 
       <ion-col col-6>
         <ion-card class="bank" (click)="bankProducts()">
-          <img class="img_bank" src="../assets/imgs/savingswhite.png">
+          <img class="img_bank" src="assets/imgs/savingswhite.png"/>
           <p class="text" text-center style="font-weight: light;  color: white; white-space:normal;">Products Compendium</p>
         </ion-card>
       </ion-col>
@@ -35,14 +35,14 @@
     <ion-row>
       <ion-col col-6>
         <ion-card class="lead" (click)="leadManagement()">
-          <img class="img_lead" src="../assets/imgs/graphwhite.png">
+          <img class="img_lead" src="assets/imgs/graphwhite.png"/>
           <p class="text" text-center style="font-weight: light;  color: white; white-space:normal;">Leads Management</p>
         </ion-card>
       </ion-col>
 
       <ion-col col-6>
         <ion-card class="loan" (click)="loanCalculator()">
-          <img class="img_loan" src="../assets/imgs/loanwhite.png">
+          <img class="img_loan" src="assets/imgs/loanwhite.png"/>
           <p class="text" text-center style="font-weight: light;  color: white; white-space:normal;">Interest Rate Calculator</p>
         </ion-card>
       </ion-col>
@@ -51,10 +51,10 @@
 
 
   <div class="findus" (click)="locateUs()">
-    <img class="img_findus" src="../assets/imgs/finduswhite.png" style="height: 30px;width: 30px;">
+    <img class="img_findus" src="assets/imgs/finduswhite.png" style="height: 30px;width: 30px;"/>
     <p class="find" text-center style="font-weight: light; text-align:center;  color: white; white-space:normal;">Locate Us</p>
   </div>
 
 
-
-</ion-content>
+</div>
+</ion-content> 

@@ -14,6 +14,10 @@ page-products {
     //     background-color: rgba(6,6,6,0.75) !important;
     // }
 
+    [ion-fixed] {
+        height: 100%;
+    }
+
 .grid{
     margin-left: auto;
     margin-right: auto;
