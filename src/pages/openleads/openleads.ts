@@ -4,16 +4,20 @@ import { ServerServiceProvider } from '../../providers/server-service/server-ser
 import { Storage } from '@ionic/storage';
 import 'rxjs/add/operator/map';
 
+
 @IonicPage()
 @Component({
   selector: 'page-openleads',
   templateUrl: 'openleads.html',
 })
 export class OpenleadsPage {
+
   leadspending:  Array<any> = [];
   leadsdelivered:  Array<any> = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private serverService: ServerServiceProvider, private store: Storage) {
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams, 
+    private serverService: ServerServiceProvider, private store: Storage) {
   }
 
   ionViewDidLoad() {

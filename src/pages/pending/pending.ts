@@ -27,10 +27,15 @@ export class PendingPage {
 
   }
   ionViewDidLoad() {
-
-   
-    // this.getLeads();
+    this.loading = this.loadingCtrl.create({
+      spinner: 'custom-spinner',
+      content: `
+        <div class="custom-spinner-container">
+          <div class="custom-spinner-box"></div>
+        </div>`
+    });
     this.getLeadsFromServer();
+    this.loading.dismiss()
   }
 
 

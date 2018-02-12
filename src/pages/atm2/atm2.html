@@ -10,20 +10,32 @@
     </ion-buttons>
   </ion-navbar>
 
-</ion-header>
+  <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="locator">
+      <ion-segment-button value="atm">
+        ATM
+      </ion-segment-button>
+      <ion-segment-button value="branches">
+        ECs
+      </ion-segment-button>
+    </ion-segment>
+
+  </ion-toolbar>
+
+</ion-header> 
 
 <ion-content>
 
-    <div>
-        <ion-segment [(ngModel)]="locator">
+    <!-- <div> -->
+        <!-- <ion-segment [(ngModel)]="locator">
           <ion-segment-button value="atm">
             ATM
           </ion-segment-button>
           <ion-segment-button value="branches">
             ECs
           </ion-segment-button>
-        </ion-segment>
-      </div>
+        </ion-segment> -->
+      <!-- </div> -->
   <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
 
  
