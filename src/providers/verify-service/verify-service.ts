@@ -13,7 +13,7 @@ export class VerifyServiceProvider {
 
   verifyRegisterLeads(name, occupation, dob, gender, marital_status, phonenumber, emailaddress, address): boolean {
     if (name == null || name == '') {
-      this.errorMessage = 'Name is required';
+      this.errorMessage = 'Name is required'; 
       return false;
     }
 

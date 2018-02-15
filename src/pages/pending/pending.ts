@@ -41,7 +41,7 @@ export class PendingPage {
 
   itemTapped(item) {
     this.navCtrl.push('LeadsDetailsPage', {
-      item: item
+      item: item 
     });
   }
 
