@@ -1,68 +1,57 @@
 page-products {
-
-    background-image: url('../assets/imgs/background2.png') !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // background-color: rgba(6,6,6,0.75) !important;
-    
-
-    ion-content {
-        background-color: rgba(6,6,6,0.75) !important;
-    }
-
-    // .product{
-    //     background-color: rgba(6,6,6,0.75) !important;
-    // }
-
-    [ion-fixed] {
-        height: 100%;
-    }
-
-.grid{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    display: block;
-
-}
-
-.welcome{
+  background-image: url('../assets/imgs/background2.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  ion-card {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+    padding: 4px !important;
+    height: 150px !important;
+  }
+  ion-content {
+    background: rgba(0, 0, 0, 0.75) !important;
+  }
+  ion-item {
+    background: transparent !important;
+  }
+  ion-content,
+  ion-list,
+  ion-item {
+    height: 100%;
+  }
+  .account {
+    background-color: rgba(0, 72, 97, 0.7);
+  }
+  .lead {
+    background-color: rgba(247, 148, 29, 0.7);
+  }
+  .loan {
+    background-color: rgba(234, 0, 27, 0.7);
+  }
+  .bank {
+    background-color: rgba(79, 193, 67, 0.7);
+  }
+  .welcome {
     margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
     display: block;
-}
-
-// .row1{
-//     margin-bottom: 60px;
-// }
-
-.findus{
+    text-align: center;
+    text-transform: capitalize
+  }
+  .findus {
     margin-top: 50px;
     display: block;
-}
-
-.img_findus{
-    
-  display: block;
-  margin: 0 auto;  
-  margin-top: 30px;
-  display: block;
-}
-
-
-
-.account{
-    
-    background-color:rgba(0,72,97,0.4);
-    border-radius: 5px;
-    padding: 4px;
-    height: 150px;
-    width: 140px;
+  }
+  .img_findus {
     display: block;
-    
-}
-
-.img_account{
-    
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+  }
+  .img_account {
     background: transparent;
     height: 50px;
     width: 50px;
@@ -71,20 +60,8 @@ page-products {
     margin-right: auto;
     margin-bottom: auto;
     margin-top: 25px;
-    
-}
-
-.loan{
-    background-color: rgba(234,0,27,0.4);
-    border-radius: 5px;
-    padding: 4px;
-    height: 150px;
-    width: 140px;
-    display: block;
-    
-}
-
-.img_loan{
+  }
+  .img_loan {
     padding: 5px;
     background: transparent;
     height: 50px;
@@ -94,20 +71,8 @@ page-products {
     margin-right: auto;
     margin-bottom: auto;
     margin-top: 25px;
-   
-}
-
-.bank{
-    background-color: rgba(79,193,67,0.4);
-    border-radius: 5px;
-    padding: 4px;
-    height: 150px;
-    width: 140px;
-    display: block;
-    
-}
-
-.img_bank{
+  }
+  .img_bank {
     background: transparent;
     height: 50px;
     width: 50px;
@@ -116,21 +81,8 @@ page-products {
     margin-right: auto;
     margin-bottom: auto;
     margin-top: 25px;
-    
-}
-
-.lead{
-    background-color: rgba(247,148,29,0.4);
-    border-radius: 5px;
-    padding: 4px;
-    height: 150px;
-    width: 140px;
-    display: block;
-   
-    
-}
-
-.img_lead{
+  }
+  .img_lead {
     background: transparent;
     height: 50px;
     width: 50px;
@@ -139,16 +91,11 @@ page-products {
     margin-right: auto;
     margin-bottom: auto;
     margin-top: 25px;
-}
-
-.text{
+  }
+  .text {
     padding: 13px;
-}
-
-.find{
+  }
+  .find {
     padding: 2px;
+  }
 }
-
-}
-
-
