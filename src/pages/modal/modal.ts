@@ -34,7 +34,7 @@ export class ModalPage {
   async ionViewDidLoad() {
     await this.getProductsData();
   }
-
+ 
   async getProductsData() {
     const response = await this.server.getData('/products');
     this.data = response;

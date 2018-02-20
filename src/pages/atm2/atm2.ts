@@ -7,6 +7,7 @@ import { LocationAccuracy } from '@ionic-native/location-accuracy';
 import { ServerServiceProvider } from '../../providers/server-service/server-service';
 // import { AtmdataProvider } from '../../providers/atmdata/atmdata';
 import 'rxjs/add/operator/map';
+import { LoadingController } from 'ionic-angular/components/loading/loading-controller';
 
 
 @IonicPage()
@@ -16,7 +17,7 @@ import 'rxjs/add/operator/map';
 })
 
 export class Atm2Page {
-
+    loading: any;
     data: any;
     _data: any;
     _branches: any;
@@ -30,10 +31,17 @@ export class Atm2Page {
 
 
     constructor(public navCtrl: NavController, 
-         private serverService: ServerServiceProvider, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
+         private serverService: ServerServiceProvider,
+         private loadingCtrl: LoadingController, public navParams: NavParams, public geolocation: Geolocation, public nativeGeocoder: NativeGeocoder, public toaster: ToastController, public locac: LocationAccuracy, private controller: ControllerServiceProvider,) {
     } 
 
     async ionViewDidLoad() {
+        this.loading = this.loadingCtrl.create({
+                spinner: "circles",
+                content: 'Please wait....',
+                duration: 3000
+              });
+              this.loading.present();
         const response = await this.serverService.getData('/atm');
 
         this._data = response;
@@ -44,7 +52,7 @@ export class Atm2Page {
         this._branches= branchres;
         this.branches = branchres;
         console.log(this.branches);
-        
+        this.loading.dismiss();
     }
 
 
@@ -59,21 +67,7 @@ export class Atm2Page {
         });
       }
 
-    // getdata() {
-    //     // this.Data.getdata().then(data => {
-    //     //     this.data = data;
-    //     //     this._data = data;
-    //     //     console.log(this.data);
-    //     // });
-    // }
-
-    // getbranches() {
-    //     this.Data.getbranches().then(branches => {
-    //         this.branches = branches;
-    //         this._branches = branches;
-    //         console.log(this.branches);
-    //     });
-    // }
+ 
 
  
     openPost(data, branch) {

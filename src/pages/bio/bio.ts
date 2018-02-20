@@ -94,7 +94,7 @@ export class BioPage {
     .catch((err) => {
       this.dob = '1970-01-01';
       return '';
-    });
+    }); 
   }
 
   async next(){
