@@ -14,11 +14,8 @@ import { ServerServiceProvider } from '../../providers/server-service/server-ser
   templateUrl: 'landing.html',
 })
 export class LandingPage {
-  leadsArray: any;
-  loadCtrl: any;
 
-
-
+  loading: any;
   Username: string = '';
   Password: string = '';
   LoginForm: FormGroup;
@@ -44,13 +41,13 @@ export class LandingPage {
   }
 
   async Login() {
-    let loader = this.loadingCtrl.create({
+    this.loading = this.loadingCtrl.create({
       spinner: "circles",
       content: 'Please wait....',
       // dismissOnPageChange: true,
-      duration:100
+      duration: 3000
     });
-    loader.present();
+    this.loading.present();
 
     // let body = {
     //   Username: 'morayo.temi-bello',
@@ -67,11 +64,11 @@ export class LandingPage {
     // }
     this.store.set("Username", this.Username);
     this.store.set("Password", this.Password);
-
+    this.loading.dismiss();
     this.navCtrl.push('ProductsPage');
 
 
-
+    
   }
   //store login details in local storage
   saveLoginInfo(Username, Password) {

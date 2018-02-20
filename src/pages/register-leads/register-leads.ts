@@ -79,9 +79,9 @@ export class RegisterLeadsPage {
   savedetails() {
 
     if (!this.verify.verifyRegisterLeads(this.nameOfUser, this.occupation, this.dateOfBirth, this.gender, this.maritalStatus, this.phoneNum, this.emailAddress, this.address)) {
-      // alert(this.verify.errorMessage);
+      alert(this.verify.errorMessage);
       this.alertCtrl.create({
-        subTitle: 'Error',
+        subTitle: 'Message',
         message: this.verify.errorMessage
       }).present();
       return false;
