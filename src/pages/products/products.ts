@@ -30,23 +30,23 @@ export class ProductsPage {
   
 
   accountOpeningPage(){
-    this.navCtrl.setRoot('LoginPage')
+    this.navCtrl.push('LoginPage')
   }
 
   loanCalculator(){
-    this.navCtrl.setRoot('CalculatorHomePage')
+    this.navCtrl.push('CalculatorHomePage');
     }
 
     locateUs(){
-      this.navCtrl.setRoot('Atm2Page')
+      this.navCtrl.push('Atm2Page');
     }
 
     leadManagement(){
-      this.navCtrl.setRoot('OpenleadsPage')
+      this.navCtrl.push('OpenleadsPage');
     }
 
     bankProducts(){
-      this.navCtrl.setRoot('ProductCompPage')
+      this.navCtrl.push('ProductCompPage')
     }
 
     
