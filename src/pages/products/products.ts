@@ -40,7 +40,7 @@ export class ProductsPage {
     locateUs(){
       this.navCtrl.push('Atm2Page');
     }
-
+fv
     leadManagement(){
       this.navCtrl.push('OpenleadsPage');
     }

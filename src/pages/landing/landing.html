@@ -1,20 +1,19 @@
 <ion-content padding>
-  <div class="input_area">
-    <ion-item no-lines>
+   <div class="landing">
+      <ion-item no-lines  style="color:white"  class="item1">
+        <ion-icon color="money" name="person" item-start ></ion-icon>
+        <ion-input  [(ngModel)]="Username" placeholder="Enter Username" type="text"></ion-input>
+      </ion-item>
+    </div>
 
-      <ion-label floating style="color:#4fc143">
-        <ion-icon color="prefer" name="person"></ion-icon>&nbsp;Username</ion-label>
-      <ion-input [(ngModel)]="Username" type="text" style="color:white"></ion-input>
-    </ion-item>
+    <div>
 
-    <ion-item no-lines>
+      <ion-item no-lines style="color:white" class="item2">
+        <ion-icon color="money" name="lock" item-start ></ion-icon>
+        <ion-input [(ngModel)]="Password" placeholder="Enter your password" type="password"></ion-input>
+      </ion-item>
+    </div>
 
-      <ion-label floating style="color:#4fc143">
-        <ion-icon color="prefer" name="lock"></ion-icon>&nbsp;Password</ion-label>
-      <ion-input [(ngModel)]="Password" type="password" style="color:white"></ion-input>
-    </ion-item>
-  </div>
-
-  <button ion-button full color="primary" [disabled]="!Username || !Password" [class.disabled]="!Username || !Password" (click)="Login()">Login</button> 
+  <button ion-button round block tappable color="primary" [disabled]="!Username || !Password" [class.disabled]="!Username || !Password" (click)="Login()">Login</button> 
 
 </ion-content>

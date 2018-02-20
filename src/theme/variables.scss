@@ -14,8 +14,11 @@ $card-md-header-color: #4fc143;
 // $background-color: transparent;
 $popover-md-background: white !default;
 $popover-ios-background:white !default;
+$text-input-md-highlight-color-invalid: transparent;
+$text-input-md-highlight-color-valid: transparent;
+$text-input-md-show-invalid-highlight: transparent;
 $text-input-md-highlight-color: transparent;
-$text-input-highlight-color-valid: transparent;
+$text-input-md-show-valid-highlight: transparent;
 
 
 @import "ionic.globals";

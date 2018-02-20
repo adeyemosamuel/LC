@@ -6,16 +6,26 @@ page-landing { background-image: url('../assets/internet.png') !important;
         background-color: rgba(6,6,6,0.4) !important;
     }
 
-// .login_icon {
-//     margin-right: auto;
-//     margin-left: auto;
-//     display: block;  
-// }
-
-.input_area{
-    margin-top: 280px;
+.landing{
+    margin-top:300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
  
+
+.item1{
+    border: 1px solid #4fc143;
+    border-radius: 20px;
+    background-color: rgba(79,193,67,0.75);
+}
+
+.item2{
+    border: 1px solid #4fc143;
+    border-radius: 20px;
+    background-color: rgba(79,193,67,0.75);
+    margin-top: 30px
+}
 
 
 .button {
@@ -25,9 +35,7 @@ page-landing { background-image: url('../assets/internet.png') !important;
     display: block;
 }
 
-ion-input {
-    border-bottom: 1px solid map-get($colors, primary);
-}
+
 
 
 }
