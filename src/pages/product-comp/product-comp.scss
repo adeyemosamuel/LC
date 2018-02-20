@@ -1,58 +1,40 @@
 page-product-comp {
-        background-image: url('../assets/imgs/families.png') !important;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    
-        ion-content {
-            background-color: rgba(6,6,6,0.75) !important;
-    
-        }
-
-        ion-card{
-            background-color: rgba(79,193,67,0.4) !important;
-        }
-
-        .segment-ios{
-            width: 80%;
-            margin: 5px auto;
-        }
-    
-        ion-icon{
-            color: white;
-        }
-    
-        ion-item{
-            border-bottom: 1px solid limegreen !important;
-        }
-    
-    
-    .div{
-        margin-left: 15px;
-        display: block;
-        width: 100%
-       
-    
-    }
-    
-    .img{
-        background: transparent;
-    }
-    
-    .logo{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        display: block;
-    }
-    
-    .card{
-        margin-top: 20px;
-        background-color:rgba(79,193,67,0.4);
-        border-radius: 5px;
-        
-    }
-    
-    
-    }
-    
+  background-image: url('../assets/imgs/families.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  ion-content {
+    background-color: rgba(6, 6, 6, 0.75) !important;
+  }
+  ion-item {
+      background: transparent !important;
+  }
+  .segment-ios {
+    width: 80%;
+    margin: 5px auto;
+  }
+  ion-icon {
+    color: white;
+  }
+  ion-item {
+    border-bottom: 1px solid limegreen !important;
+  }
+  .div {
+    margin-left: 15px;
+    display: block;
+    width: 100%
+  }
+  .img {
+    background: transparent;
+  }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+  }
+  .card {
+    margin-top: 20px;
+    background-color: rgba(79, 193, 67, 0.4);
+    border-radius: 5px;
+  }
+}
